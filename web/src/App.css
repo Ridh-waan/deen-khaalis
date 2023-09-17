@@ -1,0 +1,134 @@
+.bukhaary {
+  position: relative;
+  height: 60vh;
+  /* Assuming you want the container to take the full viewport height */
+}
+
+.bukhaary-content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Muslim.css or your main CSS file */
+.muslim-container {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100vh;
+  flex: 1;
+  /* Optionally, set the container height to the full viewport height */
+}
+.ibnmajah-container{
+  position: absolute;
+    top: 57%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    flex: 1;
+}
+/* Rightbar.css */
+.rightbar {
+  position: fixed;
+  right: 0.8%;
+  top: 9.9%;
+  width: 15%;
+  max-height: 90vh;
+  overflow-y: auto;
+  /* Adjust the width as needed */
+  /* Adjust the height as needed */
+  background-color: #f0f0f0;
+  /* Background color */
+  /* Add other styling properties */
+}
+.book-list {
+  padding-right: 20px;
+  /* Adjust for book indentation */
+  list-style-type: none;
+}
+
+/* Style for the book name and icon */
+.book-list>li {
+  margin-right: 0;
+  padding-right: 10px;
+  /* Adjust as needed for the desired indentation */
+  position: relative;
+}
+
+/* Style for the topic list */
+.topic-list {
+  padding-right: 20px;
+  /* Adjust for topic indentation */
+  list-style-type: none;
+}
+
+/* Style for the book icon */
+.book-icon {
+  margin-right: 5px;
+  /* Adjust as needed for spacing */
+}
+
+/* Additional styles can be added as needed */
+.teacher-item {
+  margin-bottom: 10px;
+  /* Adjust the margin to your preference */
+}
+
+.category-item {
+  margin-right: 20px;
+  margin-bottom: 7px;
+  /* Adjust the margin to your preference */
+}
+
+.book-item {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+/* Add or update these styles in Rightbar.css */
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  margin: 10px 0;
+}
+
+.book-number {
+  margin-right: 10px;
+  /* Add spacing between the number and book title */
+}
+
+.book-link {
+  text-decoration: none;
+  /* Remove the underline */
+  color: #333;
+  /* Add your desired text color */
+}
+
+.book-link:hover {
+  color: #007bff;
+  /* Change the color on hover if desired */
+}
+.khutbazaijumaa4-container {
+  position: absolute;
+  top: 53%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  min-height: 40vh;
+  flex: 1;
+  /* Optionally, set the container height to the full viewport height */
+}
+/* Academy.css */
+.academy-container {
+  display: flex;
+  justify-content: center;
+  /* Horizontal centering */
+  align-items: center;
+  /* Vertical centering */
+  height: 100vh;
+  /* Set the container height to fill the viewport */
+  text-align: center;
+}
+/* Add this to your CSS file */

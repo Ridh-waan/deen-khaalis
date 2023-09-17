@@ -1,0 +1,275 @@
+.header {
+  background-color: antiquewhite;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* Align items at the ends */
+  align-items: center;
+  /* Vertically center items */
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+ padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 15px;
+}
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+    /* Add spacing between icons */
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+/* Add spacing between icons */
+.social-icons>* {
+  margin-right: 8px;
+  /* Adjust this value to control the spacing */
+}
+
+/* Styles for Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 6;
+  text-align: center;
+  /* Align social icons to the center */
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  /* Center align icons */
+  margin-top: 10px;
+  /* Add spacing above icons */
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  /* Add spacing between icons */
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+  color: #999;
+  /* Change color on hover */
+}
+/* In your component's CSS or a global stylesheet */
+/* index.css or your CSS file */
+
+/* Ensure the body takes the full viewport height */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Content container, allowing for flexible content height */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  /* Adjust padding as needed */
+  /* Other styles for content container */
+}
+
+/* Push the footer to the bottom of the viewport */
+.footer {
+  margin-top: auto;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  /* Align social icons to the center */
+}
+.container {
+  position:absolute;
+  min-height: 100vh;
+  top: 14%;
+  text-align: center;
+  margin-top: 0;
+  left: \;
+  /* Assuming you want the container to take the full viewport height */
+}
+
+.centered-content {
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.sidebar {
+  position: fixed;
+  background-color: ghostwhite;
+  width: 20%;
+  top: 9.9%;
+  max-height: 90vh;
+  overflow-y: auto;
+  /* Set your desired background color here */
+  /* Add other styling properties as needed */
+}
+.sidebar ul {
+  padding-left: 0;
+  /* Remove left padding for the top-level ul */
+  list-style-type: none;
+  /* Remove default list-style (bullets) */
+}
+
+.teacher-list {
+  margin-left: 0;
+  /* Remove left margin for the nested ul */
+}
+/* index.css */
+
+/* Style for the top-level ul (teacher list) */
+.teacher-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* Style for the teacher name and icon */
+.teacher-list>li {
+  margin-left: 0;
+  padding-left: 10px;
+  /* Adjust as needed for the desired indentation */
+  position: relative;
+}
+
+/* Style for the category list */
+.category-list {
+  padding-left: 20px;
+  /* Adjust for category indentation */
+  list-style-type: none;
+}
+
+/* Style for the category name and icon */
+.category-list>li {
+  margin-left: 0;
+  padding-left: 10px;
+  /* Adjust as needed for the desired indentation */
+  position: relative;
+}
+
+/* Style for the book list */
+.book-list {
+  padding-left: 20px;
+  /* Adjust for book indentation */
+  list-style-type: none;
+}
+
+/* Style for the book name and icon */
+.book-list>li {
+  margin-left: 0;
+  padding-left: 10px;
+  /* Adjust as needed for the desired indentation */
+  position: relative;
+}
+
+/* Style for the topic list */
+.topic-list {
+  padding-left: 20px;
+  /* Adjust for topic indentation */
+  list-style-type: none;
+}
+
+/* Style for the book icon */
+.book-icon {
+  margin-right: 5px;
+  /* Adjust as needed for spacing */
+}
+
+/* Additional styles can be added as needed */
+.teacher-item {
+  margin-bottom: 10px;
+  /* Adjust the margin to your preference */
+}
+
+.category-item {
+  margin-left: 20px;
+  margin-bottom: 7px;
+  /* Adjust the margin to your preference */
+}
+
+.book-item {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  /* Adjust the margin to your preference */
+}
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* This ensures that the container takes at least the full viewport height */
+}
+
+.content {
+  flex: 1;
+  /* This allows the content container to grow and push the footer to the bottom */
+}
+/* Home.css */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.image-container img {
+  width: 700px;
+  height: 400px;
+  margin-left: 45%;
+  margin-top: 1%;
+  /* Adjust image width as needed */
+}
+
+.image-text {
+  margin-top: 3%;
+  /* Add margin between image and text */
+  font-size: 17px;
+  /* Customize text font size */
+  color: #333;
+  margin-left: 45%;
+  /* Customize text color */
+}
