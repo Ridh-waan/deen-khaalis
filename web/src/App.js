@@ -29,10 +29,8 @@ function App() {
     <div className="app">
       <Header />
       <div className="content">
-
         <Rightbar />
-<Sidebar/>
-<Home/>
+        <Sidebar/>
         <Routes>
           <Route path="/about" element={<AboutUs />} />
           <Route path="/" exact element={<Home />} />
