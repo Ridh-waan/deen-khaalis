@@ -23,7 +23,7 @@ function Header() {
                 <a href="https://www.twitter.com/dnkacademy"><FontAwesomeIcon icon={faTwitter} /></a>
                 <a href="https://www.youtube.com/dnkacademy"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
-            <h1 className="title">Da'watu      T'tawheed</h1>
+        
             <nav className="navbar">
                 <ul className="nav-list">
                     <li><Link to="/">Home</Link></li>

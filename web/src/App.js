@@ -30,7 +30,6 @@ function App() {
       <Header />
       <div className="content">
         <Rightbar />
-        <Sidebar/>
         <Routes>
           <Route path="/about" element={<AboutUs />} />
           <Route path="/" exact element={<Home />} />
@@ -45,6 +44,7 @@ function App() {
           <Route path="/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
           </Routes>
       </div>
+      <Sidebar />
 
     </div>
     

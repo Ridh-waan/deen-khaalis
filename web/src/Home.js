@@ -11,12 +11,12 @@ import image4 from './images/weekly.jpeg';
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(1);
   const imageList = [
-    { id: 1, text: 'Text for Image 1', src: image1 },
+    { id: 1, text: 'Tunawajulisha Ndugu zetu juu ya uwepo wa Duruus zetu za Online Kila wiki', src: image1 },
     { id: 2, text: 'SHAHADAAT ZA 1ST GRADUATES ZIMESHATOKA', src: image2 },
     {
       id: 3, text: 'Katika somo la taariikh 3 mutawassit zama za khilafa ya abubakar asswiddiiqalipewa kiapo cha utiifu ya kuwa khalifa katika saqiifatu banii saaidah Hadi leo hii imehifadhiwa...', src: image3
     },
-    { id: 4, text: 'Text for Image 4', src: image4 },
+    { id: 4, text: 'Shindano la wiki', src: image4 },
   ];
 
   useEffect(() => {
