@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleRight, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import './index.css';
 import { Link } from 'react-router-dom';
+import './App.css';
 
 function Sidebar() {
     const Teachers = [
@@ -40,10 +41,7 @@ function Sidebar() {
                             id:4,
                             name: "Bukhaar",
                         },
-                        {
-                            id:5,
-                            name: "Muslim",
-                        },
+                        
                         {
                             id: 6,
                             name: "Ibn Majah",

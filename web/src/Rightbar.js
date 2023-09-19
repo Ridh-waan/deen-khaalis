@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'; // Import or create a CSS file for styling
 import { Link } from 'react-router-dom';
+import './index.css';
 
 function Rightbar() {
     const Books = [

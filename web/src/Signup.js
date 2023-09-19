@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { initializeApp } from 'firebase/app';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import firebaseConfig from './firebaseConfig'; // Import your Firebase configuration
-
+import './index.css';
+import './App.css';
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);

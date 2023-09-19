@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Signin from './Signin';
 import Signup from './Signup';
-import './App.css'; // Import your custom CSS for styling
+ // Import your custom CSS for styling
+import './index.css';
+import './App.css';
 
 const Authentication = () => {
     return (

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './index.css';
+import './App.css';
 
 const Academy = () => {
     return (

@@ -1,0 +1,77 @@
+/* Mobile Styles */
+@media only screen and(max-width: 600px) {
+  .app {
+        flex-direction: column;
+    }
+
+  .content {
+        width: 100%;
+        padding: 0;
+    }
+
+  .rightbar,
+  .sidebar {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and(min-width: 601px) and(max-width: 1200px) {
+  .app {
+        flex-direction: row;
+    }
+
+  .content {
+        width: 50%;
+        padding: 0;
+    }
+
+  .rightbar,
+  .sidebar {
+        width: 25%;
+        display: block;
+    
+}
+
+/* Desktop Styles */
+@media only screen and(min-width: 1201px) {
+  .app {
+        flex-direction: row;
+    }
+
+  .content {
+        width: 60%;
+        padding: 0;
+    }
+
+  .rightbar,
+  .sidebar {
+        width: 20%;
+        display: block;
+    }
+}
+}
+/* Default styles for all screen sizes */
+.image-container img {
+  width: 100%;
+  /* Use the full width of the container */
+  max-height: 100%;
+  /* Keep the aspect ratio */
+}
+
+/* Adjust the image size for screens with a maximum width of 768px (tablet) */
+@media (max-width: 768px) {
+  .image-container img {
+    width: 80%;
+    /* Adjust the width as needed for tablets */
+  }
+}
+
+/* Adjust the image size for screens with a maximum width of 600px (mobile) */
+@media (max-width: 600px) {
+  .image-container img {
+    width: 60%;
+    /* Adjust the width as needed for mobile devices */
+  }
+}

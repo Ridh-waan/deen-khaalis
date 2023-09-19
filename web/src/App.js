@@ -17,9 +17,9 @@ import Contacts from './Contacts';
 import Donate from './Donate';
 import Footer from './Footer';
 import IbnMajah3 from './IbnMajah3';
-import Muslim from './Muslim';
-import './index.css'
-import './App.css'
+import './index.css';
+import './App.css';
+import './styles.css'
 import Rightbar from './Rightbar';
 import KhutbazaIjumaa4 from './KhutbazaIjumaa4';
 import Authentication from './Authentication';
@@ -39,7 +39,6 @@ function App() {
           <Route path="/academy/signup" element={<Signup />} />
           <Route path="/academy/signin" element={<Signin />} />
           <Route path="/academy/auth" element={<Authentication />} />
-          <Route path="/abu-feiswal-uthmaan-jilo/hadeeth/muslim" element={<Muslim />} />
           <Route path="abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
           <Route path="/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
           </Routes>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './index.css';
 import { motion } from 'framer-motion';
+import './App.css';
 
 // Import your specific image files
 import image1 from './images/darsa.jpeg';
@@ -39,8 +40,8 @@ const Home = () => {
           <motion.img
             src={imageList[currentImage - 1].src}
             alt='logo'
-            initial={{ x: -1000 }} // Initial position off-screen to the left
-            animate={{ x: 0 }} // Animation target position (center)
+            initial={{ x: -1000, scale: 0.5 }} // Initial position off-screen to the left and smaller size
+            animate={{ x: 0, scale: 1 }} // Animation target position (center) and size
             transition={{ duration: 2, ease: 'easeInOut' }} // Animation duration and easing
           />
           <p className="image-text">{imageList[currentImage - 1].text}</p>

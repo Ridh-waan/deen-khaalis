@@ -2,7 +2,8 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Signup from './Signup';
 import Signin from './Signin';
-import './App.css'; // Import your custom CSS for styling
+import './index.css';
+import './App.css';
 
 function AcademyLayout() {
     return (
