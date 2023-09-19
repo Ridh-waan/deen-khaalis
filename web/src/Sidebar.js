@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronCircleRight, faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import './index.css';
 import { Link } from 'react-router-dom';
 import './App.css';
@@ -351,7 +351,7 @@ function Sidebar() {
                 {Teachers.map((teacher, teacherIndex) => (
                     <li key={teacher.name} className="teacher-item">
                         <FontAwesomeIcon
-                            icon={activeCategory === teacherIndex ? faChevronCircleDown : faChevronCircleRight}
+                            icon={activeCategory === teacherIndex ? faChevronDown : faChevronRight}
                             onClick={() => handleCategoryClick(teacherIndex)}
                             className={activeCategory === teacherIndex ? 'active' : ''}
                         />
@@ -361,7 +361,7 @@ function Sidebar() {
                                 {teacher.categories.map((category, categoryIndex) => (
                                     <li key={category.name} className="category-item">
                                         <FontAwesomeIcon
-                                            icon={activeBook === categoryIndex ? faChevronCircleDown : faChevronCircleRight}
+                                            icon={activeBook === categoryIndex ? faChevronDown : faChevronRight}
                                             onClick={() => handleBookClick(categoryIndex)}
                                             className={activeBook === categoryIndex ? 'active' : ''}
                                         />

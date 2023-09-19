@@ -1,33 +1,33 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Academy from './Academy';
-import Signup from './Signup';
-import Signin from './Signin';
-import { initializeApp } from 'firebase/app';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
-import { getAnalytics } from 'firebase/analytics';
-import firebaseConfig from './firebaseConfig';
 import Contacts from './Contacts';
 import Donate from './Donate';
-import Footer from './Footer';
+import Rightbar from './Rightbar';
 import IbnMajah3 from './IbnMajah3';
+import KhutbazaIjumaa4 from './KhutbazaIjumaa4';
+
 import './index.css';
 import './App.css';
-import './styles.css'
-import Rightbar from './Rightbar';
-import KhutbazaIjumaa4 from './KhutbazaIjumaa4';
-import Authentication from './Authentication';
-import AcademyLayout from './AcademyLayout';
+import './styles.css';
+
 function App() {
+  const [showSidebar, setShowSidebar] = useState(true); // Show Sidebar by default on desktop
+
+  const toggleSidebar = () => {
+    setShowSidebar(!showSidebar);
+  };
+
   return (
-    <div className="app">
-      <Header />
+    <div className={`app ${showSidebar ? 'show-sidebar' : ''}`}>
+      <Header toggleSidebar={toggleSidebar} />
+      
       <div className="content">
         <Rightbar />
         <Routes>
@@ -36,17 +36,18 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/academy" element={<Academy />} />
-          <Route path="/academy/signup" element={<Signup />} />
-          <Route path="/academy/signin" element={<Signin />} />
-          <Route path="/academy/auth" element={<Authentication />} />
-          <Route path="abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
+          <Route path="/abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
           <Route path="/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
-          </Routes>
+        </Routes>
       </div>
-      <Sidebar />
-
+      {window.innerWidth <= 600 ? ( // Check the window width for mobile view
+        <button className="hamburger-button" onClick={toggleSidebar}>
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+      ) : (
+        <Sidebar showSidebar={showSidebar} toggleSidebar={toggleSidebar} />
+      )}
     </div>
-    
   );
 }
 

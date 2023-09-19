@@ -38,7 +38,6 @@ function Header() {
         </header>
         
     );
-    <p>fukdshfksahfdkjsahfkjsahfffffjdsalkdlkajdlksadjsakdal</p>
 }
 
 export default Header;
