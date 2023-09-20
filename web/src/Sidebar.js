@@ -370,7 +370,7 @@ function Sidebar() {
                                             <ul className="book-list">
                                                 {category.Books.map((book) => (
                                                     <li key={book.name} className="book-item">
-                                                        <Link to={`${teacher.name.replace(/\s+/g, '-').toLowerCase()}/${category.name.replace(/\s+/g, '-').toLowerCase()}/${book.name.replace(/\s+/g, '-').toLowerCase()}`}>
+                                                        <Link to={`/sidebar/${teacher.name.replace(/\s+/g, '-').toLowerCase()}/${category.name.replace(/\s+/g, '-').toLowerCase()}/${book.name.replace(/\s+/g, '-').toLowerCase()}`}>
                                                             {book.name}
                                                         </Link>
 

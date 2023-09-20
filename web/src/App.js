@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import React, { useState, useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Header from './Header';
-import Sidebar from './Sidebar';
 import Home from './Home';
+import Sidebar from './Sidebar';
 import AboutUs from './AboutUs';
 import Academy from './Academy';
 import Contacts from './Contacts';
@@ -12,41 +10,42 @@ import Donate from './Donate';
 import Rightbar from './Rightbar';
 import IbnMajah3 from './IbnMajah3';
 import KhutbazaIjumaa4 from './KhutbazaIjumaa4';
-
 import './index.css';
 import './App.css';
 import './styles.css';
 
 function App() {
-  const [showSidebar, setShowSidebar] = useState(true); // Show Sidebar by default on desktop
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
 
-  const toggleSidebar = () => {
-    setShowSidebar(!showSidebar);
-  };
+  useEffect(() => {
+    // Update isMobileView when the window is resized
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
-    <div className={`app ${showSidebar ? 'show-sidebar' : ''}`}>
-      <Header toggleSidebar={toggleSidebar} />
-      
+    <div className="app">
+      <Header isMobileView={isMobileView} />
       <div className="content">
-        <Rightbar />
         <Routes>
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/" exact element={<Home />} />
+          <Route path="/sidebar" element={<Sidebar />} />
+          <Route path="/rightbar" element={<Rightbar />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/academy" element={<Academy />} />
-          <Route path="/abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
-          <Route path="/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
+          <Route path="/sidebar/abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
+          <Route path="/sidebar/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
-      {window.innerWidth <= 600 ? ( // Check the window width for mobile view
-        <button className="hamburger-button" onClick={toggleSidebar}>
-          <FontAwesomeIcon icon={faBars} />
-        </button>
-      ) : (
-        <Sidebar showSidebar={showSidebar} toggleSidebar={toggleSidebar} />
-      )}
     </div>
   );
 }

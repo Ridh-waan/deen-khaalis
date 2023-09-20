@@ -260,9 +260,9 @@ body {
 }
 
 .image-container img {
-  width: 755px;
+  width: 1250px;
   height: 450px;
-  margin-left: 34.3%;
+  margin-left: 0%;
   top: 1%;
   /* Adjust image width as needed */
 }
@@ -277,17 +277,3 @@ body {
   /* Customize text color */
 }
 /* styles.css */
-
-/* Styles for all screen sizes */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Styles for screens with a maximum width of 768px (mobile) */
-@media (max-width: 768px) {
-  .container {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
