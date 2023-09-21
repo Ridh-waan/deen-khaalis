@@ -3,7 +3,15 @@ import { Link } from 'react-router-dom';
 import './styles.css'; // Update the import to match your CSS filename
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-
+import {
+    faFacebook,
+    faInstagram,
+    faWhatsapp,
+    faTelegram,
+    faTwitter,
+    faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function Header({ isMobileView }) {
     const [showMenu, setShowMenu] = useState(false);
     const menuRef = useRef(null);
@@ -35,6 +43,13 @@ function Header({ isMobileView }) {
         <header className="header">
             <div className="social-icons">
                 {/* Add your social icons here */}
+                <a href="https://www.facebook.com/dnkacademy"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://www.instagram.com/dnkacademy"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://wa.me/254703409248"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                <a href="https://t.me/dnk_courses"><FontAwesomeIcon icon={faTelegram} /></a>
+                <a href="mailto:deenkhaalis.ke@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href="https://www.twitter.com/dnkacademy"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https://www.youtube.com/dnkacademy"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
 
             <nav className="navbar">
@@ -51,6 +66,7 @@ function Header({ isMobileView }) {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About Us</Link></li>
                                 <li><Link to="/sidebar">Duruus</Link></li>
+                                <li><Link to="/academy">Academy</Link></li>
                                 <li><Link to="/rightbar">Books</Link></li>
                                 <li><Link to="/contacts">Contacts</Link></li>
                                 <li><Link to="/donate">Donate</Link></li>
@@ -64,6 +80,7 @@ function Header({ isMobileView }) {
                         <li><Link to="/about">About Us</Link></li>
                         <li><Link to="/sidebar">Duruus</Link></li>
                         <li><Link to="/rightbar">Books</Link></li>
+                        <li><Link to="/academy">Academy</Link></li>
                         <li><Link to="/contacts">Contacts</Link></li>
                         <li><Link to="/donate">Donate</Link></li>
                     </ul>

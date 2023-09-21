@@ -6,8 +6,8 @@ import './App.css';
 const Academy = () => {
     return (
         <div className='academy-container'>
-            <h2> Welcome to Deeen Khaalis Academy</h2>
-           
+            <h2> Welcome to Deeen Khaalis Academy</h2><br/>
+
         </div>
     );
 };
