@@ -49,7 +49,7 @@ function Header({ isMobileView }) {
                 <a href="https://t.me/dnk_courses"><FontAwesomeIcon icon={faTelegram} /></a>
                 <a href="mailto:deenkhaalis.ke@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
                 <a href="https://www.twitter.com/dnkacademy"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href="https://www.youtube.com/dnkacademy"><FontAwesomeIcon icon={faYoutube} /></a>
+                <a href="https://www.youtube.com/@DeenKhaalis"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
 
             <nav className="navbar">
@@ -78,7 +78,7 @@ function Header({ isMobileView }) {
                     <ul className="nav-list">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About Us</Link></li>
-                        <li><Link to="/sidebar">Duruus</Link></li>
+                        <li><Link to="/duruus">Duruus</Link></li>
                         <li><Link to="/rightbar">Books</Link></li>
                         <li><Link to="/academy">Academy</Link></li>
                         <li><Link to="/contacts">Contacts</Link></li>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
-import Sidebar from './Sidebar';
+import Duruus from './Duruus';
 import AboutUs from './AboutUs';
 import Academy from './Academy';
 import Contacts from './Contacts';
@@ -36,13 +36,13 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/sidebar" element={<Sidebar />} />
+          <Route path="/duruus" element={<Duruus />} />
           <Route path="/rightbar" element={<Rightbar />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/academy" element={<Academy />} />
-          <Route path="/sidebar/abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
-          <Route path="/sidebar/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/hadeeth/ibn-majah" element={<IbnMajah3 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </div>

@@ -123,11 +123,28 @@
 /* Academy.css */
 .academy-container {
   display: flex;
-  justify-content: center;
-  /* Horizontal centering */
-  align-items: center;
-  /* Vertical centering */
-  height: 100vh;
-  /* Set the container height to fill the viewport */
+  
   text-align: center;
+}
+/* Global styles that apply to multiple components */
+
+/* Component-specific styles for the .programs container */
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Component-specific styles for individual program items */
+.programs>div {
+  flex: 0 0 calc(18% - 10px);
+  padding: 35px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: darkviolet;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
 }
