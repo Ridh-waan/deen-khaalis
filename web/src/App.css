@@ -159,3 +159,47 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: white;
 }
+.bottom-image
+{
+display: block;
+text-align: center;
+  position: relative;
+  left: 40%;
+}
+.popping-circle {
+  position: absolute;
+  bottom: 20px;
+  /* Adjust the distance from the bottom */
+  left: 20px;
+  /* Adjust the distance from the left */
+  width: 20px;
+  /* Adjust the circle's width */
+  height: 20px;
+  /* Make sure the height is the same as width for a perfect circle */
+  background-color: bisque;
+  border-radius: 20%;
+  top: 82%;
+  /* Makes it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* Aligns "Welcome" to the bottom */
+  color: white;
+  font-size: 18px;
+  /* Adjust the font size */
+  animation: pop 2s ease-in-out infinite;
+  /* Apply the popping animation */
+}
+
+@keyframes pop {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    /* Scale up for the popping effect */
+  }
+}
