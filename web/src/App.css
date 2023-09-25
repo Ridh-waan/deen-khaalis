@@ -121,12 +121,23 @@
   /* Optionally, set the container height to the full viewport height */
 }
 /* Academy.css */
+
+/* Component-specific styles for the .academy-container */
 .academy-container {
-  display: flex;
-  
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  /* Use min-height to ensure the content takes at least the full viewport height */
 }
-/* Global styles that apply to multiple components */
+
+/* Styles for the "Welcome to Deen Khaalis Academy" heading */
+.academy-heading {
+  margin-top: 2px;
+  /* Adjust the margin as needed */
+}
 
 /* Component-specific styles for the .programs container */
 .programs {

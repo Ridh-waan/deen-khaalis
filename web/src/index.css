@@ -260,8 +260,6 @@ body {
 }
 
 .image-container img {
-  width: 1250px;
-  height: 450px;
   justify-content: center;
   top: 1%;
   /* Adjust image width as needed */

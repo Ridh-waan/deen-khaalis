@@ -288,18 +288,6 @@ function Duruus() {
                             name: "Faaida Mukhtasira",
                         },
 
-                        {
-                            id: 7,
-                            name: "Dua ya Kulala",
-                        },
-                        {
-                            id: 7,
-                            name: "Kukumbuka Mauti ",
-                        },
-                        {
-                            id: 7,
-                            name: "Siri ya Adhkaar",
-                        },
                         // Add other books
                     ],
                 },
@@ -309,17 +297,9 @@ function Duruus() {
                     Books: [
                         {
                             id: 7,
-                            name: "Swala ya Taraweh",
+                            name: "Bayaan",
                         },
 
-                        {
-                            id: 7,
-                            name: "Kwa wasio ijua Jamia Islamiyah",
-                        },
-                        {
-                            id: 7,
-                            name: "Shubha za Vitabu vya Maulid",
-                        },
                         
                         // Add other books
                     ],
