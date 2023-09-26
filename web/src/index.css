@@ -250,14 +250,6 @@ body {
   flex: 1;
   /* This allows the content container to grow and push the footer to the bottom */
 }
-/* Home.css */
-.image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-}
 
 .image-container img {
   justify-content: center;
@@ -266,13 +258,3 @@ body {
   /* Adjust image width as needed */
 }
 
-.image-text {
-  margin-top: 3%;
-  /* Add margin between image and text */
-  font-size: 17px;
-  /* Customize text font size */
-  color: #333;
-  margin-left: 45%;
-  /* Customize text color */
-}
-/* styles.css */

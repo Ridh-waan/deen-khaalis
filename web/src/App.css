@@ -236,29 +236,3 @@ text-align: center;
 .line.active:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-@media (max-width: 415px) {
-  .image-container img {
-    width: 100%;
-    /* Set the width to 100% for smaller screens */
-    max-width: 100%;
-    /* Ensure the image doesn't exceed the container width */
-    height: auto;
-    /* Allow the height to auto-adjust to maintain the aspect ratio */
-  }
-}
-/* Default font size and line height */
-body {
-  font-size: 16px;
-  line-height: 1.5;
-  /* Adjust line height for better readability */
-}
-
-/* Media query for screens smaller than 768px (typical mobile devices) */
-@media (max-width: 415px) {
-  body {
-    font-size: 7px;
-    /* Adjust font size for mobile devices */
-    line-height: 1.1;
-    /* Adjust line height for better readability on mobile */
-  }
-}
