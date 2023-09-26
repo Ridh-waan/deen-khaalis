@@ -8,6 +8,8 @@ const Home = () => {
   const imageList = [
     { id: 1, text: '', imageName: 'Slide_DeenKhaalis_Binisa.jpg' },
     { id: 2, text: '', imageName: 'Slide_DeenKhaalis_Nurein.jpg' },
+    { id: 3, text: '', imageName: 'academyprograms.png' },
+
   ];
 
   useEffect(() => {

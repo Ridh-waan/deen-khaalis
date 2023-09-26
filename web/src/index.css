@@ -262,6 +262,7 @@ body {
 .image-container img {
   justify-content: center;
   top: 1%;
+  margin-left:2%
   /* Adjust image width as needed */
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './index.css';
-import './App.css';
+
 
 const Academy = () => {
     return (
@@ -27,18 +26,7 @@ const Academy = () => {
                     <p><b>[NEW MUSLIMS COURSE]</b></p>
                     <b>(COMMING SOON)</b>
                 </div>
-                {/* Add your image below the program divs */}
-                <img
-                    src='/images/book_academy.jpeg' // Replace with the actual image path
-                    alt='Your Image'
-                    className='bottom-image'
-                    height='100'
-                    width='300'
-
-                />
-                <div className='popping-circle'>
-                <b>Karibu</b> <br/>
-                    </div>
+            
             </div>
         </div>
     );
