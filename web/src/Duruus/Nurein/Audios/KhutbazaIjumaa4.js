@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
-import AudioPlayer from './AudioPlayer';
+import AudioPlayer from '../../../components/AudioPlayer'
+import '../../../App.css'
 
 const KhutbazaIjumaa4 = () => {
     const [audioPlaying, setAudioPlaying] = useState(false);

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import './index.css';
 import { Link } from 'react-router-dom';
-import './App.css';
+import '../../src/App.css'
+import '../../src/index.css'
 
 function Duruus() {
     const Teachers = [

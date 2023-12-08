@@ -2,9 +2,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import './App.css'
-import HamburgerMenu from './HamburgerMenu';
-// ... (other imports)
+import HamburgerMenu from '../Mobile/HamburgerMenu';
+import {faFacebook, faInstagram, faWhatsapp, faTelegram, faTwitter, faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import '../../src/App.css'
 
 function Header({ isMobileView }) {
     const [showMenu, setShowMenu] = useState(false);
@@ -37,8 +39,15 @@ function Header({ isMobileView }) {
         <header className="header">
             <div className="social-icons">
                 {/* Add your social icons here */}
+                    <a href="https://www.facebook.com/dnkacademy"><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a href="https://www.instagram.com/dnkacademy"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a href="https://wa.me/254703409248"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                    <a href="https://t.me/dnk_courses"><FontAwesomeIcon icon={faTelegram} /></a>
+                    <a href="mailto:deenkhaalis.ke@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+                    <a href="https://www.twitter.com/dnkacademy"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a href="https://www.youtube.com/@DeenKhaalis"><FontAwesomeIcon icon={faYoutube} /></a>
+                </div>
                 {/* ... (social icons) */}
-            </div>
 
             {isMobileView ? (
                 <HamburgerMenu />

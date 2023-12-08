@@ -1,7 +1,6 @@
 import React from 'react';
-import './index.css';
-import './App.css';
-
+import '../../src/App.css'
+import '../../src/index.css'
 function AboutUs() {
     return (
         <div className="ibnmajah-container">

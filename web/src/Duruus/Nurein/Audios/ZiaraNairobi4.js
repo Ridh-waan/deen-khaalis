@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import AudioPlayer from './AudioPlayer';
-import './index.css';
-import './App.css';
+import AudioPlayer from '../../../components/AudioPlayer'
+import '../../../App.css'
+import '../../../index.css'
+
 const ZiaraNairobi4 = () => {
     const [audioPlaying, setAudioPlaying] = useState(false);
     const [currentAudioSrc, setCurrentAudioSrc] = useState('');

@@ -1,6 +1,6 @@
 import React from 'react';
-import './index.css';
-import './App.css';
+import '../../src/index.css'
+import '../../src/App.css'
 
 const AudioPlayer = ({ audioSrc, onClose }) => {
     return (

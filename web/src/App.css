@@ -31,8 +31,8 @@
 /* Rightbar.css */
 .rightbar {
   position: fixed;
-  right: 0.8%;
-  top: 9.9%;
+  right: 8%;
+  top: 19.9%;
   width: 15%;
   max-height: 90vh;
   overflow-y: auto;
@@ -40,18 +40,18 @@
   /* Adjust the height as needed */
   background-color: #f0f0f0;
   /* Background color */
-  /* Add other styling properties */
+padding: 25px;
 }
 .book-list {
-  padding-right: 20px;
+  padding-right: 2px;
   /* Adjust for book indentation */
   list-style-type: none;
 }
 
 /* Style for the book name and icon */
 .book-list>li {
-  margin-right: 0;
-  padding-right: 10px;
+  margin-right: 5;
+  padding-right: 1px;
   /* Adjust as needed for the desired indentation */
   position: relative;
 }
@@ -166,43 +166,7 @@ text-align: center;
   position: relative;
   left: 40%;
 }
-.popping-circle {
-  position: absolute;
-  bottom: 20px;
-  /* Adjust the distance from the bottom */
-  left: 20px;
-  /* Adjust the distance from the left */
-  width: 20px;
-  /* Adjust the circle's width */
-  height: 20px;
-  /* Make sure the height is the same as width for a perfect circle */
-  background-color: bisque;
-  border-radius: 20%;
-  top: 80%;
-  /* Makes it a circle */
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  /* Aligns "Welcome" to the bottom */
-  color: white;
-  font-size: 18px;
-  /* Adjust the font size */
-  animation: pop 2s ease-in-out infinite;
-  /* Apply the popping animation */
-}
 
-@keyframes pop {
-
-  0%,
-  100% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-    /* Scale up for the popping effect */
-  }
-}
 /* Add this CSS to style the hamburger icon */
 .hamburger-button {
   display: flex;

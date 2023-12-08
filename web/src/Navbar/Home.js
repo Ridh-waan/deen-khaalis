@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import './index.css';
 import { motion } from 'framer-motion';
-import './App.css';
 import { useMediaQuery } from 'react-responsive';
-
+import '../../src/App.css'
+import '../../src/index.css'
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const imageList = [
