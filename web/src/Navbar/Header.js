@@ -1,73 +1,97 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import HamburgerMenu from '../Mobile/HamburgerMenu';
-import {faFacebook, faInstagram, faWhatsapp, faTelegram, faTwitter, faYoutube,
-} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import '../../src/App.css'
+import { HiMenu, HiX } from 'react-icons/hi';
+import {
+ BsFacebook,
+ BsInstagram,
+ BsWhatsapp,
+ BsEnvelope,
+ BsYoutube,
+ BsTelegram
+} from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Header({ isMobileView }) {
-    const [showMenu, setShowMenu] = useState(false);
-    const menuRef = useRef(null);
+   const [showMenu, setShowMenu] = useState(false);
+   const menuRef = useRef(null);
+   const [active, setActive] = useState(false);
 
-    useEffect(() => {
-        // Function to close the menu when a click occurs outside
-        const handleOutsideClick = (event) => {
-            if (menuRef.current && !menuRef.current.contains(event.target)) {
-                setShowMenu(false);
-            }
-        };
+   useEffect(() => {
+       const handleScroll = () => {
+           setActive(window.scrollY > 20);
+       };
 
-        // Add a click event listener to the entire document when the menu is open
-        if (showMenu) {
-            document.addEventListener('click', handleOutsideClick);
-        }
+       window.addEventListener("scroll", handleScroll);
 
-        // Cleanup the event listener when the component unmounts
-        return () => {
-            document.removeEventListener('click', handleOutsideClick);
-        };
-    }, [showMenu]);
+       return () => window.removeEventListener("scroll", handleScroll);
+   }, []);
 
-    const toggleMenu = () => {
-        setShowMenu(!showMenu);
-    };
+   useEffect(() => {
+       const handleOutsideClick = (event) => {
+           if (menuRef.current && !menuRef.current.contains(event.target)) {
+               setShowMenu(false);
+           }
+       };
 
-    return (
-        <header className="header">
-            <div className="social-icons">
-                {/* Add your social icons here */}
-                    <a href="https://www.facebook.com/dnkacademy"><FontAwesomeIcon icon={faFacebook} /></a>
-                    <a href="https://www.instagram.com/dnkacademy"><FontAwesomeIcon icon={faInstagram} /></a>
-                    <a href="https://wa.me/254703409248"><FontAwesomeIcon icon={faWhatsapp} /></a>
-                    <a href="https://t.me/dnk_courses"><FontAwesomeIcon icon={faTelegram} /></a>
-                    <a href="mailto:deenkhaalis.ke@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-                    <a href="https://www.twitter.com/dnkacademy"><FontAwesomeIcon icon={faTwitter} /></a>
-                    <a href="https://www.youtube.com/@DeenKhaalis"><FontAwesomeIcon icon={faYoutube} /></a>
-                </div>
-                {/* ... (social icons) */}
+       if (showMenu) {
+           document.addEventListener('click', handleOutsideClick);
+       }
 
-            {isMobileView ? (
-                <HamburgerMenu />
-            ) : (
-                <nav className="navbar">
-                    <ul className="nav-list">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About Us</Link></li>
-                        <li><Link to="/duruus">Duruus</Link></li>
-                        <li><Link to="/rightbar">Books</Link></li>
-                        <li><Link to="/academy">Academy</Link></li>
-                        <li><Link to="/contacts">Contacts</Link></li>
-                        <li><Link to="/donate">Donate</Link></li>
-                    </ul>
-                </nav>
-            )}
+       return () => {
+           document.removeEventListener('click', handleOutsideClick);
+       };
+   }, [showMenu]);
 
-            {/* Rest of your header content */}
-        </header>
-    );
+   const toggleMenu = () => {
+       setShowMenu(!showMenu);
+   };
+
+   return (
+       <header className={`header ${active ? "shadow-lg bg-Solitude" : ""}`}>
+           <div className="social-icons">
+               {/* section of social icons here */}
+               <a href="https://www.facebook.com/dnkacademy"> <BsFacebook /></a>
+               <a href="https://www.instagram.com/dnkacademy"> <BsInstagram /> </a>
+               <a href="https://wa.me/254703409248"> <BsWhatsapp /> </a>
+               <a href="https://t.me/dnk_courses"> <BsTelegram /> </a>
+               <a href="mailto:deenkhaalis.ke@gmail.com"> <BsEnvelope /> </a>
+               <a href="https://www.twitter.com/dnkacademy"> <FaXTwitter /> </a>
+               <a href="https://www.youtube.com/@DeenKhaalis"><BsYoutube /> </a>
+           </div>
+
+           {isMobileView ? (
+               <HiMenu onClick={toggleMenu} />
+           ) : (
+               <nav className="navbar">
+                  <ul className="nav-list">
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/about">About Us</Link></li>
+                      <li><Link to="/duruus">Duruus</Link></li>
+                      <li><Link to="/rightbar">Books</Link></li>
+                      <li><Link to="/academy">Academy</Link></li>
+                      <li><Link to="/contacts">Contacts</Link></li>
+                      <li><Link to="/donate">Donate</Link></li>
+                  </ul>
+               </nav>
+           )}
+
+           {showMenu && (
+               <div className="mobile-nav" ref={menuRef}>
+                  <ul className="nav-list">
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/about">About Us</Link></li>
+                      <li><Link to="/duruus">Duruus</Link></li>
+                      <li><Link to="/rightbar">Books</Link></li>
+                      <li><Link to="/academy">Academy</Link></li>
+                      <li><Link to="/contacts">Contacts</Link></li>
+                      <li><Link to="/donate">Donate</Link></li>
+                  </ul>
+               </div>
+           )}
+
+           {/* Rest of your header content */}
+       </header>
+   );
 }
 
 export default Header;
