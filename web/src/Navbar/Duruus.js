@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { BsChevronRight, BsChevronDown } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import '../../src/App.css'
 import '../../src/index.css'
@@ -16,17 +15,17 @@ function Duruus() {
                     name: "Tawheed",
                     Books: [
                         {
-                            id:1,
+                            id: 1,
                             name: "Kitaabu Tawheed",
                             content: "Content for Kitaabu Tawheed goes here..."
                         },
                         {
-                            id:2,
+                            id: 2,
                             name: "Usulu Thalatha",
                             content: "Content for Usulu thalatha goes here"
                         },
                         {
-                            id:3,
+                            id: 3,
                             name: "Qawaeed Arba",
                             content: "Content for Qawaed Arba Goes here"
                         },
@@ -38,10 +37,10 @@ function Duruus() {
                     name: "Hadeeth",
                     Books: [
                         {
-                            id:4,
+                            id: 4,
                             name: "Bukhaar",
                         },
-                        
+
                         {
                             id: 6,
                             name: "Ibn Majah",
@@ -53,7 +52,7 @@ function Duruus() {
             ],
         },
         {
-            id:2,
+            id: 2,
             name: "Abu Ibraheem Alamin Saeed",
             categories: [
                 {
@@ -65,30 +64,30 @@ function Duruus() {
                             name: "Kitaabu Tawheed",
                         },
                         {
-                            id:2,
+                            id: 2,
                             name: "Usulu Thalatha",
                         },
                         {
-                            id:3,
+                            id: 3,
                             name: "Qawaeed Arba",
                         },
                         // Add other books
                     ],
                 },
                 {
-                    id:2,
+                    id: 2,
                     name: "Hadeeth",
                     Books: [
                         {
-                            id:4,
+                            id: 4,
                             name: "Sahih Bukhaar",
                         },
                         {
-                            id:5,
+                            id: 5,
                             name: "Muslim",
                         },
                         {
-                            id:6,
+                            id: 6,
                             name: "Ibn Majah",
                         },
                         // Add other books
@@ -204,7 +203,7 @@ function Duruus() {
                             id: 6,
                             name: "Khutba za Idd",
                         },
-                
+
                         // Add other books
                     ],
                 },
@@ -287,7 +286,7 @@ function Duruus() {
                             id: 7,
                             name: "Faaida Mukhtasira",
                         },
-                       
+
                         // Add other books
                     ],
                 },
@@ -300,7 +299,7 @@ function Duruus() {
                             name: "Bayaan",
                         },
 
-                        
+
                         // Add other books
                     ],
                 },
@@ -330,21 +329,23 @@ function Duruus() {
                 </li>
                 {Teachers.map((teacher, teacherIndex) => (
                     <li key={teacher.name} className="teacher-item">
-                        <FontAwesomeIcon
-                            icon={activeCategory === teacherIndex ? faChevronDown : faChevronRight}
+                        <button>
+                            {activeCategory === teacherIndex ? <BsChevronDown /> : <BsChevronRight />}
                             onClick={() => handleCategoryClick(teacherIndex)}
                             className={activeCategory === teacherIndex ? 'active' : ''}
-                        />
+                        </button>
                         {teacher.name}
                         {activeCategory === teacherIndex && (
                             <ul className="category-list">
                                 {teacher.categories.map((category, categoryIndex) => (
                                     <li key={category.name} className="category-item">
-                                        <FontAwesomeIcon
-                                            icon={activeBook === categoryIndex ? faChevronDown : faChevronRight}
+
+                                        <button>
+                                            {activeBook === categoryIndex ? <BsChevronDown /> : <BsChevronRight />}
                                             onClick={() => handleBookClick(categoryIndex)}
                                             className={activeBook === categoryIndex ? 'active' : ''}
-                                        />
+                                        </button>
+
                                         {category.name}
                                         {activeBook === categoryIndex && (
                                             <ul className="book-list">
