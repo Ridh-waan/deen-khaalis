@@ -32,11 +32,11 @@ function App() {
   }, []);
 
   return (
-    <div className="">
+    <section className="bg-white ">
       <Header />
-      <div className="bg-violet-500 h-screen w-full font-Poppins">
+      <div className="bg-violet-500 h-screen w-full font-Poppins pt-50">
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/about" element={<AboutUs />} />
           <Route path="/duruus" element={<Duruus />} />
           <Route path="/rightbar" element={<Rightbar />} />
@@ -54,13 +54,13 @@ function App() {
           <Route path="duruus/abu-uthmaan-nurein-uthmaan/mihadhara/huqmu-ya-nyimbo" element={<Nyimbo4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan/mihadhara/mihadhara-mbali-mbali" element={<Mihadhara4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan/mihadhara/ziara-nairobi" element={<ZiaraNairobi4 />} />
-          <Route path="duruus/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-idd" element={<KhutbaZaIdd4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-idd" element={<KhutbaZaIdd4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa4 />} />
         </Routes>
 
       </div>
 
-    </div>
+    </section>
   );
 }
 
