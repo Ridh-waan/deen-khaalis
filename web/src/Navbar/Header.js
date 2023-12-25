@@ -12,6 +12,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import NavLinks from '../Mobile/NavLinks';
 import Quran from '../Mobile/Quran';
+import Duruus from './Duruus';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -69,6 +70,9 @@ const Header = () => {
                     <li>
                         <Link to="/" className="py-7 px-3 inline-block mt-1.5">
                             Mwanzo
+                        </Link>
+                        <Link to="/duruus" className="py-7 px-3 inline-block mt-1.5">
+                            Duruus
                         </Link>
                     </li>
                     <NavLinks open={open} />

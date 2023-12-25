@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { BsChevronRight, BsChevronDown } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import '../../src/App.css'
-import '../../src/index.css'
+
 
 function Duruus() {
     const Teachers = [
@@ -322,31 +320,27 @@ function Duruus() {
     };
 
     return (
-        <aside className="sidebar">
+        <aside className="py-7 absolute mt-20">
             <ul className="teacher-list">
                 <li>
                     <h3>Shuyuukh</h3>
                 </li>
                 {Teachers.map((teacher, teacherIndex) => (
                     <li key={teacher.name} className="teacher-item">
-                        <button>
-                            {activeCategory === teacherIndex ? <BsChevronDown /> : <BsChevronRight />}
-                            onClick={() => handleCategoryClick(teacherIndex)}
-                            className={activeCategory === teacherIndex ? 'active' : ''}
+                        <button onClick={() => handleCategoryClick(teacherIndex)} className={activeCategory === teacherIndex ? 'active' : ''}>
+                            {activeCategory === teacherIndex ? <ion-icon name="chevron-down-outline" /> : <ion-icon name="chevron-forward-outline" />}
+                            {teacher.name}
                         </button>
-                        {teacher.name}
+
                         {activeCategory === teacherIndex && (
                             <ul className="category-list">
                                 {teacher.categories.map((category, categoryIndex) => (
                                     <li key={category.name} className="category-item">
-
-                                        <button>
-                                            {activeBook === categoryIndex ? <BsChevronDown /> : <BsChevronRight />}
-                                            onClick={() => handleBookClick(categoryIndex)}
-                                            className={activeBook === categoryIndex ? 'active' : ''}
+                                        <button onClick={() => handleBookClick(categoryIndex)} className={activeBook === categoryIndex ? 'active' : ''}>
+                                            {activeBook === categoryIndex ? <ion-icon name="chevron-down-outline" /> : <ion-icon name="chevron-forward-outline" />}
+                                            {category.name}
                                         </button>
 
-                                        {category.name}
                                         {activeBook === categoryIndex && (
                                             <ul className="book-list">
                                                 {category.Books.map((book) => (
@@ -354,11 +348,8 @@ function Duruus() {
                                                         <Link to={`/duruus/${teacher.name.replace(/\s+/g, '-').toLowerCase()}/${category.name.replace(/\s+/g, '-').toLowerCase()}/${book.name.replace(/\s+/g, '-').toLowerCase()}`}>
                                                             {book.name}
                                                         </Link>
-
-
                                                     </li>
                                                 ))}
-
                                             </ul>
                                         )}
                                     </li>
@@ -371,5 +362,4 @@ function Duruus() {
         </aside>
     );
 }
-
 export default Duruus;
