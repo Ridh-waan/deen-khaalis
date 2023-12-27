@@ -12,7 +12,9 @@ module.exports = {
         HummingBird: "#d1f1ee",
         yellow: "#e4d63b",
         Solitude: "white",
-        gray: "#4B4B4C"
+        gray: "#4B4B4C",
+        maroon: '#800000',
+
       },
       backgroundImage: {
         Hero3: "url('Images/Hero3.png')",

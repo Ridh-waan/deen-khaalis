@@ -10,9 +10,10 @@ import {
     BsTelegram
 } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
-import NavLinks from '../Mobile/NavLinks';
-import Quran from '../Mobile/Quran';
+import NavLinks from '../Radio/NavLinks';
 import Duruus from './Duruus';
+import Academy from './Academy';
+import AboutUs from './AboutUs';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -20,6 +21,20 @@ const Header = () => {
 
     useEffect(() => {
         const closeMenu = (event) => {
+            let element = event.target;
+
+            // Traverse up the DOM tree
+            while (element !== null) {
+                // If the clicked element is a Link component, stop the propagation
+                if (element instanceof HTMLAnchorElement) {
+                    event.stopPropagation();
+                    break;
+                }
+
+                // Move up to the parent element
+                element = element.parentNode;
+            }
+
             // Check if the click target is a menu header
             if (event.target.classList.contains('menu-header')) {
                 // If it is, toggle the open state of the menu
@@ -39,15 +54,13 @@ const Header = () => {
         };
     }, [open]);
 
-
     const handleIconClick = (e) => {
         e.stopPropagation();
         setOpen(!open);
     };
 
-
     return (
-        <div className={`shadow-md w-full flex items-left fixed top-0 bg-${open ? 'white' : 'white'}`}>
+        <div className={`shadow-md w-full flex items-left fixed top-0 z-1000 bg-${open ? 'white' : 'white'}`}>
             <div ref={containerRef} className="flex items-center justify-around py-2 md:px-10 px-7">
                 <div className="font-bold text-2xl flex gap-2 items-center justify-between">
                     <div className='flex absolute right-2 gap-2'>
@@ -68,18 +81,27 @@ const Header = () => {
 
                 <ul className="md:flex hidden uppercase font-bold gap-2">
                     <li>
-                        <Link to="/" className="py-7 px-3 inline-block mt-1.5">
+                        <Link to="/" className="nav-link z-50 py-7 px-3 inline-block mt-1.5">
+
                             Mwanzo
+                        </Link>
+                        <Link to="/about" className="py-7 px-3 inline-block mt-1.5">
+                            Kutuhusu
                         </Link>
                         <Link to="/duruus" className="py-7 px-3 inline-block mt-1.5">
                             Duruus
                         </Link>
+                        <Link to="/books" className="py-7 px-3 inline-block mt-1.5">
+                            Vitabu
+                        </Link>
+                        <Link to="/academy" className="py-7 px-3 inline-block mt-1.5">
+                            Academy
+                        </Link>
                     </li>
                     <NavLinks open={open} />
                 </ul>
-                <div className='px-6 md:block hidden  '>
-                    <Quran />
-                </div>
+
+
 
                 {/* Mobile View */}
                 {open && (
@@ -95,11 +117,7 @@ const Header = () => {
                         <div className='py-1'>
                             <NavLinks open={open} />
                         </div>
-                        <li className='py-9'>
-                            <Link to="/quran" className="py-1 px-2 inline-block">
-                                <Quran />
-                            </Link>
-                        </li>
+
                     </ul>
                 )}
             </div>

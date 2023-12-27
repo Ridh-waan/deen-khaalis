@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { BsMicFill } from "react-icons/bs";
+import { BsBook } from "react-icons/bs";
 
 
 function Duruus() {
@@ -309,42 +311,63 @@ function Duruus() {
 
     const [activeCategory, setActiveCategory] = useState(null);
     const [activeBook, setActiveBook] = useState(null);
+    const [hoveredCategory, setHoveredCategory] = useState(null);
 
     const handleCategoryClick = (index) => {
-        setActiveCategory(activeCategory === index ? null : index);
-        setActiveBook(null);
+        if (activeCategory !== index) {
+            setActiveCategory(index);
+            setActiveBook(null);
+        }
     };
 
     const handleBookClick = (bookIndex) => {
         setActiveBook(activeBook === bookIndex ? null : bookIndex);
     };
 
+
+
     return (
         <aside className="py-7 absolute mt-20">
-            <ul className="teacher-list">
-                <li>
-                    <h3>Shuyuukh</h3>
-                </li>
+            <li>
+                <h3>Shuyuukh</h3>
+            </li>
+            <ul className="flex space-x-4">
+
                 {Teachers.map((teacher, teacherIndex) => (
-                    <li key={teacher.name} className="teacher-item">
+                    <li key={teacher.name} className="text-xl md:mt-1 md:ml-2 inlin">
                         <button onClick={() => handleCategoryClick(teacherIndex)} className={activeCategory === teacherIndex ? 'active' : ''}>
-                            {activeCategory === teacherIndex ? <ion-icon name="chevron-down-outline" /> : <ion-icon name="chevron-forward-outline" />}
-                            {teacher.name}
+                            <div className="flex items-center space-x-4 px-10">
+                                <button
+                                    className={`bg-maroon rounded px-1 py-4 text-white font-Poppins uppercase ${activeCategory === teacherIndex ? 'active' : ''}`}
+                                    onMouseEnter={() => {
+                                        setHoveredCategory(teacherIndex);
+                                        setActiveCategory(activeCategory === teacherIndex ? null : teacherIndex);
+                                    }}
+                                    onMouseLeave={() => setHoveredCategory(null)}
+                                >
+                                    {teacher.name}
+                                </button>
+                                {activeCategory === teacherIndex ? <ion-icon name="chevron-up" /> : <ion-icon name="chevron-down" />}
+                            </div>
                         </button>
 
                         {activeCategory === teacherIndex && (
                             <ul className="category-list">
                                 {teacher.categories.map((category, categoryIndex) => (
-                                    <li key={category.name} className="category-item">
+                                    <li key={category.name} className="text-xl md:mt-1 md:ml-2 inline md:block hidden group-hover:rotate-180">
                                         <button onClick={() => handleBookClick(categoryIndex)} className={activeBook === categoryIndex ? 'active' : ''}>
-                                            {activeBook === categoryIndex ? <ion-icon name="chevron-down-outline" /> : <ion-icon name="chevron-forward-outline" />}
-                                            {category.name}
+                                            <div className="flex items-center space-x-4 px-10">
+
+                                                <button className="bg-green-500 rounded px-1 py-2 text-gray-500 font-Poppins font-bold">{category.name}</button>
+                                                {activeBook === categoryIndex ? <ion-icon name="chevron-up" /> : <ion-icon name="chevron-down" />}
+                                            </div>
+
                                         </button>
 
                                         {activeBook === categoryIndex && (
                                             <ul className="book-list">
                                                 {category.Books.map((book) => (
-                                                    <li key={book.name} className="book-item">
+                                                    <li key={book.name} className="font-Poppins font-bold hover:text-blue-500">
                                                         <Link to={`/duruus/${teacher.name.replace(/\s+/g, '-').toLowerCase()}/${category.name.replace(/\s+/g, '-').toLowerCase()}/${book.name.replace(/\s+/g, '-').toLowerCase()}`}>
                                                             {book.name}
                                                         </Link>
@@ -362,4 +385,5 @@ function Duruus() {
         </aside>
     );
 }
+
 export default Duruus;

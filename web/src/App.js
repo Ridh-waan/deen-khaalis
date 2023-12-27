@@ -7,7 +7,7 @@ import AboutUs from './Navbar/AboutUs';
 import Academy from './Navbar/Academy';
 import Contacts from './Navbar/Contacts';
 import Donate from './Navbar/Donate';
-import Rightbar from './Books/Rightbar';
+import Books from './Books/Books';
 import { IbnMajah3 } from './Duruus/BinIsa/index'
 import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
@@ -36,10 +36,10 @@ function App() {
       <Header />
       <div className="bg-violet-500 h-screen w-full font-Poppins pt-50">
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/duruus" element={<Duruus />} />
-          <Route path="/rightbar" element={<Rightbar />} />
+          <Route path="/books" element={<Books />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/academy" element={<Academy />} />

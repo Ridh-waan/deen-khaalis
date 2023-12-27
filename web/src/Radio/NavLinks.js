@@ -1,11 +1,28 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { links } from './MyLinks';
 import { BsChevronUp, BsChevronDown } from "react-icons/bs";
 
 const NavLinks = ({ open }) => {
+    const navigate = useNavigate();
+    const location = useLocation();
     const [heading, setHeading] = useState("");
     const [subHeading, setSubHeading] = useState("");
+    const [currentUrl, setCurrentUrl] = useState(location.pathname);
+
+    useEffect(() => {
+        setCurrentUrl(location.pathname);
+    }, [location]);
+
+    const handleMainLinkClick = (link) => {
+        setHeading(heading !== link.name ? link.name : "");
+        navigate(link.link);
+    };
+
+    const handleSubLinkClick = (link, sublink) => {
+        setSubHeading(subHeading !== sublink.Head ? sublink.Head : "");
+        navigate(`${link.link}${sublink.link}`);
+    };
 
     return (
         <>
@@ -13,12 +30,12 @@ const NavLinks = ({ open }) => {
                 <div>
                     <div className='px-2 text-center md:cursor-pointer group'>
                         <h1 className='menu-header py-7 flex justify-between items-center md:pr-0 pr-5 group'
-                            onClick={() => heading !== link.name ? setHeading(link.name) : setHeading("")}>
+                            onClick={() => handleMainLinkClick(link)}>
                             {link.name}
                             <span className='text-xl md:hidden inline'>
                                 <ion-icon name={`${heading === link.name ? "chevron-up" : "chevron-down"}`}></ion-icon>
                             </span>
-                            <span className='text-xl md:mt-1 md:ml-2 inline md:block hidden group-hover:rotate-180 group-hover:-mt-2'>
+                            <span className='text-xl md:mt-1 md:ml-2 inline md:block hidden group-hover:rotate-180 '>
                                 <ion-icon name="chevron-down" ></ion-icon>
                             </span>
                         </h1>
@@ -26,19 +43,13 @@ const NavLinks = ({ open }) => {
                             <div>
                                 <div className='absolute top-20 hidden group-hover:md:block hover:md:block '>
                                     <div className='py-3'>
-                                        <div className='w-50 h-10 left-3 absolute mt-20 bg-white rotate-45'>
-                                        </div>
+
                                     </div>
-                                    <div className='bg-green-500 p-4 grid grid-cols-3 gap-10 overflow-y-auto max-h-[500px]'>
+                                    <div className='bg-green-500 p-4 grid grid-cols-3 gap-5 overflow-y-auto max-h-[400px]'>
                                         {
                                             link.sublinks.map((mysublinks) => (
                                                 <div>
-                                                    <button className={`text-lg font-semibold bg-indigo-500 uppercase text-white rounded px-4 py-2`}>{mysublinks.Head}</button>
-                                                    {mysublinks.sublink.map(slink => (
-                                                        <li className='text-sm text-gray-500 my-2.5'>
-                                                            <Link to={slink.link} className='hover:text-blue-500'> {slink.name} </Link>
-                                                        </li>
-                                                    ))}
+                                                    <button className='bg-white text-black uppercase hover:bg-gray-200 hover:text-black py-2 px-4 rounded' onClick={() => handleSubLinkClick(link, mysublinks)}> {mysublinks.Head} </button>
                                                 </div>
                                             ))}
                                     </div>
@@ -46,7 +57,6 @@ const NavLinks = ({ open }) => {
                             </div>
                         )}
                     </div>
-                    {/*Mobile menus */}
                     <div className={`${heading === link.name ? "md:hidden" : "hidden"}`}>
                         {/* sublink */}
                         {link.sublinks.map((slinks) => (
@@ -59,11 +69,7 @@ const NavLinks = ({ open }) => {
                                         </span>
                                     </h1>
                                     <div className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"}`}>
-                                        {slinks.sublink.map((slink) => (
-                                            <li className='py-3 pl-14'>
-                                                <Link to={slink.link} className="hover:text-blue-500">  {slink.name} </Link>
-                                            </li>
-                                        ))}
+                                        <Link to={slinks.link} className="hover:text-blue-500"> {slinks.Head} </Link>
                                     </div>
                                 </div>
                             </div>
