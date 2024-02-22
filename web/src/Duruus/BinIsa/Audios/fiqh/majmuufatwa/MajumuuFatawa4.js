@@ -85,7 +85,7 @@ const MajmuuFatwa3 = () => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-7 px-8 mt-20 cursor-pointer mb-4">
-                    <h2 className='text-center  text-2xl font-bold mb-5'>ï·½</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za kitabu Majmuu fatawa wa makalaat cha Sheikh
                         Abdullah Ibn Abdulaziiz Ibn Baaz
                         zilizotolewa na sheikh wetu Abu Issa Muhhamad Bin Issa </p><br />

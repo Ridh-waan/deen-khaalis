@@ -61,7 +61,7 @@ const selectSong = (song) => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
-                    <h2 className='text-center  text-2xl font-bold mb-5'>ï·½</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za kitabu Tasfeer Asmau Allah Al-Husnaa chake Sheikh 
                     Abdurahmaan Ibn Naasir Assiidy kinachofundishwa na sheikh wetu Abu Uthmaan Nurein, Al-Jabarty</p><br />
                   

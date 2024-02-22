@@ -62,7 +62,7 @@ const selectSong = (song) => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
-                    <h2 className='text-center  text-2xl font-bold mb-5'>ï·½</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za kitabu Swareehi Suuna chake Imaam 
                     Abu Ja'faar Ibn Jariir Attwabary kilichofundishwa na sheikh wetu Abu Issa Muhammad
                     Issa siku za Daura ya saba iliyopewajina Sheikh Al Haafidh Al Hakamay</p><br />

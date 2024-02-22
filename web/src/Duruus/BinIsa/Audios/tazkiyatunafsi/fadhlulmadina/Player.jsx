@@ -61,7 +61,7 @@ const selectSong = (song) => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-28 px-8 mt-2 cursor-pointer mb-4">
-                    <h2 className='text-center  text-2xl font-bold mb-5'>ï·½</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za kitabu Fadhlu Al-Madina chake Sheikh 
                     Abdulmuhsiin Al-A'abaad Al-Badry kilichofundishwa na sheikh wetu Abu Issa Muhammad Issa
                      </p><br />
