@@ -107,4 +107,4 @@ const selectSong = (song) => {
     )
 }
 
-export default Players
+export default Player
