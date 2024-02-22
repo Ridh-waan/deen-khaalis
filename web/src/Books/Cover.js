@@ -1,26 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { covers } from './Covers'
-import Cover from './Cover';
+import React from 'react'
 
 
-function Books() {
+const Cover = ({ image, title, downloadLink }) => {
     return (
-        <div>
-            <div className='mt-20 text-center text-xl py-9'>
-                Hizi ni Baadhi ya tungo na chapisho za Deen Khaalis
+        <a href={downloadLink} target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}>
+            <div className='p-2 shadow-lg min-w-[10rem] max-w-full bg-green-500 rounded-md'>
+                <img src={image} alt='kitabu' className='max-w-full h-auto' />
+                <div className='text-sm mt-2 font-bold'> {title} </div>
             </div>
-            <div className='mt-4 px-4 w-full relative'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full'>
-                    {covers.map(cover => {
-                        return <Cover key={cover.id} {...cover} />;
-                    })}
-                </div>
-            </div>
-
-        </div>
-    );
-};
+        </a>
+    )
+}
 
 
-export default Books;
+export default Cover

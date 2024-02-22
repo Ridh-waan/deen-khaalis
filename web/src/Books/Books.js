@@ -1,49 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../src/index.css'
-import '../../src/App.css'
+import { covers } from './Covers'
+import Cover from './Cover';
 
-function Rightbar() {
-    const Books = [
-        {
-            id: 1,
-            name: "Mwezi wa Muharam na Siku ya Ashuraah",
-            downloadLink: "/Books/Nurein/Mwezi-wa-Muharam-na-siku-ya-Ashura.pdf" // Add the actual download link
-        },
-        {
-            id: 2,
-            name: "Radd Kwa Aweso",
-            downloadLink: "/Books/Nurein/Radd-kwa-Aweso-1.pdf"
-        },
-        
-        {
-            id: 3,
-            name: "Hajj na Ummra",
-            downloadLink: "/Books/Nurein/hajj_na_umra.pdf"
-        },
-       
-        
-        // Add other books
-    ];
 
+function Books() {
     return (
-        <aside className="rightbar">
-            <ul className="book-list">
-                <li>
-                    <h3>Books</h3>
-                </li>
-                {Books.map((book) => (
-                    <li key={book.id} className="book-item">
-                        <span className="book-number">{book.id}</span>
-                        <a href={book.downloadLink} download>
-                            {book.name}
-                        </a>
-                    </li>
+        <div>
+            <div className='mt-20 text-center text-xl py-9'>
+                Hizi ni Baadhi ya tungo na chapisho za Deen Khaalis
+            </div>
+            <div className='mt-4 px-4 w-full relative'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full'>
+                    {covers.map(cover => {
+                        return <Cover key={cover.id} {...cover} />;
+                    })}
+                </div>
+            </div>
 
-                ))}
-            </ul>
-        </aside>
+        </div>
     );
-}
+};
 
-export default Rightbar;
+
+export default Books;
