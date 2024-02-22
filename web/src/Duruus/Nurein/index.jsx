@@ -4,7 +4,7 @@ import Istiqbal4 from './Audios/istiqbal/Istiqbal4';
 import Qiyaam4 from './Audios/qiyaam/Qiyaam4';
 import UjumbeMfupiJuuyaSaum4 from './Audios/ujumbe/UjumbeMfupiJuuyaSaum4'
 import Jawamiualkalim4 from './Audios/jawamiu/Jawamiualkalim4';
-import Mawaidha4 from './Audios/mawaidha/Mawaidha4';
+import Mawaidha4 from './Audios/mawidha/Mawaidha4'
 import Nyimbo4 from './Audios/nyimbo/Nyimbo4'
 import Mihadhara4 from './Audios/mihadhara/Mihadhara4';
 import KuitakasaNafsi4 from './Audios/nafsi/KuitakasaNafsi4'
@@ -17,7 +17,7 @@ import NawaqdhIslaam4 from './Audios/tawheed/nawaqidhilislaam/NawaqidhIslaam4';
 import Usulusitta4 from './Audios/tawheed/usulusitta/Usulusitta4';
 import Asmau4 from './Audios/asmau/Asmau4';
 export {
-    KuitakasaNafsi4, AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, Istiqbal4,
-    UjumbeMfupiJuuyaSaum4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4,
+    KuitakasaNafsi4, AbuWalidy4, Mawaidha4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, Istiqbal4,
+    UjumbeMfupiJuuyaSaum4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4,
     KhutbaZaIdd4, Nyimbo4, Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4
 };
