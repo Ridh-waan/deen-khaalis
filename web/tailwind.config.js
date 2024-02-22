@@ -14,7 +14,9 @@ module.exports = {
         Solitude: "white",
         gray: "#4B4B4C",
         maroon: '#800000',
-
+      },
+      zIndex: {
+        '1000': '1000',
       },
       backgroundImage: {
         Hero3: "url('Images/Hero3.png')",

@@ -2,10 +2,9 @@ import React from 'react'
 
 function Quran() {
     return (
-        <button className='bg-black text-white px-6 py-2 font-bold rounded-full'>
-            RADIO
-
-        </button>
+        <div className=' text-black px-6 py-10 mt-24 text-3xl font-semi-bold rounded-full'>
+            Coming soon!
+        </div>
     )
 }
 

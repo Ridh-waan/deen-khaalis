@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { links } from './MyLinks';
-import { BsChevronUp, BsChevronDown } from "react-icons/bs";
 
-const NavLinks = ({ open }) => {
+const NavLinks = ({ open, setIsPlaying }) => {
     const navigate = useNavigate();
     const location = useLocation();
     const [heading, setHeading] = useState("");
@@ -22,14 +21,19 @@ const NavLinks = ({ open }) => {
     const handleSubLinkClick = (link, sublink) => {
         setSubHeading(subHeading !== sublink.Head ? sublink.Head : "");
         navigate(`${link.link}${sublink.link}`);
+
+        // Toggle isPlaying state when "Qur'aan" link is clicked
+        if (sublink.Head === "Qur'aan") {
+            setIsPlaying(prevIsPlaying => !prevIsPlaying);
+        }
     };
 
     return (
         <>
             {links.map((link) => (
-                <div>
+                <div key={link.id}>
                     <div className='px-2 text-center md:cursor-pointer group'>
-                        <h1 className='menu-header py-7 flex justify-between items-center md:pr-0 pr-5 group'
+                        <h1 className='menu-header py-7 flex justify-between mt-0.7 items-center md:pr-0 pr-5 group'
                             onClick={() => handleMainLinkClick(link)}>
                             {link.name}
                             <span className='text-xl md:hidden inline'>
@@ -42,14 +46,13 @@ const NavLinks = ({ open }) => {
                         {link.submenu && (
                             <div>
                                 <div className='absolute top-20 hidden group-hover:md:block hover:md:block '>
-                                    <div className='py-3'>
-
+                                    <div className='py-4'>
                                     </div>
                                     <div className='bg-green-500 p-4 grid grid-cols-3 gap-5 overflow-y-auto max-h-[400px]'>
                                         {
                                             link.sublinks.map((mysublinks) => (
-                                                <div>
-                                                    <button className='bg-white text-black uppercase hover:bg-gray-200 hover:text-black py-2 px-4 rounded' onClick={() => handleSubLinkClick(link, mysublinks)}> {mysublinks.Head} </button>
+                                                <div key={`${link.id}-${mysublinks.id}`}>
+                                                    <button className='bg-white text-black hover:bg-gray-200 hover:text-black py-2 px-4 rounded' onClick={() => handleSubLinkClick(link, mysublinks)}> {mysublinks.Head} </button>
                                                 </div>
                                             ))}
                                     </div>
@@ -80,5 +83,4 @@ const NavLinks = ({ open }) => {
         </>
     )
 }
-
 export default NavLinks;

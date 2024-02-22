@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { HiMenu, HiX } from 'react-icons/hi';
 import {
     BsFacebook,
@@ -11,14 +11,15 @@ import {
 } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import NavLinks from '../Radio/NavLinks';
-import Duruus from './Duruus';
+import Duruus from './Duruus/Duruus';
 import Academy from './Academy';
 import AboutUs from './AboutUs';
+import '../../src/App.css'
 
 const Header = () => {
     const [open, setOpen] = useState(false);
     const containerRef = useRef(null);
-
+    const [isPlaying, setIsPlaying] = useState(false);
     useEffect(() => {
         const closeMenu = (event) => {
             let element = event.target;
@@ -58,70 +59,111 @@ const Header = () => {
         e.stopPropagation();
         setOpen(!open);
     };
+    const navigate = useNavigate();
+    const handleLinkClick = (path) => {
+        navigate(path);
+        setOpen(false);
+    };
 
     return (
-        <div className={`shadow-md w-full flex items-left fixed top-0 z-1000 bg-${open ? 'white' : 'white'}`}>
-            <div ref={containerRef} className="flex items-center justify-around py-2 md:px-10 px-7">
-                <div className="font-bold text-2xl flex gap-2 items-center justify-between">
-                    <div className='flex absolute right-2 gap-2'>
-                        <a href="https://www.facebook.com/dnkacademy"> <BsFacebook /></a>
-                        <a href="https://www.instagram.com/dnkacademy"> <BsInstagram /> </a>
-                        <a href="https://wa.me/254703409248"> <BsWhatsapp /> </a>
-                        <a href="https://t.me/dnk_courses"> <BsTelegram /> </a>
-                        <a href="mailto:deenkhaalis.ke@gmail.com"> <BsEnvelope /> </a>
-                        <a href="https://www.twitter.com/dnkacademy"> <FaXTwitter /> </a>
-                        <a href="https://www.youtube.com/@DeenKhaalis"><BsYoutube /> </a>
-                    </div>
-                    <div className='flext gap-2'>
-                        <div className="text-3xl md:hidden" onClick={handleIconClick}>
-                            {open ? <HiX /> : <HiMenu />}
+        <>
+            <div className={`${open && window.innerWidth <= 768 ? 'green-overlay' : ''}`}></div>
+            <div className={`shadow-md w-full flex items-left fixed top-0 z-1000 bg-${open ? 'white' : 'white'} transition-colors duration-500 ease-in-out`}>
+                <div ref={containerRef} className="flex items-center justify-around py-2 md:px-10">
+                    <div className="font-bold text-2xl flex gap-2 items-center justify-between">
+                        <div className='flex absolute right-2 gap-2'>
+                            <a href="https://m.facebook.com/deenkhaalis"> <BsFacebook /></a>
+                            <a href="https://www.instagram.com/deenkhaalis"> <BsInstagram /> </a>
+                            <a href="https://chat.whatsapp.com/FzGbMympMtoDPWmV9aO3z1"> <BsWhatsapp /> </a>
+                            <a href="https://t.me/deenkhaalis"> <BsTelegram /> </a>
+                            <a href="mailto:deenkhaalis.ke@gmail.com"> <BsEnvelope /> </a>
+                            <a href="https://www.twitter.com/deenkhaalis"> <FaXTwitter /> </a>
+                            <a href="https://www.youtube.com/@DeenKhaalis"><BsYoutube /> </a>
+                        </div>
+                       
+                        <div className='flext gap-2'>
+                            <div className="text-3xl md:hidden" onClick={handleIconClick}>
+                                {open ? <HiX /> : <HiMenu />}
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <ul className="md:flex hidden uppercase font-bold gap-2">
-                    <li>
-                        <Link to="/" className="nav-link z-50 py-7 px-3 inline-block mt-1.5">
+                    <ul className="md:flex hidden text-lg font-bold gap-1">
+                        <li>
+                            <Link to="/" className="nav-link z-50 py-7 px-3 inline-block mt-1">
 
-                            Mwanzo
-                        </Link>
-                        <Link to="/about" className="py-7 px-3 inline-block mt-1.5">
-                            Kutuhusu
-                        </Link>
-                        <Link to="/duruus" className="py-7 px-3 inline-block mt-1.5">
-                            Duruus
-                        </Link>
-                        <Link to="/books" className="py-7 px-3 inline-block mt-1.5">
-                            Vitabu
-                        </Link>
-                        <Link to="/academy" className="py-7 px-3 inline-block mt-1.5">
-                            Academy
-                        </Link>
-                    </li>
-                    <NavLinks open={open} />
-                </ul>
-
-
-
-                {/* Mobile View */}
-                {open && (
-                    <ul
-                        className={`md:hidden absolute font-bold w-full h-full bottom-0 py-1 pl-4 gap-3 font-Poppin
-                            duration-500 ${open ? "left-0" : "left-[-100%]"}`}
-                    >
-                        <li className='py-20'>
-                            <Link to="/" className="py-7 px-3 inline-block absolute mt-1">
-                                Mwanzo
+                                Home
                             </Link>
+                            <Link to="/about" className="py-7 px-3 inline-block mt-1">
+                                About
+                            </Link>
+                            <Link to="/duruus" className="py-7 px-3 inline-block mt-1">
+                                Duruus
+                            </Link>
+                            <Link to="/books" className="py-7 px-3 inline-block mt-1">
+                                Books
+                            </Link>
+                            <Link to="/academy" className="py-7 px-3 inline-block mt-1">
+                                Academy
+                            </Link>
+                            {/* <Link to="/contacts" className="py-7 px-3 inline-block mt-1">
+                                Contact Us
+                            </Link> */}
                         </li>
-                        <div className='py-1'>
-                            <NavLinks open={open} />
-                        </div>
-
+                        <li >
+                            <NavLinks open={open} setIsPlaying={setIsPlaying} />
+                        </li>
                     </ul>
-                )}
+
+                   
+                    {/* Mobile View */}
+                    {open && (
+                        <div className='flex absolute left-8 gap-2'>
+
+                            <ul className="flex-col md:flex-column font-bold gap-1 mt-80">
+                                <li>
+                                    <Link to="/" className="nav-link z-50 py-7 px-3 inline-block mt-60" onClick={() => handleLinkClick("/")}>
+                                        Home
+                                    </Link>
+
+                                </li>
+                                <li>
+                                    <Link to="/about" className="nav-link z-50 py-7 px-3 inline-block mt-2.5" onClick={() => handleLinkClick("/about")}>
+                                        Kutuhusu
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/duruus" className="nav-link z-50 py-7 px-3 inline-block mt-1.5" onClick={() => handleLinkClick("/duruus")}>
+                                        Duruus
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/books" className="nav-link z-50 py-7 px-3 inline-block mt-1.5" onClick={() => handleLinkClick("/books")}>
+                                        Vitabu
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/academy" className="nav-link z-50 py-7 px-3 inline-block mt-1.5" onClick={() => handleLinkClick("/academy")}>
+                                        Academy
+                                    </Link>
+                                </li>
+                                {/* <li>
+                                    <Link to="/contacts" className="nav-link z-50 py-7 px-3 inline-block mt-1.5" onClick={() => handleLinkClick("/contacts")}>
+                                        Wasiliana nasi
+                                    </Link>
+                                </li> */}
+                                <li>
+                                    <NavLinks open={open} setIsPlaying={setIsPlaying} />
+                                </li>
+                            </ul>
+
+                        </div>
+                    )}
+
+                </div>
             </div>
-        </div>
+            
+        </>
     );
 }
 
