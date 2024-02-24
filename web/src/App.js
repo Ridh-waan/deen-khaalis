@@ -21,6 +21,8 @@ import Hadeeth from './Radio/Hadeeth';
 import Mawaidha from './Radio/Mawaidha';
 import KuitaasaNafsi4 from './Duruus/Nurein/Audios/nafsi/KuitakasaNafsi4';
 import QuraanRadio from './Radio/quran/QuraanRadio';
+import HadeethRadio from './Radio/hadeeth/HadeethRadio';
+import MawaidhaRadio from './Radio/mawaidha/MawaidhaRadio';
 
 function App() {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
@@ -53,6 +55,8 @@ function App() {
           <Route path="/radio/quran" element={<QuraanRadio />} />
           <Route path="/radio/hadeeth" element={<Hadeeth />} />
           <Route path="/radio/mawaidha" element={<Mawaidha />} />
+          {/* <Route path="/radio/hadeeth" element={<HadeethRadio />} />
+          <Route path="/radio/mawaidha" element={<MawaidhaRadio />} /> */}
 
                   {/**Duruus za Sheikh Jilo */}
          <Route path="/duruus/abu-feiswal-uthmaan-jilo/mihadhara/mihadhara" element={<Mihadhara1 />} />
