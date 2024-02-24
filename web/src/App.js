@@ -17,10 +17,10 @@ import {
   Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4,
 } from './Duruus/Nurein/index'
 import Radio from './Radio/Radio';
-import Quran from './Radio/Quran';
 import Hadeeth from './Radio/Hadeeth';
 import Mawaidha from './Radio/Mawaidha';
 import KuitaasaNafsi4 from './Duruus/Nurein/Audios/nafsi/KuitakasaNafsi4';
+import QuraanRadio from './Radio/quran/QuraanRadio';
 
 function App() {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
@@ -50,7 +50,7 @@ function App() {
           <Route path="/academy" element={<Academy />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/radio" element={<Radio />} />
-          <Route path="/radio/quran" element={<Quran />} />
+          <Route path="/radio/quran" element={<QuraanRadio />} />
           <Route path="/radio/hadeeth" element={<Hadeeth />} />
           <Route path="/radio/mawaidha" element={<Mawaidha />} />
 
