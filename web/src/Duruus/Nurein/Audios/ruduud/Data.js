@@ -2,11 +2,11 @@ export const ruduuddata = [
 
     {
         "title": "Hukmu ya maulidi",
-        "url": "/Audios/nurein/ruduud/maulid/HUKMU YA MAULIDI (sehemu 1).mp3"
+        "url": "https://ia601306.us.archive.org/35/items/hukmu-ya-maulidi-sehemu-1/HUKMU%20YA%20MAULIDI%20%28sehemu%201%29.mp3"
     },
     {
         "title": "Maswali na majibu kuhusu hukmu ya maulid",
-        "url": "/Audios/nurein/ruduud/maulid/HUKMU YA MAULIDI (sehemu 2 - Q & A).mp3"
+        "url": "https://ia601306.us.archive.org/35/items/hukmu-ya-maulidi-sehemu-1/HUKMU%20YA%20MAULIDI%20%28sehemu%202%20-%20Q%20%26%20A%29.mp3"
     },
     {
         "title": "Ubainifu wa Hakika Iliyofichwa Kuhusiana na Kadhia ya Lamu na Dawrah Iliyodaiwa",
@@ -14,16 +14,16 @@ export const ruduuddata = [
     },
     {
         "title": "Kubatilsha kazi ya wafisidfu ",
-        "url": "/Audios/nurein/ruduud/UBAINIFU-WA-HAKIKA-ILIOFICHWA-KUHUSIANA-NA-KADHIA-YA-LAMU-NA-DAWRAH-ILIODAIWA/video6008158088845068597 (3).mp4"
+        "url": "https://ia600205.us.archive.org/25/items/video-6008158088845068597-3/video6008158088845068597%20%283%29.mp4"
     },
    
     {
         "title": "Radd kwa aliyemfadhilisha babake juu ya swahaba Saad ibnu Muadh sehemu ya kwanza",
-        "url": "/Audios/nurein/ruduud/Radd-kwa-aliyemfadhilisha-babake-juu-ya-swahaba-saad-ibnu-muadh/AUD-20191119-WA0013.mp3"
+        "url": "https://ia601309.us.archive.org/34/items/aud-20191119-wa-0013/AUD-20191119-WA0013.mp3"
     },
     {
         "title": "Radd kwa aliyemfadhilisha babake juu ya swahaba Saad ibnu Muadh sehemu ya pili",
-        "url": "/Audios/nurein/ruduud/Radd-kwa-aliyemfadhilisha-babake-juu-ya-swahaba-saad-ibnu-muadh/AUD-20191125-WA0002.mp3"
+        "url": "https://ia601309.us.archive.org/34/items/aud-20191119-wa-0013/AUD-20191125-WA0002.mp3"
     },
 
 

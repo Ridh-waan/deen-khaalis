@@ -356,7 +356,7 @@ export const Teachers = [
                     },
                     {
                         id: 7,
-                        name: "Nasaha za Imaam Abu Walidy al Baajy Kwa Wanawe",
+                        name: "Imaam Abu Walidy al Baajy",
                     },
                     // Add other books
                 ],

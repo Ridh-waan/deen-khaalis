@@ -1,14 +1,14 @@
 export const nairobidata = [
     {
         "title": "Fadhila ya Uisilamu",
-        "url": "/Audios/nurein/mihadhara/ziara-nairobi/Fadhla_ya_Uislamu_na_sunnah.mp3"
+        "url": "https://ia601307.us.archive.org/12/items/fadhla-ya-uislamu-na-sunnah/Fadhla_ya_Uislamu_na_sunnah.mp3"
     },
     {
         "title": "Kumfuata Mtume kuliko kamilika",
-        "url": "/Audios/nurein/mihadhara/ziara-nairobi/Kumfuata_mtume_kuliko_kamilika.mp3"
+        "url": "https://ia601307.us.archive.org/12/items/fadhla-ya-uislamu-na-sunnah/Kumfuata_mtume_kuliko_kamilika.mp3"
     },
     {
         "title": "Manhajj ya Salaf na misingi yake",
-        "url": "/Audios/nurein/mihadhara/ziara-nairobi/Manhaj_salaf_na_misingi_zake.mp3"
+        "url": "https://ia601307.us.archive.org/12/items/fadhla-ya-uislamu-na-sunnah/Manhaj_salaf_na_misingi_zake.mp3"
     },
 ]
