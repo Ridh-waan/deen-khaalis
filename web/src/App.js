@@ -72,7 +72,7 @@ function App() {
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/istiqbali-shahary-ramadhan" element={<Istiqbal4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/qiyaamu-layl" element={<Qiyaam4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/ujumbe-mfupi-juu-ya-swaum" element={<UjumbeMfupiJuuyaSaum4 />} />
-          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/nasaha-za-imaam-abu-walidy-al-baajy-kwa-wanawe" element={<AbuWalidy4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/imaam-abu-walidy-al-baajy" element={<AbuWalidy4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/hadeeth/hadeeth-za-jawaamiu-al-kalama" element={<Jawamiualkalim4 />} />
           <Route path="duruus/abu-uthmaan-nurein-uthmaan-/mawaidha/faaida-mukhtasira" element={<Mawaidha4 />} />
           <Route path="duruus/abu-uthmaan-nurein-uthmaan-/mihadhara/huqmu-ya-nyimbo" element={<Nyimbo4 />} />

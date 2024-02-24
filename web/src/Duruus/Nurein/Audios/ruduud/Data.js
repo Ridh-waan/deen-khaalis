@@ -13,7 +13,7 @@ export const ruduuddata = [
         "url": "https://ia903201.us.archive.org/2/items/radd-za-kielimu/UBAINIFU%20WA%20HAKIKA%20ILIOFICHWA.mp3"
     },
     {
-        "title": "Kubatilsha kazi ya wafisidfu ",
+        "title": "Kubatilisha kazi ya wafisidfu ",
         "url": "https://ia600205.us.archive.org/25/items/video-6008158088845068597-3/video6008158088845068597%20%283%29.mp4"
     },
    
