@@ -34,7 +34,7 @@ const Aweso4 = () => {
 
 
 
-    const downloadLink = `${BASE_URL}${currentSong.url}`;
+    const downloadLink = `${currentSong.url}`;
 
     const clickRef = useRef();
 

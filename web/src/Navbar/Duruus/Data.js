@@ -245,10 +245,10 @@ export const Teachers = [
                 id: 1,
                 name: "Tawheed",
                 Books: [
-                    {
-                        id: 1,
-                        name: "Usulu Thalatha",
-                    },
+                    // {
+                    //     id: 1,
+                    //     name: "Usulu Thalatha",
+                    // },
 
                     {
                         id: 3,
@@ -271,12 +271,12 @@ export const Teachers = [
                 Books: [
                     {
                         id: 4,
-                        name: "Hadeeth Za Jawaamiu al Kalama",
+                        name: "Jawaamiu al Kalim",
                     },
-                    {
-                        id: 5,
-                        name: "Sharhe ya Arbauna Nnawawy",
-                    },
+                    // {
+                    //     id: 5,
+                    //     name: "Sharhe ya Arbauna Nnawawy",
+                    // },
 
                     // Add other books
                 ],

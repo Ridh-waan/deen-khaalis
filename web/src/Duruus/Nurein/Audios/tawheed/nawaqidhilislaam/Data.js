@@ -2,11 +2,11 @@ export const nawadhislamdata = [
 
     {
         "title": "Darsa ya kwanza ",
-        "url": "/Audios/nurein/tawheed/nawaqidh-islaam/Nawaqidhul islam - Part 1_Nurein Uthman.mp4"
+        "url": "https://ia601309.us.archive.org/18/items/nawaqidhul-islam-part-1-nurein-uthman/Nawaqidhul%20islam%20-%20Part%201_Nurein%20Uthman.mp4"
     },
     {
         "title": "Darsa ya pili",
-        "url": "/Audios/nurein/tawheed/nawaqidh-islaam/Nawaqidhul islam - Part 2_Nurein Uthman.mp4"
+        "url": "https://ia601309.us.archive.org/18/items/nawaqidhul-islam-part-1-nurein-uthman/Nawaqidhul%20islam%20-%20Part%202_Nurein%20Uthman.mp4"
     },
 
 
