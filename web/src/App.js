@@ -8,7 +8,7 @@ import Academy from './Navbar/Academy';
 import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
 import {Mihadhara1, KhutbazaIjumaa1} from './Duruus/Jilo/index'
-import { Mihadhara2 } from './Duruus/Alamin';
+import { Mihadhara2, KhutbazaIjumaa2 } from './Duruus/Alamin';
 import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3,
 Hakami2021,Hakami2023, Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021 } from './Duruus/BinIsa/index'
 import {
@@ -60,6 +60,7 @@ function App() {
 
          {/**Duruus za Sheikh Alamin */}
          <Route path="/duruus/abu-ibraheem-alamin-saeed/mihadhara/mihadhara" element={<Mihadhara2 />} />
+         <Route path="/duruus/abu-ibraheem-alamin-saeed/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa2 />} />
 
           {/**Duruus za Sheikh Bin Isa */}
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaat-fil-aqeedah" element={<Akhtwaa3 />} />

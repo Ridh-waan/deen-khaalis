@@ -38,7 +38,7 @@ export const khutbazaijumaadata = [
         "url": "https://ia600208.us.archive.org/6/items/fadhila-za-mwezi-wa-muharam/kisimamo-cha-siku-ya-mwisho-mbele-ya-Allah.mp3"
     },
     {
-        "title": "Kumtukuza Mtume",
+        "title": "Kumtukuza Mtume صلى الله عليه وسلم",
         "url": "https://ia600208.us.archive.org/6/items/fadhila-za-mwezi-wa-muharam/KUMTUKUZA-MTUME-1-2-1442-18-9-2020.mp3"
     },
 

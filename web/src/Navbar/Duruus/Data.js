@@ -59,25 +59,22 @@ export const Teachers = [
                     // Add other books
                 ],
             },
-            // {
-            //     id: 2,
-            //     name: "Hadeeth",
-            //     Books: [
-            //         {
-            //             id: 4,
-            //             name: "Sahih Bukhaar",
-            //         },
-            //         {
-            //             id: 5,
-            //             name: "Muslim",
-            //         },
-            //         {
-            //             id: 6,
-            //             name: "Ibn Majah",
-            //         },
-            //         // Add other books
-            //     ],
-            // },
+            {
+                id: 2,
+                name: "Khutwab",
+                Books: [
+                    {
+                        id: 4,
+                        name: "Khutba za Ijumaa",
+                    },
+                    // {
+                    //     id: 5,
+                    //     name: "Muslim",
+                    // },
+                   
+                    // Add other books
+                ],
+            },
             // Add other categories
         ],
     },
