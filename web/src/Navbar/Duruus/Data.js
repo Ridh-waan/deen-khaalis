@@ -5,39 +5,38 @@ export const Teachers = [
         categories: [
             {
                 id: 1,
-                name: "Tawheed",
+                name: "Mihadhara",
                 Books: [
                     {
                         id: 1,
-                        name: "Kitaabu Tawheed",
-                        content: "Content for Kitaabu Tawheed goes here..."
+                        name: "Mihadhara",
                     },
-                    {
-                        id: 2,
-                        name: "Usulu Thalatha",
-                        content: "Content for Usulu thalatha goes here"
-                    },
-                    {
-                        id: 3,
-                        name: "Qawaeed Arba",
-                        content: "Content for Qawaed Arba Goes here"
-                    },
+                    // {
+                    //     id: 2,
+                    //     name: "Usulu Thalatha",
+                    //     content: "Content for Usulu thalatha goes here"
+                    // },
+                    // {
+                    //     id: 3,
+                    //     name: "Qawaeed Arba",
+                    //     content: "Content for Qawaed Arba Goes here"
+                    // },
                     // Add other books
                 ],
             },
             {
                 id: 2,
-                name: "Hadeeth",
+                name: "Khutwab",
                 Books: [
                     {
                         id: 4,
-                        name: "Bukhaar",
+                        name: "Khuta za Ijumaa",
                     },
 
-                    {
-                        id: 6,
-                        name: "Ibn Majah",
-                    },
+                    // {
+                    //     id: 6,
+                    //     name: "Ibn Majah",
+                    // },
                     // Add other books
                 ],
             },
@@ -50,42 +49,35 @@ export const Teachers = [
         categories: [
             {
                 id: 1,
-                name: "Tawheed",
+                name: "Mihadhara",
                 Books: [
                     {
                         id: 1,
-                        name: "Kitaabu Tawheed",
+                        name: "Mihadhara",
                     },
-                    {
-                        id: 2,
-                        name: "Usulu Thalatha",
-                    },
-                    {
-                        id: 3,
-                        name: "Qawaeed Arba",
-                    },
+                   
                     // Add other books
                 ],
             },
-            {
-                id: 2,
-                name: "Hadeeth",
-                Books: [
-                    {
-                        id: 4,
-                        name: "Sahih Bukhaar",
-                    },
-                    {
-                        id: 5,
-                        name: "Muslim",
-                    },
-                    {
-                        id: 6,
-                        name: "Ibn Majah",
-                    },
-                    // Add other books
-                ],
-            },
+            // {
+            //     id: 2,
+            //     name: "Hadeeth",
+            //     Books: [
+            //         {
+            //             id: 4,
+            //             name: "Sahih Bukhaar",
+            //         },
+            //         {
+            //             id: 5,
+            //             name: "Muslim",
+            //         },
+            //         {
+            //             id: 6,
+            //             name: "Ibn Majah",
+            //         },
+            //         // Add other books
+            //     ],
+            // },
             // Add other categories
         ],
     },
