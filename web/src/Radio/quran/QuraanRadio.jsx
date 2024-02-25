@@ -1,12 +1,12 @@
 import Player from './Player/Player.js';
 import { useRef, useState, useEffect } from 'react';
-import { ijumaadara } from './Player/Data.js';
+import { mihadharadata } from './Player/Data.js';
 import '../../App.css'
 
 const QuraanRadio = () => {
   const [isplaying, setisplaying] = useState(false);
-  const [currentSong, setCurrentSong] = useState(ijumaadara[0]);
-  const [songs, setSongs] = useState(ijumaadara);
+  const [currentSong, setCurrentSong] = useState(mihadharadata[0]);
+  const [songs, setSongs] = useState(mihadharadata);
 
   const onPlaying = () => {
     const duration = audioElem.current.duration;

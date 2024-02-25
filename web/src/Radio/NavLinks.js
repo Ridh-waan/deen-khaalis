@@ -67,13 +67,11 @@ const NavLinks = ({ open, setIsPlaying }) => {
                                 <div>
                                     <h1 onClick={() => subHeading !== slinks.Head ? setSubHeading(slinks.Head) : setSubHeading("")}
                                         className='py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center'> {slinks.Head}
-                                        <span className='text-xl md:mt-1 md:ml-2 inline'>
+                                        {/* <span className='text-xl md:mt-1 md:ml-2 inline'>
                                             <ion-icon name={`${subHeading === slinks.Head ? "chevron-up" : "chevron-down"}`}></ion-icon>
-                                        </span>
+                                        </span> */}
                                     </h1>
-                                    <div className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"}`}>
-                                        <Link to={slinks.link} className="hover:text-blue-500"> {slinks.Head} </Link>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         ))}
