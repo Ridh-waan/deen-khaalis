@@ -63,8 +63,8 @@ const selectSong = (song) => {
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hii ni Radio yetu ya Qur'aan inayopeperushwa masaa ishirini na nne </p><br />
-                  
-                    {/* {songs.map((song, index) => (
+{/*                   
+                    {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>
         <span>{index + 1}.</span> {song.title} 
     </div>

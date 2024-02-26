@@ -31,7 +31,7 @@ const QuraanRadio = () => {
 useEffect(() => {
   const audioElement = audioElem.current;
   const handleAudioEnd = () => {
-     const index = songs.findIndex(x => x.title === currentSong.title);
+     const index = songs.findIndex(x => x.url === currentSong.url);
      if (index === songs.length - 1) {
        setCurrentSong(songs[0])
      } else {
