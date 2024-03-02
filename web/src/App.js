@@ -52,9 +52,9 @@ function App() {
           <Route path="/academy" element={<Academy />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/radio" element={<Radio />} />
-          <Route path="/radio/quran" element={<QuraanRadio />} />
+          {/* <Route path="/radio/quran" element={<QuraanRadio />} />
           <Route path="/radio/hadeeth" element={<Hadeeth />} />
-          <Route path="/radio/mawaidha" element={<Mawaidha />} />
+          <Route path="/radio/mawaidha" element={<Mawaidha />} /> */}
           {/* <Route path="/radio/hadeeth" element={<HadeethRadio />} />
           <Route path="/radio/mawaidha" element={<MawaidhaRadio />} /> */}
 
