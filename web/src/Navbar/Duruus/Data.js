@@ -106,7 +106,11 @@ export const Teachers = [
                 name: "Tafseer",
                 Books: [
                     {
-                        id: 4,
+                        id: 1,
+                        name: "Suratul Ankabuut",
+                    },
+                    {
+                        id: 2,
                         name: "Qiswaaru Suwar",
                     },
                     // {

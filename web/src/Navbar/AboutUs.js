@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function AboutUs() {
     return (
         <div className="pt-20 mt-10 ">
-                    <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
+                    <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
             <div className='px-4'>
 
                 Sifa njema zote anastahiki Allah Mola mlezi wa viumbe wote,
