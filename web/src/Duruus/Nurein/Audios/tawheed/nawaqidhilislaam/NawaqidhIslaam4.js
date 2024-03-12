@@ -34,7 +34,7 @@ const NawaqdhIslaam4 = () => {
 
 
 
-    const downloadLink = `${BASE_URL}${currentSong.url}`;
+    const downloadLink = `${currentSong.url}`;
 
     const clickRef = useRef();
 
@@ -85,7 +85,7 @@ const NawaqdhIslaam4 = () => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-7 px-8 mt-20 cursor-pointer mb-4">
-                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za matni Nawaqidhil Islaam cha Imamul Mujadid
                         Muhammad ibn Abdulwahaab ambazo ni miongoni mwa mutuun zilizokusanywa na
                         Dr. Abdulmuhseen ibn Muhammad Al-Qaasim zilizopewa jina Mutuun Twaalibul ilm

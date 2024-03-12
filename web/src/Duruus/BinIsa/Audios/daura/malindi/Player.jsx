@@ -61,7 +61,7 @@ const selectSong = (song) => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
-                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni Kalima nasauti za kitabu Usuulu Siita chake Imaam 
                     al Mujadid Muhammad Ibn Abdilwahaab kilichofundishwa na sheikh wetu Abu Issa Muhammad
                     Issa siku ya Daura Masjid Salafiya mjini Malindi</p><br />

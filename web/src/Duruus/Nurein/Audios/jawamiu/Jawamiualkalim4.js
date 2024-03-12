@@ -85,7 +85,7 @@ const Jawamiualkalim4 = () => {
         <div className=''>
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-7 px-8 mt-20 cursor-pointer mb-4">
-                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
+                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za Hadith zenye Jawamiu al Kalim zilizofundishwa na sheikh wetu Abu Uthmaan Nurein, Al-Jabarty</p><br />
                     {songs.map((song, index) => (
                         <div className='py-2' key={index} onClick={() => selectSong(song)}>
