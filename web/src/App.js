@@ -78,7 +78,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/suratul-ankabuut" element={<Ankabuut3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/eldama-ravine" element={<Eldamaravine3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/malindi" element={<Malindi3 />} />
-          {/* <Route path="/duruus/abu-issa-muhammad-issa/dawrah/sheikh-abdallah-al-qar'aawi" element={<Qaraawi2021 />} /> */}
+          <Route path="/duruus/abu-issa-muhammad-issa/dawrah/6-sheikh-abdallah-al-qar'aawi" element={<Qaraawi2021 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/talskhees-swifati-swala" element={<TalkheesSwifatiSwala3 />} />
           {/* <Route path="/duruus/abu-issa-muhammad-issa/tazkiyatu-nafsi/fadhlul-al-madina" element={<FadhlulMadina3 />} /> */}
 

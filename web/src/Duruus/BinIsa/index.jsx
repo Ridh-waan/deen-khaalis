@@ -10,9 +10,9 @@ import Eldamaravine3 from './Audios/daura/eldamaravine/Eldamaravine4';
 import FadhlulMadina3 from './Audios/tazkiyatunafsi/fadhlulmadina/FadhlulMadina3';
 import TalkheesSwifatiSwala3 from './Audios/fiqh/talkheesifatswala/TalkheesSwiftiSwala3';
 import Malindi3 from './Audios/daura/malindi/Malindi';
-import Qaraawi2021 from './Audios/daura/qaraawi/Qaraawi-2021-3';
 import Ankabuut3 from './Audios/tafseer/ankabut/Malindi';
 import QiswaruSuwar3 from './Audios/tafseer/qiswarusuwar/Malindi';
 import ArbaunaFiAhkaam3 from './Audios/hadeeth/arbaunafiahkaam/ArbaunaFiAhkaam';
+import Qaraawi2021 from './Audios/daura/qaraawi2021/Qaraawi-2021-3';
 export { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
-Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, ArbaunaFiAhkaam3 };
+Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021 };

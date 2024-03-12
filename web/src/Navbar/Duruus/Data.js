@@ -219,10 +219,10 @@ export const Teachers = [
                     //     id: 2,
                     //     name: "7 Sheikh Al Haafidh Al Hakamy",
                     // },
-                    // {
-                    //     id: 3,
-                    //     name: "Sheikh Abdallah Al-Qar'aawi",
-                    // },
+                    {
+                        id: 3,
+                        name: "6 Sheikh Abdallah Al-Qar'aawi",
+                    },
                     {
                         id: 4,
                         name: "Eldama Ravine",
