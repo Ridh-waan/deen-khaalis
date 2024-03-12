@@ -10,7 +10,7 @@ import Books from './Books/Books';
 import {Mihadhara1, KhutbazaIjumaa1} from './Duruus/Jilo/index'
 import { Mihadhara2, KhutbazaIjumaa2 } from './Duruus/Alamin';
 import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3,
-Hakami2021,Hakami2023, Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3 } from './Duruus/BinIsa/index'
+Hakami2021,Hakami2023, Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, ArbaunaFiAhkaam3 } from './Duruus/BinIsa/index'
 import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
   Istiqbal4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, KhutbaZaIdd4, Nyimbo4,
@@ -74,7 +74,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/hadeeth/al-muharar-fil-hadeeth" element={<Muharar3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/qiswaaru-suwar" element={<QiswaruSuwar3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/6-sheikh-al-haafidh-al-hakamy" element={<Hakami2021 />} />
-          {/* <Route path="/duruus/abu-issa-muhammad-issa/dawrah/7-sheikh-al-haafidh-al-hakamy" element={<Hakami2023 />} /> */}
+          <Route path="/duruus/abu-issa-muhammad-issa/hadeeth/arbauna-fil-ahkaam" element={<ArbaunaFiAhkaam3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/suratul-ankabuut" element={<Ankabuut3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/eldama-ravine" element={<Eldamaravine3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/malindi" element={<Malindi3 />} />

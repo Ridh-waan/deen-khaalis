@@ -105,13 +105,17 @@ export const Teachers = [
                 id: 2,
                 name: "Tafseer",
                 Books: [
-                    {
-                        id: 1,
-                        name: "Suratul Ankabuut",
-                    },
+                    // {
+                    //     id: 1,
+                    //     name: "Suratul Ankabuut",
+                    // },
                     {
                         id: 2,
                         name: "Qiswaaru Suwar",
+                    },
+                    {
+                        id: 3,
+                        name: "Suratul Ankabuut",
                     },
                     // {
                     //     id: 4,
@@ -128,7 +132,10 @@ export const Teachers = [
                         id: 4,
                         name: "Al Muharar fil Hadeeth",
                     },
-
+                    {
+                        id: 4,
+                        name: "Arbauna fil Ahkaam",
+                    },
                     // Add other books
                 ],
             },
