@@ -9,7 +9,7 @@ import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
 import {Mihadhara1, KhutbazaIjumaa1} from './Duruus/Jilo/index'
 import { Mihadhara2, KhutbazaIjumaa2 } from './Duruus/Alamin';
-import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3,
+import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3,
 Hakami2021,Hakami2023, Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, ArbaunaFiAhkaam3 } from './Duruus/BinIsa/index'
 import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
@@ -80,7 +80,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/malindi" element={<Malindi3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/6-sheikh-abdallah-al-qar'aawi" element={<Qaraawi2021 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/talskhees-swifati-swala" element={<TalkheesSwifatiSwala3 />} />
-          {/* <Route path="/duruus/abu-issa-muhammad-issa/tazkiyatu-nafsi/fadhlul-al-madina" element={<FadhlulMadina3 />} /> */}
+          <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/al-qabaair" element={<AlQabaair3 />} />
 
           {/**Duruus za Sheikh Nurein */}
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/bayaan/bayaan" element={<Bayaan4 />} />
