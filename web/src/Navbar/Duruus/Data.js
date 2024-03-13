@@ -82,14 +82,14 @@ export const Teachers = [
         id: 2,
         name: "Abu Issa Muhammad Issa",
         categories: [
-            // {
-            //     id: 1,
-            //     name: "Tawheed",
-            //     Books: [
-            //         {
-            //             id: 1,
-            //             name: "Kashfu Shubhaat",
-            //         },
+            {
+                id: 1,
+                name: "Tawheed",
+                Books: [
+                    {
+                        id: 1,
+                        name: "Wajibuna",
+                    },
             //         {
             //             id: 2,
             //             name: "Usulu Thalatha",
@@ -99,8 +99,8 @@ export const Teachers = [
             //             name: "Qawaeed Arba",
             //         },
             //         // Add other books
-            //     ],
-            // },
+                ],
+            },
             {
                 id: 2,
                 name: "Tafseer",

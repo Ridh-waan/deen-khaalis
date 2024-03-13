@@ -9,7 +9,7 @@ import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
 import {Mihadhara1, KhutbazaIjumaa1} from './Duruus/Jilo/index'
 import { Mihadhara2, KhutbazaIjumaa2 } from './Duruus/Alamin';
-import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3,
+import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3, Wajibuna3,
 Hakami2021,Hakami2023, Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, ArbaunaFiAhkaam3 } from './Duruus/BinIsa/index'
 import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
@@ -81,6 +81,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/6-sheikh-abdallah-al-qar'aawi" element={<Qaraawi2021 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/talskhees-swifati-swala" element={<TalkheesSwifatiSwala3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/al-qabaair" element={<AlQabaair3 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/tawheed/wajibuna" element={<Wajibuna3 />} />
 
           {/**Duruus za Sheikh Nurein */}
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/bayaan/bayaan" element={<Bayaan4 />} />
@@ -88,7 +89,7 @@ function App() {
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/qiyaamu-layl" element={<Qiyaam4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/ujumbe-mfupi-juu-ya-swaum" element={<UjumbeMfupiJuuyaSaum4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/imaam-abu-walidy-al-baajy" element={<AbuWalidy4 />} />
-          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/hadeeth/hadeeth-za-jawaamiu-al-kalama" element={<Jawamiualkalim4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/hadeeth/jawaamiu-al-kalim" element={<Jawamiualkalim4 />} />
           <Route path="duruus/abu-uthmaan-nurein-uthmaan-/mawaidha/faaida-mukhtasira" element={<Mawaidha4 />} />
           <Route path="duruus/abu-uthmaan-nurein-uthmaan-/mihadhara/huqmu-ya-nyimbo" element={<Nyimbo4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/mihadhara/mihadhara-mbali-mbali" element={<Mihadhara4 />} />
