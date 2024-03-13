@@ -16,5 +16,7 @@ import ArbaunaFiAhkaam3 from './Audios/hadeeth/arbaunafiahkaam/ArbaunaFiAhkaam';
 import Qaraawi2021 from './Audios/daura/qaraawi2021/Qaraawi-2021-3';
 import AlQabaair3 from './Audios/aqeeda/alkabaair/AlQabaair3';
 import Wajibuna3 from './Audios/aqeeda/wajibuna/Wajibuna3';
+import Usuluthalatha3 from './Audios/tawheed/usuluthalatha/Usuluthalatha3';
 export { MajmuuFatwa3, Wajibuna3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
-Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, AlQabaair3 };
+Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, 
+AlQabaair3, Usuluthalatha3 };

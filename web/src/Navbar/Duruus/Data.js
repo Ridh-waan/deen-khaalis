@@ -90,10 +90,10 @@ export const Teachers = [
                         id: 1,
                         name: "Wajibuna",
                     },
-            //         {
-            //             id: 2,
-            //             name: "Usulu Thalatha",
-            //         },
+                    {
+                        id: 2,
+                        name: "Usulu Thalatha",
+                    },
             //         {
             //             id: 3,
             //             name: "Qawaeed Arba",
