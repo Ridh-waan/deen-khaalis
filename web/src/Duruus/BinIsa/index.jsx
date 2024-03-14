@@ -24,6 +24,7 @@ import Swaad3 from './Audios/tafseer/swaad/Swaad3';
 import MinAkhlaaq3 from './Audios/seera/minakhlaaq/MinAkhaalq3';
 import Taqreeb3 from './Audios/seera/taqreeb/Taqreeb3';
 import KitabuIlmu3 from './Audios/hadeeth/kitabuilmu/KitabuIlmu3';
+import Kifaya3 from './Audios/hadeeth/kifaya/Kifaya3';
 export { MajmuuFatwa3, Wajibuna3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
-Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, 
+Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, Kifaya3,
 AlQabaair3, Usuluthalatha3, QawaidArbaa3, QashfaShubhaat3, Yuusuf3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3};
