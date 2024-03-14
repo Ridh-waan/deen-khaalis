@@ -113,10 +113,10 @@ export const Teachers = [
                         id: 1,
                         name: "Faidah min Qiswatu Yuusu",
                     },
-                    {
-                        id: 2,
-                        name: "Qiswaaru Suwar",
-                    },
+                    // {
+                    //     id: 2,
+                    //     name: "Qiswaaru Suwar",
+                    // },
                     {
                         id: 2,
                         name: "Suratu Ankabuut",
