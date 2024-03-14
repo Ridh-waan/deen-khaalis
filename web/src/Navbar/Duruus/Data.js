@@ -119,12 +119,12 @@ export const Teachers = [
                     },
                     {
                         id: 3,
-                        name: "Suratul Ankabuut",
+                        name: "Suratul Swaad",
                     },
-                    // {
-                    //     id: 4,
-                    //     name: "Faidah min Qiswatu Yuusuf",
-                    // },
+                    {
+                        id: 4,
+                        name: "Suratu Ankabuut",
+                    },
                     // Add other books
                 ],
             },
