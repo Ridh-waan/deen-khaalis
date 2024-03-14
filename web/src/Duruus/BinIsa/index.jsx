@@ -18,6 +18,7 @@ import AlQabaair3 from './Audios/aqeeda/alkabaair/AlQabaair3';
 import Wajibuna3 from './Audios/aqeeda/wajibuna/Wajibuna3';
 import Usuluthalatha3 from './Audios/tawheed/usuluthalatha/Usuluthalatha3';
 import QawaidArbaa3 from './Audios/tawheed/qawaidarbaa/QawaidArbaa3';
+import QashfaShubhaat3 from './Audios/tawheed/kashfashubhat/QashfaShubhaat3';
 export { MajmuuFatwa3, Wajibuna3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
 Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, 
-AlQabaair3, Usuluthalatha3, QawaidArbaa3 };
+AlQabaair3, Usuluthalatha3, QawaidArbaa3, QashfaShubhaat3};
