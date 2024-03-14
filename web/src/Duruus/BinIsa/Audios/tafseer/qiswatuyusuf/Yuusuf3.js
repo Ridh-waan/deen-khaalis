@@ -2,7 +2,7 @@ import Player from './Player.jsx';
 import { useRef, useState, useEffect } from 'react';
 import { malindidata } from './Data.js';
 import '../../../../../App.css'
-const Malindi3 = () => {
+const Yuusuf3 = () => {
   const [isplaying, setisplaying] = useState(false);
   const [currentSong, setCurrentSong] = useState(malindidata[0]);
   const [songs, setSongs] = useState(malindidata);
@@ -56,4 +56,4 @@ useEffect(() => {
   );
 }
 
-export default Malindi3 ;
+export default Yuusuf3 ;
