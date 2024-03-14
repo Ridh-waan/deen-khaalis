@@ -208,25 +208,25 @@ export const Teachers = [
                     // Add other books
                 ],
             },
-            // {
-            //     id: 6,
-            //     name: "Tazkiyatu Nafsi",
-            //     Books: [
-            //         {
-            //             id: 1,
-            //             name: "Min Akhalaq Rasulillah",
-            //         },
-            //         {
-            //             id: 2,
-            //             name: "Fadhlul Al Madina",
-            //         },
-            //         {
-            //             id: 3,
-            //             name: "Taqriib liSeerat Habiib",
-            //         },
-            //         // Add other books
-            //     ],
-            // },
+            {
+                id: 6,
+                name: "Tazkiyatu Nafsi",
+                Books: [
+                    // {
+                    //     id: 1,
+                    //     name: "Min Akhalaq Rasulillah",
+                    // },
+                    {
+                        id: 2,
+                        name: "Fadhlul Al Madina",
+                    },
+                    // {
+                    //     id: 3,
+                    //     name: "Taqriib liSeerat Habiib",
+                    // },
+                    // Add other books
+                ],
+            },
             {
                 id: 6,
                 name: "Dawrah",
