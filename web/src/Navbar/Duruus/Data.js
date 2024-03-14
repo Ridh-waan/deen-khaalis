@@ -118,12 +118,16 @@ export const Teachers = [
                         name: "Qiswaaru Suwar",
                     },
                     {
+                        id: 2,
+                        name: "Suratu Ankabuut",
+                    },
+                    {
                         id: 3,
                         name: "Suratul Swaad",
                     },
                     {
                         id: 4,
-                        name: "Suratu Ankabuut",
+                        name: "Suratu Hujraat",
                     },
                     // Add other books
                 ],
