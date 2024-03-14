@@ -177,25 +177,25 @@ export const Teachers = [
             //         // Add other books
             //     ],
             // },
-            // {
-            //     id: 6,
-            //     name: "Fiqhi",
-            //     Books: [
-            //         {
-            //             id: 1,
-            //             name: "Talskhees Swifati Swala",
-            //         },
-            //         {
-            //             id: 3,
-            //             name: "Kuiadhimisha Swala",
-            //         },
-            //         {
-            //             id: 4,
-            //             name: "Majmuu fatawa wa makalaat",
-            //         },
-            //         // Add other books
-            //     ],
-            // },
+            {
+                id: 6,
+                name: "Seera",
+                Books: [
+                    {
+                        id: 1,
+                        name: "Min akhlaaq",
+                    },
+                    {
+                        id: 3,
+                        name: "Taqreeb",
+                    },
+                    // {
+                    //     id: 4,
+                    //     name: "Majmuu fatawa wa makalaat",
+                    // },
+                    // Add other books
+                ],
+            },
             // {
             //     id: 6,
             //     name: "Tazkiyatu Nafsi",
