@@ -174,21 +174,21 @@ export const Teachers = [
                     // Add other books
                 ],
             },
-            // {
-            //     id: 5,
-            //     name: "Khutwab",
-            //     Books: [
-            //         {
-            //             id: 1,
-            //             name: "Khutba za Ijumaa",
-            //         },
-            //         {
-            //             id: 2,
-            //             name: "Khutba za Idd",
-            //         },
-            //         // Add other books
-            //     ],
-            // },
+            {
+                id: 5,
+                name: "Khutwab",
+                Books: [
+                    // {
+                    //     id: 1,
+                    //     name: "Khutba za Ijumaa",
+                    // },
+                    {
+                        id: 2,
+                        name: "Khutba za Idd",
+                    },
+                    // Add other books
+                ],
+            },
             {
                 id: 6,
                 name: "Seera",
