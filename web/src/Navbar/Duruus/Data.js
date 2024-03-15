@@ -194,6 +194,21 @@ export const Teachers = [
                 ],
             },
             {
+                id: 5,
+                name: "Fiqh",
+                Books: [
+                    {
+                        id: 1,
+                        name: "Majmuu fatawa",
+                    },
+                    // {
+                    //     id: 2,
+                    //     name: "Khutba za Idd",
+                    // },
+                    // Add other books
+                ],
+            },
+            {
                 id: 6,
                 name: "Seera",
                 Books: [

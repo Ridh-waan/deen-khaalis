@@ -72,7 +72,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaat-fil-aqeedah" element={<Akhtwaa3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/aqeedatu-arraziyain" element={<Raziyein3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/kuiadhimisha-swala" element={<KuiadhimishaSwala3 />} />
-          <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/majmuu-fatawa-wa-makalaat" element={<MajmuuFatwa3 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/fiqh/majmuu-fatawa" element={<MajmuuFatwa3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/hadeeth/al-muharar-fil-hadeeth" element={<Muharar3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/qiswaaru-suwar" element={<QiswaruSuwar3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/6-sheikh-al-haafidh-al-hakamy" element={<Hakami2021 />} />

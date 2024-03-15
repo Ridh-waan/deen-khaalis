@@ -2,7 +2,7 @@ import React from 'react'
 import Akhtwaa3 from './Audios/aqeeda/akhtwaa/Akhtwaa3';
 import Raziyein3 from './Audios/aqeeda/raziyein/Raziyein3';
 import KuiadhimishaSwala3 from './Audios/fiqh/kuidhimishswala/KuiadhimishaSwala3';
-import MajmuuFatwa3 from './Audios/fiqh/majmuufatwa/MajumuuFatawa4';
+import MajmuuFatwa3 from './Audios/fiqh/majmuufatawa/MajmuuFatwa3';
 import Muharar3 from './Audios/hadeeth/muharar/Muharar3';
 import Hakami2021 from './Audios/daura/hakami/2021/Hakami2021-3';
 import Hakami2023 from './Audios/daura/hakami/2023/Hakamai2023-3';
