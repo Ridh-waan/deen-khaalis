@@ -171,6 +171,10 @@ export const Teachers = [
                         id: 3,
                         name: "Al Qabaair",
                     },
+                    {
+                        id: 4,
+                        name: "Akhtwaa fil Aqeedah",
+                    },
                     // Add other books
                 ],
             },

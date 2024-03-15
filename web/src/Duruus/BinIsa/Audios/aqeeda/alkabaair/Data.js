@@ -296,4 +296,11 @@ export const AlQabaair3data = [
      { "title": "Darsa ya sabini na sita",
         "url": "https://ia800200.us.archive.org/12/items/12_20240309/%5B77%5D%20%D8%A8%D8%A7%D8%A8%20%D9%85%D8%A7%20%D8%AC%D8%A7%D8%A1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A8%D8%A9.mp3",
     },
+    {
+        "title": "Darsa ya sabini na saba",
+        "url": "https://archive.org/download/12_20240309/78_%D8%A8%D8%A7%D8%A8_%D9%85%D8%A7_%D8%AC%D8%A7%D8%A1_%D9%81%D9%8A_%D8%A5%D8%B6%D9%84%D8%A7%D9%84_%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D9%89_%D8%B9%D9%86_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82.mp3",
+     },
+     { "title": "Darsa ya sabini na nane",
+        "url": "https://archive.org/download/12_20240309/%5B79%5D%20%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%A9.mp3",
+    },
 ]

@@ -169,7 +169,7 @@ export const malindidata = [
         "url": "https://archive.org/download/26-halaqah-26/%5B45%5D%20Halaqah%2045.mp3",
     },
     {
-        "title": "Kikao cha thalathini na sita",
+        "title": "Kikao cha arubaini na sita",
         "url": "https://archive.org/download/26-halaqah-26/%5B46%5D%20Halaqah%2046.mp3",
     },
    

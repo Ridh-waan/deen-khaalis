@@ -189,6 +189,14 @@ export const malindidata = [
     },
     {
         "title": "Kikao cha hamsini",
-        "url": "    https://archive.org/download/06-mwendelezo-wa-hadith-8-9/%5B51%5D%20Hadith%201-3.mp3",
+        "url": "https://archive.org/download/06-mwendelezo-wa-hadith-8-9/%5B51%5D%20Hadith%201-3.mp3",
+    },
+    {
+        "title": "Kikao cha hamsini na moja",
+        "url": "https://archive.org/download/06-mwendelezo-wa-hadith-8-9/%5B52%5D%20Hadith%204-6.mp3",
+    },
+    {
+        "title": "Tawjihaat na nasiha baada ya kumalizika kitabu",
+        "url": "https://archive.org/download/06-mwendelezo-wa-hadith-8-9/Tawjihat%20Na%20Nasaih%20Baada%20Ya%20Kukimaliza%20Kitabu.png",
     },
 ]

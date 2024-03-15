@@ -1,36 +1,42 @@
-export const akhtwaadata = [
+export const Akhtwaa3data = [
     {
-        "title": "Darsa ya kwanza",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[01] Akhtwa'a Katika I'itiqaad (I).mp3"
+        "title": "Kikao cha kwanza",
+        "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B01%5D%20Akhtwa%27a%20Katika%20I%27itiqaad%20%28I%29.mp3",
+    },
+   
+    {
+        "title": "Darsa ya Pili",
+        "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B02%5D%20Akhtwa%27a%20Katika%20I%27itiqaad%20%28II%29.mp3",
     },
     {
-        "title": "Darsa ya pili",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[02] Akhtwa'a Katika I'itiqaad (II).mp3"
-    }, {
-        "title": "Darsa ya tatu",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[03] Akhtwa'a Katika I'itiqaad (III).mp3"
-    }, {
-        "title": "Darsa ya nne",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[04] Akhtwa'a Katika I'itiqaad (IV).mp3"
-    }, {
-        "title": "Darsa ya tano",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[05] Akhtwa'a Katika I'itiqaad (V).mp3"
-    }, {
-        "title": "Darsa ya sita",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[06] Akhtwa'a Katika I'itiqaad (VI).mp3"
-    }, {
-        "title": "Darsa ya saba",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[07] Akhtwa'a Katika Twahaara.mp3"
-    }, {
-        "title": "Darsa ya nane",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[08] Akhtwa'a Katika Swalah.mp3"
-    }, {
-        "title": "Darsa ya tisa",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[09] Akhtwa'a Katika Swalah (II).mp3"
-    }, {
-        "title": "Darsa ya kumi",
-        "url": "/Audios/bin_isa/aqedah/akhtwaakatikaaqida/[10] Akhtwa'a Katika Swalah (III).mp3"
-    },
-
-
+        "title": "Darsa ya Tatu",
+        "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B03%5D%20Akhtwa%27a%20Katika%20I%27itiqaad%20%28III%29.mp3",
+    }, 
+    {
+        "title": "Darsa ya Nne",
+        "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B04%5D%20Akhtwa%27a%20Katika%20I%27itiqaad%20%28IV%29.mp3",
+      },
+        {
+            "title": "Darsa ya tano",
+            "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B05%5D%20Akhtwa%27a%20Katika%20I%27itiqaad%20%28V%29.mp3",
+        },
+        {
+            "title": "Darsa ya sita",
+            "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B06%5D%20Akhtwa%27a%20Katika%20I%27itiqaad%20%28VI%29.mp3",
+        },
+        {
+            "title": "Darsa ya saba",
+            "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B07%5D%20Akhtwa%27a%20Katika%20Twahaara.mp3",
+        },
+        {
+            "title": "Darsa ya nane",
+            "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B08%5D%20Akhtwa%27a%20Katika%20Swalah.mp3",
+        }, {
+            "title": "Darsa ya tisa",
+            "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B09%5D%20Akhtwa%27a%20Katika%20Swalah%20%28II%29.mp3",
+        },
+        {
+            "title": "Darsa ya kumi",
+            "url": "https://archive.org/download/02-akhtwaa-katika-iitiqaad-ii/%5B10%5D%20Akhtwa%27a%20Katika%20Swalah%20%28III%29.mp3",
+        },
 ]

@@ -62,8 +62,8 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hizi ni sauti za kitabu Al Qabaair chake Imam Muhammad Ibn Abdilwahaab, kinachofundishwa na sheikh wetu Abu Issa Muhammad
-                    Issa  Masjid Khairaat, Tudor, sahii kimefika kikao cha 79</p><br />
+                    <p className='text-center'>Hizi ni sauti za kitabu Akhtwaat fil Aqeedah cha Sheikh
+                        Swaleh ibn Abdulaziz Al-Sheikh  Zilizotolewa na sheikh wetu Abu Issa Muhhamad Bin Issa</p><br />
                   
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>

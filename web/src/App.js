@@ -97,6 +97,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/tazkiyatu-nafsi/fadhlul-al-madina" element={<FadhlulMadina3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/khutwab/khutba-za-idd" element={<Idd3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/khutwab/khutba-za-ijumaa" element={<Ijumaa3 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaa-fil-aqeedah" element={<Akhtwaa3 />} />
 
           
           {/**Duruus za Sheikh Nurein */}
