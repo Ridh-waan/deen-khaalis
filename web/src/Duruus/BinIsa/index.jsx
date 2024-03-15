@@ -27,7 +27,9 @@ import Kifaya3 from './Audios/hadeeth/kifaya/Kifaya3';
 import Hujraat3 from './Audios/tafseer/hujuraat/Hujraat3';
 import QiswaruSuwar3 from './Audios/tafseer/qiswarusuwar/QiswaruSuwar3';
 import Idd3 from './Audios/idd/Idd3';
+import Ijumaa3 from './Audios/ijumaa/Ijumaa3';
+Ijumaa3
 export { MajmuuFatwa3, Wajibuna3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
 Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, Kifaya3,
 AlQabaair3, Usuluthalatha3, QawaidArbaa3, QashfaShubhaat3, Yuusuf3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3,
-Hujraat3, Idd3};
+Hujraat3, Idd3, Ijumaa3};
