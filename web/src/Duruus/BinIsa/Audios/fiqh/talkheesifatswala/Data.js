@@ -1,85 +1,85 @@
 export const talkheesswifatuswaladata = [
     {
         "title": "Utangulizi I",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[01] Ø§ÙÙÙØ¯ÙØ©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B01%5D%20%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9.mp3",
     },
     {
         "title": "Utanguizi II",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[02] Ø§ÙÙÙØ¯ÙØ© (II).mp3",
+        "url": "https://archive.org/download/18_20240315/%5B02%5D%20%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9%20%28II%29.mp3",
     },
     {
         "title": "Kikao cha Kwanza",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[03] Ø§Ø³ØªÙØ¨Ø§Ù Ø§ÙÙØ¹Ø¨Ø©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B03%5D%20%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84%20%D8%A7%D9%84%D9%83%D8%B9%D8%A8%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Pili",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[04] Ø§ÙÙÙØ§Ù.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B04%5D%20%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D9%85.mp3",
     }, {
         "title": "Kikao cha Tatu",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[05] Ø§ÙØµÙØ§Ø© ÙÙ Ø§ÙÙØ¹Ø§Ù.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B05%5D%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%86%D8%B9%D8%A7%D9%84.mp3",
     },
     {
         "title": "Kikao cha Nne",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/06_ÙØ¬ÙØ¨_Ø§ÙØµÙØ§Ø©_Ø¥ÙÙ_Ø³ØªØ±Ø©_ÙØ§ÙØ¯ÙÙ_ÙÙÙØ§.mp3",
+        "url": "https://archive.org/download/18_20240315/06_%D9%88%D8%AC%D9%88%D8%A8_%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9_%D8%A5%D9%84%D9%89_%D8%B3%D8%AA%D8%B1%D8%A9_%D9%88%D8%A7%D9%84%D8%AF%D9%86%D9%88_%D9%85%D9%86%D9%87%D8%A7.mp3",
     },
     {
         "title": "Kikao cha Tano",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[07] ØªØ­Ø±ÙÙ Ø§ÙØµÙØ§Ø© Ø¥ÙÙ Ø§ÙÙØ¨ÙØ±.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B07%5D%20%D8%AA%D8%AD%D8%B1%D9%8A%D9%85%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D8%A5%D9%84%D9%89%20%D8%A7%D9%84%D9%82%D8%A8%D9%88%D8%B1.mp3",
     },
     {
         "title": "Kikao cha Sita",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[08] ÙØ§ ÙÙØ·Ø¹ Ø§ÙØµÙØ§Ø©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B08%5D%20%D9%85%D8%A7%20%D9%8A%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Saba",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[09] Ø§ÙØªÙØ¨ÙØ±.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B09%5D%20%D8%A7%D9%84%D8%AA%D9%83%D8%A8%D9%8A%D8%B1.mp3",
     },
     {
         "title": "Kikao cha Nane",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[10] ÙØ¶Ø¹ Ø§ÙÙØ¯ÙÙ ÙÙÙÙÙØªÙ.mp33",
+        "url": "https://archive.org/download/18_20240315/%5B10%5D%20%D9%88%D8%B6%D8%B9%20%D8%A7%D9%84%D9%8A%D8%AF%D9%8A%D9%86%20%D9%88%D9%83%D9%8A%D9%81%D9%8A%D8%AA%D9%87.mp3",
     }, 
     {
         "title": "Kikao cha Tisa",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[11] Ø¯Ø¹Ø§Ø¡ Ø§ÙØ¥Ø³ØªÙØªØ§Ø­.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B11%5D%20%D8%AF%D8%B9%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D9%81%D8%AA%D8%A7%D8%AD.mp3",
     },
     {
         "title": "Kikao cha Kumi",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[12] ÙØ±Ø§Ø¡Ø© Ø§ÙÙØ§ØªØ­Ø©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B12%5D%20%D9%82%D8%B1%D8%A7%D8%A1%D8%A9%20%D8%A7%D9%84%D9%81%D8%A7%D8%AA%D8%AD%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Kumi na Moja",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[13] Ø§ÙÙØ±Ø§Ø¡Ø© Ø¨Ø¹Ø¯ Ø§ÙÙØ§ØªØ­Ø©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B13%5D%20%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9%20%D8%A8%D8%B9%D8%AF%20%D8%A7%D9%84%D9%81%D8%A7%D8%AA%D8%AD%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Kumi na Mbili",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[14] Ø§ÙØ¬ÙØ± ÙØ§ÙØ¥Ø³Ø±Ø§Ø± Ø¨Ø§ÙÙØ±Ø§Ø¡Ø©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B14%5D%20%D8%A7%D9%84%D8%AC%D9%87%D8%B1%20%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A8%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Kumi na Tatu",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[15] Ø§ÙÙØªØ­ Ø¹ÙÙ Ø§ÙØ¥ÙØ§Ù.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B15%5D%20%D8%A7%D9%84%D9%81%D8%AA%D8%AD%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85.mp3",
     }, {
         "title": "Kikao cha Kumi na Nne",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[16] Ø§ÙØ¥Ø¹ØªØ¯Ø§Ù ÙÙ Ø§ÙØ±ÙÙØ¹.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B16%5D%20%D8%A7%D9%84%D8%A5%D8%B9%D8%AA%D8%AF%D8%A7%D9%84%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B1%D9%83%D9%88%D8%B9.mp3",
     },
    
     {
         "title": "Kikao cha Kumi na Tano",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[17] Ø§ÙØ¥Ø¹ØªØ¯Ø§Ù ÙÙ Ø§ÙØ³Ø¬ÙØ¯.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B17%5D%20%D8%A7%D9%84%D8%A5%D8%B9%D8%AA%D8%AF%D8%A7%D9%84%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B3%D8%AC%D9%88%D8%AF.mp3",
     },
     {
         "title": "Kikao cha Kumi na Sita",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[18] Ø§ÙØ³Ø¬Ø¯Ø© Ø§ÙØ«Ø§ÙÙØ©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B18%5D%20%D8%A7%D9%84%D8%B3%D8%AC%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Kumi na Saba",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[19] ØªØ­Ø±ÙÙ Ø§ÙØ¥ØµØ¨Ø¹ ÙØ§ÙÙØ¸Ø± Ø¥ÙÙÙØ§.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B19%5D%20%D8%AA%D8%AD%D8%B1%D9%8A%D9%83%20%D8%A7%D9%84%D8%A5%D8%B5%D8%A8%D8%B9%20%D9%88%D8%A7%D9%84%D9%86%D8%B8%D8%B1%20%D8%A5%D9%84%D9%8A%D9%87%D8%A7.mp3",
     }, {
         "title": "Kikao cha Kumi na Nane",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/[20] Ø§ÙØ±ÙØ¹Ø© Ø§ÙØ«Ø§ÙØ«Ø© ÙØ§ÙØ±Ø§Ø¨Ø¹Ø©.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B20%5D%20%D8%A7%D9%84%D8%B1%D9%83%D8%B9%D8%A9%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9%20%D9%88%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.mp3",
     },
     {
         "title": "Kikao cha Kumi na Tisa",
-        "url": "/Audios/bin_isa/fiqh/talkhis swaifat swala/22_ÙØ¬ÙØ¨_Ø§ÙØµÙØ§Ø©_Ø¹ÙÙ_Ø§ÙÙØ¨Ù_ï·º_ÙØ§ÙØªØ¹ÙØ°_ÙÙ_Ø§ÙØ£Ø±Ø¨Ø¹_.mp3",
+        "url": "https://archive.org/download/18_20240315/%5B21%5D%20%D9%82%D9%86%D9%88%D8%AA%20%D8%A7%D9%84%D9%88%D8%AA%D8%B1%20%D9%88%D9%85%D8%AD%D9%84%D9%87%20%D9%88%D8%B5%D9%8A%D8%BA%D8%AA%D9%87.mp3",
     },
 
 ]

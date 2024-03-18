@@ -205,10 +205,14 @@ export const Teachers = [
                         id: 1,
                         name: "Majmuu fatawa",
                     },
-                    // {
-                    //     id: 2,
-                    //     name: "Khutba za Idd",
-                    // },
+                    {
+                        id: 2,
+                        name: "Talkhees sifatiswalah",
+                    },
+                    {
+                        id: 2,
+                        name: "Kuiadhimisha swalah",
+                    },
                     // Add other books
                 ],
             },

@@ -4,9 +4,10 @@ import {
     BsFillSkipEndCircleFill} from 'react-icons/bs';
 import { LuArrowDownToLine } from "react-icons/lu";
 import '../../../../Audio.scss'
+
 const BASE_URL = 'https://www.deenkhaalis.com'; // replace with your actual base URL
 const Player = ({ audioElem, isplaying, setisplaying, currentSong, setCurrentSong, songs }) => {
-    const downloadLink = `${BASE_URL}${currentSong.url}`;
+    const downloadLink = `${currentSong.url}`;
 
     const clickRef = useRef();
 
@@ -62,9 +63,8 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hizi ni sauti za kitabu Talkhees Swifat Swala chake Imaam 
-                    Muhammad Naasiru Diin Al-Albaany kilichofundishwa na sheikh wetu Abu Issa Muhammad Issa
-                     </p><br />
+                    <p className='text-center'>Hizi ni sauti za kitabu Ta'dhwimi swala cha Sheikh Abulrazaq Al Badr
+                        zilizotolewa na sheikh wetu Abu Issa Muhhamad Bin Issa </p><br />
                   
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>

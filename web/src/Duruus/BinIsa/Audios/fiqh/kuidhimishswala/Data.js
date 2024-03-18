@@ -1,50 +1,50 @@
-export const kuiadhimishaswaladat = [
+export const kuiadhimishaswaladata = [
     {
         "title": "Darsa ya kwanza",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[01].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B01%5D.mp3"
     },
     {
         "title": "Darsa ya tatu",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[03].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B03%5D.mp3"
     }, {
         "title": "Darsa ya sita",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[06].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B06%5D.mp3"
     }, {
         "title": "Darsa ya saba",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[07].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B07%5D.mp3"
     }, {
         "title": "Darsa ya nane",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[08].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B08%5D.mp3"
     }, {
         "title": "Darsa ya tisa",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[09].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B09%5D.mp3"
     }, {
         "title": "Darsa ya kumi",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[10].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B10%5D.mp3"
     }, {
         "title": "Darsa ya kumi na moja",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[11].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B11%5D.mp3"
     },
     {
         "title": "Darsa ya kumi na mbili",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[12].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B12%5D.mp3"
     }, {
         "title": "Darsa ya kumi na tatu",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[13].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B13%5D.mp3"
     }, {
         "title": "Darsa ya kumi na nne",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[14].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B14%5D.mp3"
     }, {
         "title": "Darsa ya kumi na tano",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[15].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B15%5D.mp3"
     }, {
         "title": "Darsa ya kumi na sita",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[16].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B16%5D.mp3"
     }, {
         "title": "Darsa ya kumi na saba",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[17].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B17%5D.mp3"
     }, {
         "title": "Darsa ya kumi na nane",
-        "url": "/Audios/bin_isa/fiqh/kuiadhimishaswala/[18].mp3"
+        "url": "https://archive.org/download/03_20240315_202403/%5B18%5D.mp3"
     },
 ]

@@ -71,7 +71,7 @@ function App() {
           {/**Duruus za Sheikh Bin Isa */}
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaat-fil-aqeedah" element={<Akhtwaa3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/aqeedatu-arraziyain" element={<Raziyein3 />} />
-          <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/kuiadhimisha-swala" element={<KuiadhimishaSwala3 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/fiqh/kuiadhimisha-swalah" element={<KuiadhimishaSwala3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/fiqh/majmuu-fatawa" element={<MajmuuFatwa3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/hadeeth/al-muharar-fil-hadeeth" element={<Muharar3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/qiswaaru-suwar" element={<QiswaruSuwar3 />} />
@@ -81,7 +81,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/eldama-ravine" element={<Eldamaravine3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/malindi" element={<Malindi3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/dawrah/6-sheikh-abdallah-al-qar'aawi" element={<Qaraawi2021 />} />
-          <Route path="/duruus/abu-issa-muhammad-issa/fiqhi/talskhees-swifati-swala" element={<TalkheesSwifatiSwala3 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/fiqh/talkhees-sifatiswalah" element={<TalkheesSwifatiSwala3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/al-qabaair" element={<AlQabaair3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tawheed/wajibuna" element={<Wajibuna3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tawheed/usulu-thalatha" element={<Usuluthalatha3 />} />
