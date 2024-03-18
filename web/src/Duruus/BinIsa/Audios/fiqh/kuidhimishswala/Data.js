@@ -6,7 +6,16 @@ export const kuiadhimishaswaladata = [
     {
         "title": "Darsa ya tatu",
         "url": "https://archive.org/download/03_20240315_202403/%5B03%5D.mp3"
-    }, {
+    },
+    {
+        "title": "Darsa ya nne",
+        "url": "    https://archive.org/download/03_20240315_202403/%5B04%5D.mp3"
+    },
+    {
+        "title": "Darsa ya tano",
+        "url": "https://archive.org/download/03_20240315_202403/%5B05%5D.mp3"
+    },
+    {
         "title": "Darsa ya sita",
         "url": "https://archive.org/download/03_20240315_202403/%5B06%5D.mp3"
     }, {
