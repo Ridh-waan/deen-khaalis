@@ -7,7 +7,7 @@ import '../../../../../../Duruus/Audio.scss'
 
 const BASE_URL = 'https://www.deenkhaalis.com'; // replace with your actual base URL
 const Player = ({ audioElem, isplaying, setisplaying, currentSong, setCurrentSong, songs }) => {
-    const downloadLink = `${BASE_URL}${currentSong.url}`;
+    const downloadLink = `${currentSong.url}`;
 
     const clickRef = useRef();
 
@@ -65,7 +65,7 @@ const selectSong = (song) => {
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                     <p className='text-center'>Hizi ni sauti za kitabu Swareehi Suuna chake Imaam 
                     Abu Ja'faar Ibn Jariir Attwabary kilichofundishwa na sheikh wetu Abu Issa Muhammad
-                    Issa siku za Daura ya sita iliyopewajina Sheikh Al Haafidh Al Hakamy</p><br />
+                    Issa siku za Daura ya sita 2021 iliyopewajina Sheikh Al Haafidh Al Hakamy</p><br />
                   
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>
