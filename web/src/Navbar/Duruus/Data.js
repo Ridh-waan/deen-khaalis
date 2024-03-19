@@ -99,8 +99,15 @@ export const Teachers = [
                         name: "Qawaeed Arba",
                     },
                     {
-                        id: 3,
+                        id: 4,
                         name: "Qashf shubhaat",
+                    },
+                    {
+                        id: 5,
+                        name: "Kitabu Tawheed",
+                    }, {
+                        id: 6,
+                        name: "Usulu Sittah",
                     },
             //         // Add other books
                 ],
