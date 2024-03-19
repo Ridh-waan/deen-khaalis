@@ -62,8 +62,8 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                <p className='text-center'>Hizi ni sauti za kitabu Manhaj Salikeen chake Sheikh Abdurahmaan Ibn Naasir Assiydi  kilichofundishwa na sheikh wetu Abu Issa Muhammad
-                    Issa </p><br />
+                <p className='text-center'>Hizi ni sauti za kitabu Fadhlul Islaam chake Sheikh Muhammad Ibn Abdilwahaab  kilichofundishwa na sheikh wetu Abu Issa Muhammad
+                    Issa, Masjid Mariam Kisauni </p><br />
                   
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>
