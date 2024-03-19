@@ -142,6 +142,10 @@ export const Teachers = [
                     },
                     {
                         id: 6,
+                        name: "Juzuu Amma",
+                    },
+                    {
+                        id: 6,
                         name: "Qiswaaru Suwar",
                     },
                     // Add other books
