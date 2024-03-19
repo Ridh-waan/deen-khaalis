@@ -35,7 +35,7 @@ export const malindidata = [
         "url": "https://archive.org/download/30-riwayah-156-168/%5B09%5D%20Riwayah%2039-43.mp3",
     }, {
         "title": "Riwaya ya 44-48",
-        "url": "https://archive.org/download/30-riwayah-156-168/%5B10%5D%20Riwayah%2044-48.png",
+        "url": "https://archive.org/download/30-riwayah-156-168/%5B10%5D%20Riwayah%2044-48.mp3",
     },
     {
         "title": "Riwaya ya 49-53",
