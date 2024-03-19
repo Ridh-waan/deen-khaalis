@@ -187,6 +187,10 @@ export const Teachers = [
                         id: 5,
                         name: "Swareehi Sunnah",
                     },
+                    {
+                        id: 6,
+                        name: "Al Ubuudiyah",
+                    },
                     // Add other books
                 ],
             },
