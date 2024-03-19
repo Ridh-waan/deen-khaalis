@@ -33,7 +33,8 @@ import UmdatulMara3 from './Audios/hadeeth/umdatulmara/UmdatulMara3';
 import Ubuudiya3 from './Audios/aqeeda/ubuudiya/Ubuudiya3';
 import KitabuTawheed3 from './Audios/tawheed/kitabutawheed/KitabuTawheed3';
 import UsuluSittah3 from './Audios/tawheed/usuusittah/UsuluSittah3';
+import SuratulMulk3 from './Audios/tafseer/suratulmulk/SuratulMulk3';
 export { MajmuuFatwa3, Wajibuna3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
 Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, Kifaya3,
 AlQabaair3, Usuluthalatha3, QawaidArbaa3, QashfaShubhaat3, Yuusuf3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3,
-Hujraat3, Idd3, Ijumaa3, SwareeheSunnah3, UmdatulMara3, Ubuudiya3, KitabuTawheed3, UsuluSittah3};
+Hujraat3, Idd3, Ijumaa3, SwareeheSunnah3, UmdatulMara3, Ubuudiya3, KitabuTawheed3, UsuluSittah3, SuratulMulk3};

@@ -138,6 +138,10 @@ export const Teachers = [
                     },
                     {
                         id: 5,
+                        name: "Suratul Mulk",
+                    },
+                    {
+                        id: 6,
                         name: "Qiswaaru Suwar",
                     },
                     // Add other books
