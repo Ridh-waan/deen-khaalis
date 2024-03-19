@@ -237,12 +237,16 @@ export const Teachers = [
                         name: "Talkhees sifatiswalah",
                     },
                     {
-                        id: 2,
+                        id: 3,
                         name: "Kuiadhimisha swalah",
                     },
                     {
-                        id: 2,
+                        id: 4,
                         name: "Manhaj salikeen",
+                    },
+                    {
+                        id: 5,
+                        name: "Adabul Mashiy",
                     },
                     // Add other books
                 ],
@@ -278,10 +282,10 @@ export const Teachers = [
                         id: 2,
                         name: "Fadhlul Al Madina",
                     },
-                    // {
-                    //     id: 3,
-                    //     name: "Taqriib liSeerat Habiib",
-                    // },
+                    {
+                        id: 3,
+                        name: "Al Wasaail Mufidah",
+                    },
                     // Add other books
                 ],
             },
