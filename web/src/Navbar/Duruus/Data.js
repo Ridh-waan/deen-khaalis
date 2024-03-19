@@ -236,6 +236,10 @@ export const Teachers = [
                         id: 2,
                         name: "Kuiadhimisha swalah",
                     },
+                    {
+                        id: 2,
+                        name: "Manhaj salikeen",
+                    },
                     // Add other books
                 ],
             },
