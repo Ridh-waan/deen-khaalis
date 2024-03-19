@@ -270,10 +270,10 @@ export const Teachers = [
                 id: 6,
                 name: "Tazkiyatu Nafsi",
                 Books: [
-                    // {
-                    //     id: 1,
-                    //     name: "Min Akhalaq Rasulillah",
-                    // },
+                    {
+                        id: 1,
+                        name: "Adurusul Muhimmah",
+                    },
                     {
                         id: 2,
                         name: "Fadhlul Al Madina",
