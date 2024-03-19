@@ -1,11 +1,11 @@
 import Player from './Player.jsx';
 import { useRef, useState, useEffect } from 'react';
-import { malindidata } from './Data.js';
+import { fadhlulmadinadat } from './Data.js';
 import '../../../../../App.css'
-const Malindi3 = () => {
+const JuzuuAmma3 = () => {
   const [isplaying, setisplaying] = useState(false);
-  const [currentSong, setCurrentSong] = useState(malindidata[0]);
-  const [songs, setSongs] = useState(malindidata);
+  const [currentSong, setCurrentSong] = useState(fadhlulmadinadat[0]);
+  const [songs, setSongs] = useState(fadhlulmadinadat);
 
   const onPlaying = () => {
     const duration = audioElem.current.duration;
@@ -56,4 +56,4 @@ useEffect(() => {
   );
 }
 
-export default Malindi3 ;
+export default JuzuuAmma3 ;
