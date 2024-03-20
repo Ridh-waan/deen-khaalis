@@ -13,7 +13,7 @@ import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, Qiswar
 Hakami2021, Yuusuf3, Eldamaravine3, QashfaShubhaat3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, 
 ArbaunaFiAhkaam3, Usuluthalatha3, QawaidArbaa3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3, Kifaya3, Hujraat3,
 FadhlulMadina3, Idd3, Ijumaa3, SwareeheSunnah3, UmdatulMara3, Ubuudiya3, KitabuTawheed3, UsuluSittah3, SuratulMulk3,
- ManhajSalikeen3, FadhluIslaam3, DurusulMuhimmah3, WasaailMufidah3, AdabulMashii3, JuzuuAmma3} from './Duruus/BinIsa/index'
+ ManhajSalikeen3, FadhluIslaam3, DurusulMuhimmah3, WasaailMufidah3, AdabulMashii3, JuzuuAmma3, Lumua3} from './Duruus/BinIsa/index'
 import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
   Istiqbal4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, KhutbaZaIdd4, Nyimbo4,
@@ -111,7 +111,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/tazkiyatu-nafsi/al-wasaail-mufidah" element={<WasaailMufidah3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/fiqh/adabul-mashiy" element={<AdabulMashii3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/juzuu-amma" element={<JuzuuAmma3 />} />
-
+          <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/lumuat-itqaad" element={<Lumua3 />} />
           
           
           
