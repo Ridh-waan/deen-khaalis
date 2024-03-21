@@ -81,7 +81,10 @@ export const Teachers = [
                         id: 1,
                         name: "3 Al Haafidh Hakamy",
                     },
-
+                    {
+                        id: 1,
+                        name: "6 Al Haafidh Hakamy",
+                    },
                   
                     // Add other books
                 ],
