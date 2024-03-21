@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from 'react';
 import { mihadharadata } from './Data.js';
 import '../../../../App.css'
 
-const Hakami2018 = () => {
+const QawaidArbaa1 = () => {
   const [isplaying, setisplaying] = useState(false);
   const [currentSong, setCurrentSong] = useState(mihadharadata[0]);
   const [songs, setSongs] = useState(mihadharadata);
@@ -27,7 +27,7 @@ const Hakami2018 = () => {
     }
   }, [isplaying, currentSong]);
 
-  // Add this line inside the Hakami2018 component
+  // Add this line inside the QawaidArbaa1 component
 useEffect(() => {
   const audioElement = audioElem.current;
   const handleAudioEnd = () => {
@@ -57,4 +57,4 @@ useEffect(() => {
   );
 }
 
-export default Hakami2018 ;
+export default QawaidArbaa1 ;

@@ -5,6 +5,23 @@ export const Teachers = [
         categories: [
             {
                 id: 1,
+                name: "Tawheed",
+                Books: [
+                    {
+                        id: 1,
+                        name: "Qawaid Arbaa",
+                    },
+                    // {
+                    //     id: 2,
+                    //     name: "Usulu Thalatha",
+                    //     content: "Content for Usulu thalatha goes here"
+                    // },
+                    
+                    // Add other books
+                ],
+            },
+            {
+                id: 1,
                 name: "Mihadhara",
                 Books: [
                     {
@@ -53,6 +70,19 @@ export const Teachers = [
                     //     id: 6,
                     //     name: "Ibn Majah",
                     // },
+                    // Add other books
+                ],
+            },
+            {
+                id: 3,
+                name: "Dawrah",
+                Books: [
+                    {
+                        id: 1,
+                        name: "3 Al Haafidh Hakamy",
+                    },
+
+                  
                     // Add other books
                 ],
             },
