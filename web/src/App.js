@@ -7,7 +7,7 @@ import AboutUs from './Navbar/AboutUs';
 import Academy from './Navbar/Academy';
 import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
-import {Mihadhara1, KhutbazaIjumaa1} from './Duruus/Jilo/index'
+import {Mihadhara1, KhutbazaIjumaa1, Shamail1} from './Duruus/Jilo/index'
 import { Mihadhara2, KhutbazaIjumaa2 } from './Duruus/Alamin';
 import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3, Wajibuna3,
 Hakami2021, Yuusuf3, Eldamaravine3, QashfaShubhaat3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, 
@@ -64,7 +64,9 @@ function App() {
                   {/**Duruus za Sheikh Jilo */}
          <Route path="/duruus/abu-feiswal-uthmaan-jilo/mihadhara/mihadhara" element={<Mihadhara1 />} />
          <Route path="/duruus/abu-feiswal-uthmaan-jilo/khutwab/khuta-za-ijumaa" element={<KhutbazaIjumaa1 />} />
+         <Route path="/duruus/abu-feiswal-uthmaan-jilo/hadeeth/shamaail-muhammadiyah" element={<Shamail1 />} />
 
+         
          {/**Duruus za Sheikh Alamin */}
          <Route path="/duruus/abu-ibraheem-alamin-saeed/mihadhara/mihadhara" element={<Mihadhara2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa2 />} />
