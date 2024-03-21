@@ -27,5 +27,9 @@ export const mihadharadata = [
         "title": "Kuwa na bidii kupata mwisho mwema",
         "url": "https://ia601307.us.archive.org/32/items/msimamo-wa-twalib-ilm-panapo-ikhtilafu-kati-ya-mashekhe/AUD-20190818-WA0014.mp3",
     },
+    {
+        "title": "Umuhimu wa kusoma dini",
+        "url": "https://archive.org/download/msimamo-wa-twalib-ilm-panapo-ikhtilafu-kati-ya-mashekhe/Daura%20Masjid%20Bilal%20%5BUtangulizi%20-Jilo%5D.mp3",
+    },
 ]
 
