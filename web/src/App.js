@@ -19,7 +19,7 @@ Hakami2021, Yuusuf3, Eldamaravine3, QashfaShubhaat3, TalkheesSwifatiSwala3, Mali
 ArbaunaFiAhkaam3, Usuluthalatha3, QawaidArbaa3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3, Kifaya3, Hujraat3,
 FadhlulMadina3, Idd3, Ijumaa3, SwareeheSunnah3, UmdatulMara3, Ubuudiya3, KitabuTawheed3, UsuluSittah3, SuratulMulk3,
  ManhajSalikeen3, FadhluIslaam3, DurusulMuhimmah3, WasaailMufidah3, AdabulMashii3, JuzuuAmma3, Lumua3, Kalima3,
-SuratulQalam3, SuratulAmbiyyah3} from './Duruus/BinIsa/index'
+SuratulQalam3, SuratulAmbiyyah3, DurarulBahiyyah3} from './Duruus/BinIsa/index'
 
 
  import {
@@ -139,6 +139,7 @@ function App() {
           <Route path="/duruus/abu-issa-muhammad-issa/tazkiyatu-nafsi/kalima" element={<Kalima3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/suratul-qalam" element={<SuratulQalam3 />} />
           <Route path="/duruus/abu-issa-muhammad-issa/tafseer/suratul-ambiyyah" element={<SuratulAmbiyyah3 />} />
+          <Route path="/duruus/abu-issa-muhammad-issa/fiqh/durarul-bahiyyah" element={<DurarulBahiyyah3 />} />
 
           
           {/**Duruus za Sheikh Nurein */}

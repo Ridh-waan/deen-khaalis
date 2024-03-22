@@ -387,6 +387,10 @@ export const Teachers = [
                         id: 5,
                         name: "Adabul Mashiy",
                     },
+                    {
+                        id: 5,
+                        name: "Durarul Bahiyyah",
+                    },
                     // Add other books
                 ],
             },

@@ -31,7 +31,7 @@ export const malindidata = [
     },
     
     {
-        "title": "Kalima Masjid Bilaal, Kisauni",
+        "title": "Kalima ya ufunguzi wa Dawra ya Sheikh Muhammad Ibn Abdilwahaab Al-Wasaaby Masjid Bilaal, Kisauni",
         "url": "https://archive.org/download/20240315_20240315_1247/ufunguzi%20wa%20daura%20bilaal.mp3",
     },
     {
@@ -41,6 +41,10 @@ export const malindidata = [
     {
         "title": "Uisilamu umejengwa juu ya Elimu na kuifanyia kazi elimu hio",
         "url": "https://archive.org/download/20240315_20240315_1247/%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%85%20%D9%88%D8%B9%D9%85%D9%84.mp3",
+    },
+    {
+        "title": "Fungeni kwa kuona mwezi",
+        "url": "https://archive.org/download/01-fungeni-kwa-kuuona-na-kuleni-kwa-kuuona/01%20-%20Fungeni%20kwa%20Kuuona%20na%20Kuleni%20kwa%20Kuuona.mp3",
     },
     {
         "title": "Kalima ya kufungwa kwa Dawrah ya Sheikh Haafidh Al Hakamy 2021",
