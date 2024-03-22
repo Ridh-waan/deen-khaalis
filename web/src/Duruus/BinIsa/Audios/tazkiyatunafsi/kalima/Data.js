@@ -26,6 +26,19 @@ export const malindidata = [
         "url": "https://archive.org/download/20240315_20240315_1247/%D8%A3%D8%AD%D9%83%D8%A7%D9%85%20%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B6%D8%AD%D9%89.mp3",
     },
     {
+        "title": "Thdhari na matamanio marefu",
+        "url": "https://archive.org/download/20240315_20240315_1247/Tahadhari%20na%20Matamanio%20Marefu.mp3",
+    },
+    
+    {
+        "title": "Kalima Masjid Bilaal, Kisauni",
+        "url": "https://archive.org/download/20240315_20240315_1247/ufunguzi%20wa%20daura%20bilaal.mp3",
+    },
+    {
+        "title": "Uhakika wa swaum na matunda yake",
+        "url": "https://archive.org/download/20240315_20240315_1247/Uhakika%20wa%20Swaum%20na%20Matunda%20Yake.mp3",
+    },
+    {
         "title": "Uisilamu umejengwa juu ya Elimu na kuifanyia kazi elimu hio",
         "url": "https://archive.org/download/20240315_20240315_1247/%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%85%20%D9%88%D8%B9%D9%85%D9%84.mp3",
     },
