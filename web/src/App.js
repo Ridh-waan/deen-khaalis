@@ -11,7 +11,7 @@ import {Mihadhara1, KhutbazaIjumaa1, Shamail1, Hakami2018, QawaidArbaa1, ManhajS
 
 
 import { Mihadhara2, KhutbazaIjumaa2, Ubudiya2, Shurutuswala2, Idd2, Bulughu2, AbuDawd2, Alwasaail2,
-Bahjat2 } from './Duruus/Alamin';
+Bahjat2, Bukhary2 } from './Duruus/Alamin';
 
 
 import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3, Wajibuna3,
@@ -88,6 +88,7 @@ function App() {
          <Route path="/duruus/abu-ibraheem-alamin-saeed/hadeeth/abu-daud" element={<AbuDawd2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/tazkiyatu-nafs/al-wasaail-al-mufidah" element={<Alwasaail2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/dawrah/6-al-haafidh-hakamy" element={<Bahjat2 />} />
+         <Route path="/duruus/abu-ibraheem-alamin-saeed/dawrah/3-al-haafidh-hakamy" element={<Bukhary2 />} />
 
           {/**Duruus za Sheikh Bin Isa */}
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaat-fil-aqeedah" element={<Akhtwaa3 />} />

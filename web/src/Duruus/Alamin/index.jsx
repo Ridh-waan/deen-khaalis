@@ -7,6 +7,7 @@ import Bulughu2 from "./Audios/bulughu/Bulughu2";
 import AbuDawd2 from "./Audios/abudawd/AbuDawd2";
 import Bahjat2 from "./Audios/bahjat/Bahjat2";
 import Alwasaail2 from "./Audios/alwasaail/Alwasaail2";
+import Bukhary2 from "./Audios/bukhary/Bukhary2";
 export {
-    Mihadhara2, KhutbazaIjumaa2, Ubudiya2, Shurutuswala2, Idd2, Bulughu2, AbuDawd2, Alwasaail2, Bahjat2
+    Mihadhara2, KhutbazaIjumaa2, Ubudiya2, Shurutuswala2, Idd2, Bulughu2, AbuDawd2, Alwasaail2, Bahjat2, Bukhary2
 };
