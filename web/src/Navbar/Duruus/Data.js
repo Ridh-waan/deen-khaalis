@@ -247,10 +247,10 @@ export const Teachers = [
                         id: 1,
                         name: "Faidah min Qiswatu Yuusu",
                     },
-                    // {
-                    //     id: 2,
-                    //     name: "Qiswaaru Suwar",
-                    // },
+                    {
+                        id: 2,
+                        name: "Suratul Ambiyyah",
+                    },
                     {
                         id: 2,
                         name: "Suratu Ankabuut",
@@ -266,6 +266,10 @@ export const Teachers = [
                     {
                         id: 5,
                         name: "Suratul Mulk",
+                    },
+                    {
+                        id: 5,
+                        name: "Suratul Qalam",
                     },
                     {
                         id: 6,
