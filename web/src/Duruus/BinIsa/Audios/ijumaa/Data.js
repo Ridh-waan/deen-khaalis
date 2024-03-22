@@ -12,6 +12,10 @@ export const malindidata = [
         "url": "https://archive.org/download/20-iv_202403/Kuwa%20Muadilifu%20Na%20Watu.mp3",
     },
     {
+        "title": "Faida za adhkaar",
+        "url": "https://archive.org/download/sharti-ya-4/FAIDA%20ZA%20DHIKRI.mp3",
+    },
+    {
         "title": "Mambo yanayosaidia kuepuka fitna",
         "url": "https://archive.org/download/20-iv_202403/Mambo%20Yanayosaidia%20Kuepuka%20Fitna.mp3",
     },

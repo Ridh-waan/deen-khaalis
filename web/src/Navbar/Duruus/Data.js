@@ -113,6 +113,22 @@ export const Teachers = [
                 ],
             },
             {
+                id: 2,
+                name: "Fiqh",
+                Books: [
+                    {
+                        id: 4,
+                        name: "Shuruutu Swalah",
+                    },
+                    // {
+                    //     id: 5,
+                    //     name: "Muslim",
+                    // },
+                   
+                    // Add other books
+                ],
+            },
+            {
                 id: 1,
                 name: "Mihadhara",
                 Books: [
