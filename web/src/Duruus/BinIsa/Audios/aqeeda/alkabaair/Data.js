@@ -303,4 +303,11 @@ export const AlQabaair3data = [
      { "title": "Darsa ya sabini na nane",
         "url": "https://archive.org/download/12_20240309/%5B79%5D%20%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B1%D8%B4%D9%88%D8%A9.mp3",
     },
+    {
+        "title": "Darsa ya sabini na tisa",
+        "url": "https://archive.org/download/12_20240309/%5B80%5D%20%D8%A8%D8%A7%D8%A8%20%D9%87%D8%AF%D8%A7%D9%8A%D8%A7%20%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%A1%20%D8%BA%D9%84%D9%88%D9%84.mp3",
+     },
+     { "title": "Darsa ya thamanini",
+        "url": "https://archive.org/download/12_20240309/%5B81%5D%20%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%87%D8%AF%D9%8A%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B4%D9%81%D8%A7%D8%B9%D8%A9.mp3",
+    },
 ]
