@@ -62,8 +62,9 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hii ni mihadhara mbali mbali iliyotolewa na sheikh wetu Abu Ibraheem Al-amiin Said </p><br />
-                  
+                <p className='text-center'>Hizi ni sauti ya Babu tafrii abuwaab shahr Ramadhan kilichochukuliwa kutoka kwenye kitabu
+                    Sunan Abu Daud chake Imaam Abu Daud Suleimnaan Ibn Ash'ath Asijistaany kilichofundishwa na sheikh wetu Abu Ibraheem Al-amiin Said 
+                    huko kisiwani Lamu, Masjid Sheikh Swaleh Abdallah Al-Faris</p><br />                  
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>
         <span>{index + 1}.</span> {song.title} 
