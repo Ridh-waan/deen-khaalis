@@ -442,6 +442,10 @@ export const Teachers = [
                 Books: [
                     {
                         id: 1,
+                        name: "3 Sheikh Al Haafidh Al Hakamy",
+                    },
+                    {
+                        id: 1,
                         name: "6 Sheikh Al Haafidh Al Hakamy",
                     },
                     // {
