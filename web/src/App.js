@@ -10,7 +10,7 @@ import Books from './Books/Books';
 import {Mihadhara1, KhutbazaIjumaa1, Shamail1, Hakami2018, QawaidArbaa1, ManhajSalikiin1} from './Duruus/Jilo/index'
 
 
-import { Mihadhara2, KhutbazaIjumaa2, Ubudiya2, Shurutuswala2, Idd2, Bulughu2, AbuDawd2 } from './Duruus/Alamin';
+import { Mihadhara2, KhutbazaIjumaa2, Ubudiya2, Shurutuswala2, Idd2, Bulughu2, AbuDawd2, Alwasaail2 } from './Duruus/Alamin';
 
 
 import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3, Wajibuna3,
@@ -85,6 +85,7 @@ function App() {
          <Route path="/duruus/abu-ibraheem-alamin-saeed/khutwab/khutba-za-idd" element={<Idd2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/hadeeth/bulughul-maraam" element={<Bulughu2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/hadeeth/abu-daud" element={<AbuDawd2 />} />
+         <Route path="/duruus/abu-ibraheem-alamin-saeed/tazkiyatu-nafs/al-wasaail-al-mufidah" element={<Alwasaail2 />} />
 
           {/**Duruus za Sheikh Bin Isa */}
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaat-fil-aqeedah" element={<Akhtwaa3 />} />

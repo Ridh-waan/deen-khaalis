@@ -118,7 +118,7 @@ export const Teachers = [
                     },
                     {
                         id: 4,
-                        name: "Abu Daud",
+                        name: "Sunan Abu Daud",
                     },
                    
                     // Add other books
@@ -147,6 +147,18 @@ export const Teachers = [
                     {
                         id: 1,
                         name: "Mihadhara",
+                    },
+                   
+                    // Add other books
+                ],
+            },
+            {
+                id: 1,
+                name: "Tazkiyatu Nafs",
+                Books: [
+                    {
+                        id: 1,
+                        name: "Al Wasaail Al Mufidah",
                     },
                    
                     // Add other books
