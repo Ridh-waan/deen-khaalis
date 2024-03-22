@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from 'react';
 import { mihadharadata } from './Player/Data.js';
 import '../../../../App.css'
 
-const Mihadhara2 = () => {
+const Bulughu2 = () => {
   const [isplaying, setisplaying] = useState(false);
   const [currentSong, setCurrentSong] = useState(mihadharadata[0]);
   const [songs, setSongs] = useState(mihadharadata);
@@ -27,7 +27,7 @@ const Mihadhara2 = () => {
     }
   }, [isplaying, currentSong]);
 
-  // Add this line inside the Mihadhara2 component
+  // Add this line inside the Bulughu2 component
 useEffect(() => {
   const audioElement = audioElem.current;
   const handleAudioEnd = () => {
@@ -57,4 +57,4 @@ useEffect(() => {
   );
 }
 
-export default Mihadhara2 ;
+export default Bulughu2 ;

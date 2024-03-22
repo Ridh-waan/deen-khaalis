@@ -62,7 +62,8 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hii ni mihadhara mbali mbali iliyotolewa na sheikh wetu Abu Ibraheem Al-amiin Said </p><br />
+                    <p className='text-center'>Hizi ni sauti ya Kitabu Janaaiz kilichochukuliwa kutoka kwenye kitabu
+                    Bulughul Maraam chake Al Haafidh Ibn Hajar Al-Asqalaany kilichofundishwa na sheikh wetu Abu Ibraheem Al-amiin Said </p><br />
                   
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>
