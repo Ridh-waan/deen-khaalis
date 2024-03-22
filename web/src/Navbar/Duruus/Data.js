@@ -391,6 +391,10 @@ export const Teachers = [
                         id: 5,
                         name: "Durarul Bahiyyah",
                     },
+                    {
+                        id: 5,
+                        name: "Al Kifayyah",
+                    },
                     // Add other books
                 ],
             },
@@ -454,7 +458,7 @@ export const Teachers = [
                     // },
                     {
                         id: 3,
-                        name: "3 Sheikh Abdallah Al-Qar'aawi",
+                        name: "4 Sheikh Abdallah Al-Qar'aawi",
                     },
                     {
                         id: 3,

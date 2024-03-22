@@ -1,6 +1,6 @@
 export const qaraawi2021data = [
     {
-        "title": "Kujihadhari na Magonjw aya Moyo",
+        "title": "Kujihadhari na Magonjwa ya Moyo",
         "url": "https://ia600202.us.archive.org/27/items/05_20240309_202403/%D8%A7%D9%84%D8%AD%D8%B0%D8%B1%20%D9%85%D9%86%20%D8%A3%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D9%82%D9%84%D9%88%D8%A8.mp3",
     },
     {

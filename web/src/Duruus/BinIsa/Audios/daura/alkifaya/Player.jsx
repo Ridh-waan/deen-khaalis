@@ -62,9 +62,9 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-28 px-8 mt-2 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ مِٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hizi ni sauti za kitabu Nurul Baswaair chake 
+                    <p className='text-center'>Hizi ni sauti za kitabu Al Kifayyah chake 
         Sheikh Abdurahmaan Naasir As Siidy kilichofundishwa na sheikh wetu Abu Issa Muhammad Issa
-                    siku ya Dawra ya nne ya Sheikh Abdallah Al Qaraawi
+                    siku ya Dawra ya sita ya Sheikh Abdallah Al Qaraawi
                      </p><br />
                   
                     {songs.map((song, index) => (
