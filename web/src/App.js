@@ -8,13 +8,19 @@ import Academy from './Navbar/Academy';
 import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
 import {Mihadhara1, KhutbazaIjumaa1, Shamail1, Hakami2018, QawaidArbaa1, ManhajSalikiin1} from './Duruus/Jilo/index'
-import { Mihadhara2, KhutbazaIjumaa2 } from './Duruus/Alamin';
+
+
+import { Mihadhara2, KhutbazaIjumaa2, Ubudiya2 } from './Duruus/Alamin';
+
+
 import { MajmuuFatwa3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, AlQabaair3, Wajibuna3,
 Hakami2021, Yuusuf3, Eldamaravine3, QashfaShubhaat3, TalkheesSwifatiSwala3, Malindi3, Qaraawi2021, Ankabuut3, 
 ArbaunaFiAhkaam3, Usuluthalatha3, QawaidArbaa3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3, Kifaya3, Hujraat3,
 FadhlulMadina3, Idd3, Ijumaa3, SwareeheSunnah3, UmdatulMara3, Ubuudiya3, KitabuTawheed3, UsuluSittah3, SuratulMulk3,
  ManhajSalikeen3, FadhluIslaam3, DurusulMuhimmah3, WasaailMufidah3, AdabulMashii3, JuzuuAmma3, Lumua3, Kalima3} from './Duruus/BinIsa/index'
-import {
+
+
+ import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
   Istiqbal4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, KhutbaZaIdd4, Nyimbo4,
   Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4,
@@ -74,6 +80,7 @@ function App() {
          {/**Duruus za Sheikh Alamin */}
          <Route path="/duruus/abu-ibraheem-alamin-saeed/mihadhara/mihadhara" element={<Mihadhara2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/khutwab/khutba-za-ijumaa" element={<KhutbazaIjumaa2 />} />
+         <Route path="/duruus/abu-ibraheem-alamin-saeed/aqeedah/ubuudiyah" element={<Ubudiya2 />} />
 
           {/**Duruus za Sheikh Bin Isa */}
           <Route path="/duruus/abu-issa-muhammad-issa/aqeedah/akhtwaat-fil-aqeedah" element={<Akhtwaa3 />} />

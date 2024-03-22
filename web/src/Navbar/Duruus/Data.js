@@ -97,6 +97,22 @@ export const Teachers = [
         name: "Abu Ibraheem Alamin Saeed",
         categories: [
             {
+                id: 2,
+                name: "Aqeedah",
+                Books: [
+                    {
+                        id: 4,
+                        name: "Ubuudiyah",
+                    },
+                    // {
+                    //     id: 5,
+                    //     name: "Muslim",
+                    // },
+                   
+                    // Add other books
+                ],
+            },
+            {
                 id: 1,
                 name: "Mihadhara",
                 Books: [

@@ -8,5 +8,9 @@ export const ijumaadara = [
         "title": "Neema za Allah juu yetu",
         "url": "https://ia600204.us.archive.org/19/items/manhaj-ya-ahlus-sunnah-wal-jamma-ah/Neema%20za%20Allah%20juu%20yetu.mp3",
     },
+    {
+        "title": "Kumi la mwisho la Ramadhan",
+        "url": "https://archive.org/download/abu-ibrahim-al-amin/Kumi%20ya%20mwisho%20ndani%20ya%20Ramadhan.mp3",
+    },
     
 ]
