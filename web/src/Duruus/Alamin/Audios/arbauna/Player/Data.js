@@ -1,17 +1,17 @@
 export const mihadharadata = [
     {
-        "title": "Ubudiya katika Dua",
-        "url": "https://archive.org/download/daura-elmiyya/Ubudiya%20katika%20dua%20%5BAl-amin%20said%5D.mp3",
+        "title": "Hadeeth ya 6-7",
+        "url": "https://archive.org/download/DauraIbnBazz/002-Arabaun%20an%20nawawi%206-7.mp3",
     },
     {
-        "title": "Ni malize teraweh na imam nani?",
-        "url": "https://ia600204.us.archive.org/19/items/manhaj-ya-ahlus-sunnah-wal-jamma-ah/Ni%20malize%20taraweh%20na%20%20imam%20mgani.MP3.mp3",
+        "title": "Hadeeth ya 8-10",
+        "url": "https://archive.org/download/DauraIbnBazz/005-Arbaun%20an%20nawawi%208-10.mp3",
     },
     {
-        "title": "Kuwa mkweli na Allah",
-        "url": "https://ia600204.us.archive.org/19/items/manhaj-ya-ahlus-sunnah-wal-jamma-ah/Kuwa%20mkweli%20na%20Allah.mp3",
+        "title": "Hadeeth ya 11-12",
+        "url": "https://archive.org/download/DauraIbnBazz/006-Arbaun%20an%20nawawi%2011-12.mp3",
     },{
-        "title": "Manhaj ya Ahlu sunnah wal jamaa",
-        "url": "https://ia600204.us.archive.org/19/items/manhaj-ya-ahlus-sunnah-wal-jamma-ah/MANHAJ%20YA%20AHLUS-SUNNAH%20WAL%20JAMM%C4%80%27AH.mp3",
+        "title": "Hadeeth ya 13-16",
+        "url": "https://archive.org/download/DauraIbnBazz/009-Arbaun%20an%20nawawi%20hadith%2013-16.MP3",
     },
 ]
