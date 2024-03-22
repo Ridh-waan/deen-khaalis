@@ -4,7 +4,7 @@ export const fadhlulmadinadat = [
         "url": "https://archive.org/download/2_20240322_20240322_1312/Sifa%20za%20Moto%20wa%20Jahanamu.mp3",
     },
     {
-        "title": "Kikao cha kwanza",
+        "title": "Tarjama ya muandishi",
         "url": "https://archive.org/download/2_20240322_20240322_1312/1.mp3",
     },
     {

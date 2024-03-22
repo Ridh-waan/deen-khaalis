@@ -46,9 +46,10 @@ import SuratulQalam3 from './Audios/tafseer/suratulqalam/SuratulQalam3';
 import DurarulBahiyyah3 from './Audios/fiqh/durarulbahiyyah/DurarulBahiyyah3';
 import SuratulAmbiyyah3 from './Audios/tafseer/suratulambiyyah/SuratulAmbiyyah3';
 import UsuluSunnah3 from './Audios/aqeeda/usulusunnah/Usulusunnah3';
+import NurulBaswaair3 from './Audios/fiqh/nurulbaswaair/NurulBaswaair.3';
 export { MajmuuFatwa3, Wajibuna3, Akhtwaa3, Raziyein3, KuiadhimishaSwala3, Muharar3, QiswaruSuwar3, Hakami2021, Hakami2023,
 Eldamaravine3, FadhlulMadina3, TalkheesSwifatiSwala3, Malindi3, Ankabuut3, ArbaunaFiAhkaam3, Qaraawi2021, Kifaya3,
 AlQabaair3, Usuluthalatha3, QawaidArbaa3, QashfaShubhaat3, Yuusuf3, Swaad3, MinAkhlaaq3, Taqreeb3, KitabuIlmu3,
 Hujraat3, Idd3, Ijumaa3, SwareeheSunnah3, UmdatulMara3, Ubuudiya3, KitabuTawheed3, UsuluSittah3, SuratulMulk3,
 ManhajSalikeen3, FadhluIslaam3, DurusulMuhimmah3, WasaailMufidah3, AdabulMashii3, JuzuuAmma3, Lumua3, Kalima3,
-SuratulQalam3, SuratulAmbiyyah3, DurarulBahiyyah3, UsuluSunnah3};
+SuratulQalam3, SuratulAmbiyyah3, DurarulBahiyyah3, UsuluSunnah3, NurulBaswaair3};

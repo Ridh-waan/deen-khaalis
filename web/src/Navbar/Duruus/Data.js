@@ -454,6 +454,10 @@ export const Teachers = [
                     // },
                     {
                         id: 3,
+                        name: "3 Sheikh Abdallah Al-Qar'aawi",
+                    },
+                    {
+                        id: 3,
                         name: "6 Sheikh Abdallah Al-Qar'aawi",
                     },
                     {
