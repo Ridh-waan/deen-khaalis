@@ -148,10 +148,10 @@ export const Teachers = [
                         id: 4,
                         name: "Khutba za Ijumaa",
                     },
-                    // {
-                    //     id: 5,
-                    //     name: "Muslim",
-                    // },
+                    {
+                        id: 5,
+                        name: "Khutba za Idd",
+                    },
                    
                     // Add other books
                 ],
