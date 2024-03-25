@@ -1,5 +1,4 @@
 import KhutbaZaIdd4 from './Audios/idd/KhutbaZaIdd4'
-import Bayaan4 from './Audios/bayaan/Bayaan4';
 import Istiqbal4 from './Audios/istiqbal/Istiqbal4';
 import Qiyaam4 from './Audios/qiyaam/Qiyaam4';
 import UjumbeMfupiJuuyaSaum4 from './Audios/ujumbe/UjumbeMfupiJuuyaSaum4'
@@ -17,6 +16,7 @@ import NawaqdhIslaam4 from './Audios/tawheed/nawaqidhilislaam/NawaqidhIslaam4';
 import Usulusitta4 from './Audios/tawheed/usulusitta/Usulusitta4';
 import Asmau4 from './Audios/asmau/Asmau4';
 import Urjuza4 from './Audios/urjuza/Urjuza4';
+import Bayaan4 from './Audios/bayaan/Bayaan4';
 export {
     KuitakasaNafsi4, AbuWalidy4, Mawaidha4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, Istiqbal4,
     UjumbeMfupiJuuyaSaum4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, Urjuza4,

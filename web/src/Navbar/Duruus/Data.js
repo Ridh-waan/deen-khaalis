@@ -567,7 +567,7 @@ export const Teachers = [
                 Books: [
                     {
                         id: 7,
-                        name: "Urjuzatul Miiyyah",
+                        name: "Al-Urjuzatul Miiyyah",
                     },
                     // {
                     //     id: 7,
