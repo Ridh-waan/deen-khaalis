@@ -563,6 +563,29 @@ export const Teachers = [
             },
             {
                 id: 4,
+                name: "Seera",
+                Books: [
+                    {
+                        id: 7,
+                        name: "Urjuzatul Miiyyah",
+                    },
+                    // {
+                    //     id: 7,
+                    //     name: "Misingi Kumi ya Kuitakasa Nafsi",
+                    // },
+                    // {
+                    //     id: 7,
+                    //     name: "Huqmu ya Nyimbo",
+                    // },
+                    // {
+                    //     id: 7,
+                    //     name: "Ziara Nairobi",
+                    // },
+                    // Add other books
+                ],
+            },
+            {
+                id: 4,
                 name: "Ruduud",
                 Books: [
                     {
