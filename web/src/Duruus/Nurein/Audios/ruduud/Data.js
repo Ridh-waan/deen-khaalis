@@ -1,5 +1,13 @@
 export const ruduuddata = [
-
+    {
+        "title": "Raddkwa video inayosambazwa kueneza shubha na talbis za maulid",
+        "url": "https://archive.org/download/rad-kwa-abudi-radd-ya-video-inayosambazwaa-kueneza-shubha-na-talbis-za-maulid/RAD%20KWA%20ABUDI%2C%20Radd%20ya%20video%20inayosambazwaa%20kueneza%20shubha%20na%20talbis%20za%20maulid.mp3"
+    },
+    {
+        "title": "Radd ya video iliyosambazwa kueneza shubha kuhusiana na Uisilamu na kutetea mfumo christo",
+        "url": "https://archive.org/download/rad-kwa-abudi-radd-ya-video-inayosambazwaa-kueneza-shubha-na-talbis-za-maulid/Radd%20ya%20video%20iliyosambazwa%20kueneza%20shub-ha%20kuhusiana%20na%20Uisilamu%20na%20kutetea%20mfumo%20christo.mp3"
+    },
+   
     {
         "title": "Hukmu ya maulidi",
         "url": "https://ia601306.us.archive.org/35/items/hukmu-ya-maulidi-sehemu-1/HUKMU%20YA%20MAULIDI%20%28sehemu%201%29.mp3"

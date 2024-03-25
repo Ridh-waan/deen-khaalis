@@ -24,8 +24,8 @@ SuratulQalam3, SuratulAmbiyyah3, DurarulBahiyyah3, UsuluSunnah3, NurulBaswaair3,
 
  import {
   AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4, SharheKitabuTawheed4,
-  Istiqbal4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, KhutbaZaIdd4, Nyimbo4,
-  Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4, Urjuza4, Qurat4
+  Istiqbal4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, KhutbaZaIdd4, Nyimbo4, Mashia4,
+  Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4, Urjuza4, Qurat4, MulakhastulFiqh4, FadhluSwiyaam4
 } from './Duruus/Nurein/index'
 import Radio from './Radio/Radio';
 import Hadeeth from './Radio/Hadeeth';
@@ -169,7 +169,11 @@ function App() {
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/seera/urjuzatul-miiyyah" element={<Urjuza4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/quratul-uyuunil-muwahideen" element={<Qurat4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/i'anatul-mustafiid" element={<SharheKitabuTawheed4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/ruduud/mashia" element={<Mashia4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/fadhlu-siyaam" element={<FadhluSwiyaam4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/mulakhaswatul-fiqhs" element={<MulakhastulFiqh4 />} />
 
+          
         </Routes>
       </div>
     </section>

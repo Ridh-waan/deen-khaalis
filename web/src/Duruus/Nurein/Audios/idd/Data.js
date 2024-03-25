@@ -1,5 +1,9 @@
 export const idddata = [
     {
+        "title": "Hakika ya kuamini nguzo sita za iimaan",
+        "url": "https://archive.org/download/hukmu-za-furaha/Hakika%20ya%20Kuamini%20Nguzo%20Sita%20za%20Imani.mp3"
+    },
+    {
         "title": "Hukmu za Furaha",
         "url": "https://ia600201.us.archive.org/35/items/hukmu-za-furaha/hukmu-za-furaha.mp3"
     },

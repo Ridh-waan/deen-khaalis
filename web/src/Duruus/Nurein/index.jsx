@@ -18,9 +18,12 @@ import Asmau4 from './Audios/asmau/Asmau4';
 import Urjuza4 from './Audios/urjuza/Urjuza4';
 import Bayaan4 from './Audios/bayaan/Bayaan4';
 import Qurat4 from './Audios/qurat/Qurat4';
+import Mashia4 from './Audios/mashia/Mashia4';
 import SharheKitabuTawheed4 from './Audios/sharhkitabutawheed/SharheKitabuTawheed4';
+import FadhluSwiyaam4 from './Audios/fadhluswiyaam/FadhluSwaiyaam4';
+import MulakhastulFiqh4 from './Audios/mulakhas/MulakhasFiqh4';
 export {
     KuitakasaNafsi4, AbuWalidy4, Mawaidha4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, Istiqbal4, SharheKitabuTawheed4,
-    UjumbeMfupiJuuyaSaum4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, Urjuza4, Qurat4,
-    KhutbaZaIdd4, Nyimbo4, Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4
+    UjumbeMfupiJuuyaSaum4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, Urjuza4, Qurat4,Mashia4, FadhluSwiyaam4,
+    KhutbaZaIdd4, Nyimbo4, Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4, MulakhastulFiqh4
 };

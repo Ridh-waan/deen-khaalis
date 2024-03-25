@@ -617,7 +617,10 @@ export const Teachers = [
                         id: 7,
                         name: "Ruduud",
                     },
-
+                    {
+                        id: 7,
+                        name: "Mashia",
+                    },
                     // Add other books
                 ],
             },
@@ -641,6 +644,14 @@ export const Teachers = [
                     {
                         id: 7,
                         name: "Imaam Abu Walidy al Baajy",
+                    },
+                    {
+                        id: 7,
+                        name: "Fadhlu siyaam",
+                    },
+                    {
+                        id: 7,
+                        name: "Mulakhaswatul Fiqhs",
                     },
                     // Add other books
                 ],
