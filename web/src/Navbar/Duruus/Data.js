@@ -501,6 +501,10 @@ export const Teachers = [
                     },
                     {
                         id: 5,
+                        name: "I'anatul mustafiid",
+                    },
+                    {
+                        id: 5,
                         name: "Sharh Asmau Al Husna",
                     },
                     // Add other books

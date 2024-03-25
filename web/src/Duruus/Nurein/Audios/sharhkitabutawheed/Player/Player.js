@@ -62,7 +62,7 @@ const selectSong = (song) => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-2 px-4 mt-28 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hizi ni sauti za kitabu Quratul Uyuunil Muwahideen sharhe ya Kitabu Tawheed chake Sheikh Abdurahmaan Bin Hassan ambaye ni mjukuu wa mtunzi wa kitabu kilichofundishwa na sheikh wetu Abu Uthmaan Nurein, Al-Jabarty</p><br />
+                    <p className='text-center'>Hizi ni sauti za kitabu I'anatul mustafiid bi sharhe Kitabu Tawheed chake Sheikh Swaleh Al Fawzan kilichofundishwa na sheikh wetu Abu Uthmaan Nurein, Al-Jabarty</p><br />
                   
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>

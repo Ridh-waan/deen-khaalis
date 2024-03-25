@@ -23,7 +23,7 @@ SuratulQalam3, SuratulAmbiyyah3, DurarulBahiyyah3, UsuluSunnah3, NurulBaswaair3,
 
 
  import {
-  AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4,
+  AbuWalidy4, KhutbazaIjumaa4, Qiyaam4, Bayaan4, KuitakasaNafsi4, UjumbeMfupiJuuyaSaum4, SharheKitabuTawheed4,
   Istiqbal4, Mawaidha4, ZiaraNairobi4, Jawamiualkalim4, Mihadhara4, KhutbaZaIdd4, Nyimbo4,
   Ruduud4, Aweso4, NawaqdhIslaam4, Usulusitta4, Asmau4, Urjuza4, Qurat4
 } from './Duruus/Nurein/index'
@@ -168,8 +168,8 @@ function App() {
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/sharh-asmau-al-husna" element={<Asmau4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/seera/urjuzatul-miiyyah" element={<Urjuza4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/quratul-uyuunil-muwahideen" element={<Qurat4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/i'anatul-mustafiid" element={<SharheKitabuTawheed4 />} />
 
-          
         </Routes>
       </div>
     </section>
