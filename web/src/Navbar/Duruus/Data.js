@@ -486,10 +486,10 @@ export const Teachers = [
                 id: 1,
                 name: "Tawheed",
                 Books: [
-                    // {
-                    //     id: 1,
-                    //     name: "Usulu Thalatha",
-                    // },
+                    {
+                        id: 5,
+                        name: "Quratul Uyuunil Muwahideen",
+                    },
 
                     {
                         id: 3,
@@ -538,6 +538,22 @@ export const Teachers = [
                     // Add other books
                 ],
             },
+            // {
+            //     id: 3,
+            //     name: "Tazkiyatu Nnafsi",
+            //     Books: [
+            //         // {
+            //         //     id: 5,
+            //         //     name: "Quratul Uyuunil Muwahideen",
+            //         // },
+            //         // {
+            //         //     id: 6,
+            //         //     name: "Khutba za Idd",
+            //         // },
+
+            //         // Add other books
+            //     ],
+            // },
             {
                 id: 4,
                 name: "Mihadhara",
