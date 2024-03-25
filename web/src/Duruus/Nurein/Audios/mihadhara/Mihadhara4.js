@@ -86,7 +86,7 @@ const Mihadhara4 = () => {
             <div className=' flex-col flex-grow overflow-y-auto'>
                 <div className=" py-7 px-8 mt-20 cursor-pointer mb-4">
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
-                    <p className='text-center'>Hizi ni sauti za kitabu Istiqbaal Shary Ramadhan kilichofundishwa na sheikh wetu Abu Uthmaan Nurein, Al-Jabarty</p><br />
+                    <p className='text-center'>Hizi ni sauti za mihadhara mbali mbali iliyotolewa na sheikh wetu Abu Uthmaan Nurein, Al-Jabarty</p><br />
                     {songs.map((song, index) => (
                         <div className='py-5' key={index} onClick={() => selectSong(song)}>
                             <span>{index + 1}.</span> {song.title}
