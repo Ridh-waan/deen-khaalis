@@ -24,8 +24,8 @@ const Academy = () => {
     };
 
     return (
-        <div className='py-10 absolute h-full mt-20 bg-red-100'>
-            <div className='text-center text-1xl font-bold'> Hizi ni programs za Deen Khaalis Academy chini ya usimamizi
+        <aside className="py-7 absolute mt-20">
+        <div className='text-center text-1xl font-bold'> Hizi ni programs za Deen Khaalis Academy chini ya usimamizi
                 wa Sheikh Abu Uthmaan Nurein
             </div>
             <div className='p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full'>
@@ -65,10 +65,10 @@ const Academy = () => {
                     
                 </div>
             </div>
-            <div className='text-center text-1xl py-10 font-bold '>Barnajim ya Thanawi na Mutawassit zimefunguliwa, gusa mojawapo ya barnamij hapo juu ili ujisajili kwa
-                ajili ya masomo katika Deen Khaalis Academy
+            <div className='text-center text-1xl py-10 font-bold '>
+                Barnajim ya Thanawi na Mutawassit Zitafunguliwa mwisho wa mwezi wa June Biidhnillah
             </div>
-        </div>
+        </aside>
     );
 };
 

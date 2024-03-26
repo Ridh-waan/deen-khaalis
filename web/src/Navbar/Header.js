@@ -15,11 +15,16 @@ import Duruus from './Duruus/Duruus';
 import Academy from './Academy';
 import AboutUs from './AboutUs';
 import '../../src/App.css'
+import { FaMoon } from 'react-icons/fa6';
+import { MdOutlineLightMode } from "react-icons/md";
+import { ThemeContext } from '../context/theme';
+import { useContext } from "react";
 
 const Header = () => {
     const [open, setOpen] = useState(false);
     const containerRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
+    
     useEffect(() => {
         const closeMenu = (event) => {
             let element = event.target;
@@ -64,11 +69,13 @@ const Header = () => {
         navigate(path);
         setOpen(false);
     };
+    const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 
     return (
         <>
-            <div className={`${open && window.innerWidth <= 768 ? 'green-overlay' : ''}`}></div>
-            <div className={`shadow-md w-full flex items-left fixed top-0 z-1000 bg-${open ? 'white' : 'white'} transition-colors duration-500 ease-in-out`}>
+        
+<div className={`${open && window.innerWidth <= 768 ? 'green-overlay' : ''}`} style={{backgroundColor: theme.backgroundColor, color: theme.color}}></div>
+<div className={`shadow-md w-full flex items-left fixed top-0 transition-colors duration-500 ease-in-out`} style={{ zIndex: 1000, backgroundColor: theme.backgroundColor, color: theme.color }}>
                 <div ref={containerRef} className="flex items-center justify-around py-2 md:px-10">
                     <div className="font-bold text-2xl flex gap-2 items-center justify-between">
                         <div className='flex absolute right-2 gap-2'>
@@ -80,7 +87,14 @@ const Header = () => {
                             <a href="https://www.twitter.com/deenkhaalis"> <FaXTwitter /> </a>
                             <a href="https://www.youtube.com/@DeenKhaalis"><BsYoutube /> </a>
                         </div>
-                       
+                        {window.innerWidth > 768 && (
+ <div className="app" style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
+    <button type="button" onClick={toggleTheme}>
+    {isDark ? <MdOutlineLightMode /> : <FaMoon />}
+    </button>
+ </div>
+)}
+
                         <div className='flext gap-2'>
                             <div className="text-3xl md:hidden" onClick={handleIconClick}>
                                 {open ? <HiX /> : <HiMenu />}
@@ -147,14 +161,15 @@ const Header = () => {
                                         Academy
                                     </Link>
                                 </li>
-                                {/* <li>
-                                    <Link to="/contacts" className="nav-link z-50 py-7 px-3 inline-block mt-1.5" onClick={() => handleLinkClick("/contacts")}>
-                                        Wasiliana nasi
-                                    </Link>
-                                </li> */}
+                              
                                 <li>
                                     <NavLinks open={open} setIsPlaying={setIsPlaying} />
                                 </li>
+                                <div className="app" style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
+                         <button type="button" onClick={toggleTheme}>
+                         {isDark ? <MdOutlineLightMode /> : <FaMoon />}
+                                                 </button>
+                                               </div>
                             </ul>
 
                         </div>

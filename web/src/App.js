@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext  } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Header from './Navbar/Header';
 import Home from './Navbar/home/Home';
@@ -7,6 +7,7 @@ import AboutUs from './Navbar/AboutUs';
 import Academy from './Navbar/Academy';
 import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
+import { ThemeContext } from './context/theme';
 import {Mihadhara1, KhutbazaIjumaa1, Shamail1, Hakami2018, QawaidArbaa1, ManhajSalikiin1} from './Duruus/Jilo/index'
 
 
@@ -37,22 +38,27 @@ import MawaidhaRadio from './Radio/mawaidha/MawaidhaRadio';
 
 function App() {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
+  const [{ theme }] = useContext(ThemeContext); // Access the current theme
 
   useEffect(() => {
     // Update isMobileView when the window is resized
     const handleResize = () => {
       setIsMobileView(window.innerWidth <= 600);
     };
-
+    document.body.style.backgroundColor = theme.backgroundColor;
+    document.body.style.color = theme.color;
+    
     window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('resize', handleResize);
+      document.body.style.backgroundColor = '';
+      document.body.style.color = '';
     };
-  }, []);
+  }, [theme]);
 
   return (
-    <section className="bg-white ">
+    <section style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
       <Header />
       <div className="h-screen w-full font-Poppins pt-50">
         <Routes>

@@ -4,7 +4,7 @@ import '../../src/index.css'
 import { Link } from 'react-router-dom';
 function AboutUs() {
     return (
-        <div className="pt-20 mt-10 ">
+        <aside className="py-7 absolute mt-20">
                     <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
             <div className='px-4'>
 
@@ -50,7 +50,7 @@ function AboutUs() {
                 Mwisho tunamswalia na kumsalimia Nabii wetu Muhammad,
                 watu wa nyumba yake na Masahaba wake.
             </div>
-        </div>
+        </aside>
     );
 }
 

@@ -6,8 +6,8 @@ import Cover from './Cover';
 
 function Books() {
     return (
-        <div>
-            <div className='mt-20 text-center text-xl py-9'>
+        <aside className="py-7 absolute mt-20">
+        <div className='text-center text-xl py-9'>
                 Hizi ni Baadhi ya tungo na chapisho za Deen Khaalis
             </div>
             <div className='mt-4 px-4 w-full relative'>
@@ -18,7 +18,7 @@ function Books() {
                 </div>
             </div>
 
-        </div>
+        </aside>
     );
 };
 

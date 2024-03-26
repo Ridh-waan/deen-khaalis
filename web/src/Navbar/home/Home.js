@@ -31,7 +31,8 @@ const Home = () => {
 
   return (
     <>
-    <div className="overflow-hidden  max-h-screen pt-20 mt-6 ">
+
+<aside className="py-7 absolute mt-20">
       <div className="flex transition-transform ease-out duration-9000 border-[5px] border-solid border-green-500 rounded-lg">
         <motion.img
           key={imageList[curr].id}
@@ -59,7 +60,7 @@ const Home = () => {
       <p className="image-text text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl" style={{ fontSize: isMobileView ? '16px' : '24px' }}>
         {imageList[curr].text}
       </p>
-    </div>
+    </aside>
     {/* <div className='grid md:grid-cols-2 gap-8 place-items-center mt-20'>
     <div className='left-4 border-[3px] border-solid border-Teal rounded-lg'>
     <img src={academy} alt='' style={{width: '800px', height: '500px'}} className='p-4'/>
