@@ -44,6 +44,8 @@ const Footer = () => {
                         <a href="" className="text-sm hover:underline">
                             <Link to="/books"> Vitabu </Link></a>
                             <a href="" className="text-sm hover:underline">
+                            <Link to="/"> Makala </Link></a>
+                            <a href="" className="text-sm hover:underline">
                             <Link to="/radio"> Radio </Link></a>
                     </div>
                 </div>
@@ -66,9 +68,11 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="font-bold mb-6">Follow us</div>
+                    <div className="text-sm mb-4 hover:underline">Chenyemakosa humu ndani, 
+                    wasiliana nasi kupitia:</div>
                     <div className="text-sm mb-4 hover:underline">deenkhaalis.ke@gmail.com</div>
-                    <div className="text-sm hover:underline">+254 703 409248</div>
-                    <div className="flex gap-4 mt-4">
+                    <div className="text-sm mb-4 hover:underline">+254 703 409248</div>
+                    <div className="flex gap-4 mb-2">
                     <a href="https://m.facebook.com/deenkhaalis"> <BsFacebook /></a>
                             <a href="https://www.instagram.com/deenkhaalis"> <BsInstagram /> </a>
                             <a href="https://chat.whatsapp.com/FzGbMympMtoDPWmV9aO3z1"> <BsWhatsapp /> </a>
@@ -77,6 +81,8 @@ const Footer = () => {
                         <a href="https://www.twitter.com/deenkhaalis"> <FaXTwitter /> </a>
                             <a href="https://www.youtube.com/@DeenKhaalis"><BsYoutube /> </a>
                     </div>
+                    <div className="text-sm">     </div>
+
                 </div>
             </div>
         </motion.div>

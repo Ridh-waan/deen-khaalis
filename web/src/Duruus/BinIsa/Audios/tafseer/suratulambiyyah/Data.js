@@ -23,5 +23,8 @@ export const malindidata = [
         "title": "Aya 33-35",
         "url": "https://archive.org/download/qalama-17-33/ambiya33-35.mp3",
     },
-    
+    {
+        "title": "Aya 36-43",
+        "url": "https://archive.org/download/qalama-17-33/ambiya36-43.mp3",
+    },
 ]

@@ -1,11 +1,16 @@
 export const faqs = [
+  {
+    id: 1,
+    title: "Yuko wapi Allah?",
+    answer: "Jawabu litapatikana baada ya muda bidhnillah"
+  },
     {
-      id: 1,
+      id: 2,
       title: "Aqeedah ni kitu gani?",
       answer: "Jawabu litapatikana baada ya muda bidhnillah"
     },
     {
-      id: 2,
+      id: 3,
       title: "Ni ipi tofauti kati ya manhaj na aqeedah?",
       answer: "Jawabu litapatikana baada ya muda bidhnillah"
     },
