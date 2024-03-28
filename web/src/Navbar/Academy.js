@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import Footer from '../components/Footer';
 const Academy = () => {
     const Arabic = () => {
         alert("Kwa sasa hatupokei Maombi ya kitengo hiki, ufunguzi ukifanywa ujumbe utatumwa katika social handle zetu");
@@ -25,6 +24,7 @@ const Academy = () => {
 
     return (
         <aside className="py-7 absolute mt-20">
+                                <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
         <div className='text-center text-1xl font-bold'> Hizi ni programs za Deen Khaalis Academy chini ya usimamizi
                 wa Sheikh Abu Uthmaan Nurein
             </div>
@@ -67,6 +67,12 @@ const Academy = () => {
             </div>
             <div className='text-center text-1xl py-10 font-bold '>
                 Barnajim ya Thanawi na Mutawassit Zitafunguliwa mwisho wa mwezi wa June Biidhnillah
+            </div>
+            <div className='mt-20'>
+            <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
+
+                <Footer/>
+
             </div>
         </aside>
     );

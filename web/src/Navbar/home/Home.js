@@ -4,10 +4,10 @@ import { useMediaQuery } from 'react-responsive';
 import Slide_DeenKhaalis_Binisa from './Images/Hero1.jpg'
 import Slide_DeenKhaalis_Nurein from './Images/Hero2.jpg'
 import academyprograms from './Images/Hero3.png'
-import academy from './Images/academy.jpg'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
-
+import FAQs from '../../components/faq/FAQs';
+import Footer from '../../components/Footer';
+import { faqs } from '../../components/faq/Data';
 const Home = () => {
   const [curr, setCurr] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
 
-<aside className="py-7 absolute mt-20">
+<aside className="py-7 relative mt-20">
       <div className="flex transition-transform ease-out duration-9000 border-[5px] border-solid border-green-500 rounded-lg">
         <motion.img
           key={imageList[curr].id}
@@ -41,26 +41,43 @@ const Home = () => {
           alt='logo'
         />
       </div>
-      <div className=" absolute inset-0 flex items-center justify-between p-2 mt-16">
-        <button
-          onClick={prev}
-          className="p-2 rounded-full shadow bg-green-500 text-gray-800 
-         hover:bg-maroon md:top-1/2 md:transform md:translate-y-1/2 md:flex hidden"
-        >
-          <BsChevronLeft size={30} />
-        </button>
-        <button
-          onClick={next}
-          className="p-2 rounded-full shadow bg-green-500 text-gray-800
-         hover:bg-maroon md:top-1/2 md:transform md:translate-y-1/2 md:flex hidden"
-        >
-          <BsChevronRight size={30} />
-        </button>
-      </div>
+      <div className="inset-0 flex items-center justify-between p-2 mt-16">
+ <button
+    onClick={prev}
+    className="p-2 rounded-full shadow bg-green-500 text-gray-800 hover:bg-maroon flex items-center justify-center"
+ >
+    <BsChevronLeft size={30} />
+ </button>
+ <button
+    onClick={next}
+    className="p-2 rounded-full shadow bg-green-500 text-gray-800 hover:bg-maroon flex items-center justify-center"
+ >
+    <BsChevronRight size={30} />
+ </button>
+</div>
+
+      <div>
       <p className="image-text text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl" style={{ fontSize: isMobileView ? '16px' : '24px' }}>
         {imageList[curr].text}
       </p>
+      </div>
+
+      <div className='mt-40 text-center my-8 sm:text-[1.9rem] text-[1.4rem] '>
+        Maswali yanayoulizwa <span className='text-Teal'>kwa wingi</span>
+      </div>
+      <div className='mt-12 max-w-[700px] mx-auto'>
+        {faqs.map(faq => {
+          return <FAQs key={faq.id} {...faq} />;
+        })}
+      </div>
+      <div className='mt-20'>
+            <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
+
+                <Footer/>
+
+            </div>
     </aside>
+    
     {/* <div className='grid md:grid-cols-2 gap-8 place-items-center mt-20'>
     <div className='left-4 border-[3px] border-solid border-Teal rounded-lg'>
     <img src={academy} alt='' style={{width: '800px', height: '500px'}} className='p-4'/>

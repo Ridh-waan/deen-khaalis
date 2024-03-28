@@ -2,6 +2,7 @@ import React from 'react';
 import '../../src/App.css'
 import '../../src/index.css'
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 function AboutUs() {
     return (
         <aside className="py-7 absolute mt-20">
@@ -16,7 +17,7 @@ function AboutUs() {
                 iliaanza mnamo 27/02/2014 kama group ya Daawah
                 katika mtandao wa whatsapp kwa jina "Brothers Diiwaan",
                 kisha ikabadilishwa jina na kuitwa "Al-Manhaj Kenya",
-                na hatimae kuitwa <a href="https://www.deenkhaalis.com" className='text-blue-500'> "Deen Khaalis".</a>
+                na hatimae kuitwa <a href="https://www.deenkhaalis.com" className='text-blue-500'> "Deen Khaalis"</a>
                 <br />
                 <br />
                 Deen Khaalis iko na akauti za Daawah katika mitandao ya
@@ -49,6 +50,12 @@ function AboutUs() {
                 <br />
                 Mwisho tunamswalia na kumsalimia Nabii wetu Muhammad,
                 watu wa nyumba yake na Masahaba wake.
+            </div>
+            <div className='mt-20'>
+            <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
+
+                <Footer/>
+
             </div>
         </aside>
     );

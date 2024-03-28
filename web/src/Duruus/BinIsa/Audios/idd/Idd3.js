@@ -2,6 +2,7 @@ import Player from './Player.jsx';
 import { useRef, useState, useEffect } from 'react';
 import { malindidata } from './Data.js';
 import '../../../../App.css'
+import Footer from '../../../../components/Footer.js';
 const Idd3 = () => {
   const [isplaying, setisplaying] = useState(false);
   const [currentSong, setCurrentSong] = useState(malindidata[0]);
@@ -49,10 +50,17 @@ useEffect(() => {
  
 
   return (
+    <div>
     <div className="">
       <audio src={currentSong.url} ref={audioElem} onTimeUpdate={onPlaying} />
       <Player songs={songs} setSongs={setSongs} isplaying={isplaying} setisplaying={setisplaying} audioElem={audioElem} currentSong={currentSong} setCurrentSong={setCurrentSong} />
+      <div className='mt-40'>
+      <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
+          <Footer/>
+          </div>
     </div>
+ 
+      </div>
   );
 }
 

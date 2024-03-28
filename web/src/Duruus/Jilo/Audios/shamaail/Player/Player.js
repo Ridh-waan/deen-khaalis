@@ -61,7 +61,7 @@ const selectSong = (song) => {
                 <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
                 <p className='text-center'>Hizi ni sauti za kitabu Shamaail Al Muhammadiya kilichofundishwa siku za Dawrah ya Sheikh 
                 Abdallah Al Qaraawy Masjid Mariam Kisauni na sheikh wetu Abu Feiswal  Uthmaan Jilo
-                    Issa </p><br />                  
+             </p><br />                  
                     {songs.map((song, index) => (
     <div className='py-2' key={index} onClick={() => selectSong(song)}>
         <span>{index + 1}.</span> {song.title} 

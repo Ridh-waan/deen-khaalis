@@ -35,6 +35,7 @@ import KuitaasaNafsi4 from './Duruus/Nurein/Audios/nafsi/KuitakasaNafsi4';
 import QuraanRadio from './Radio/quran/QuraanRadio';
 import HadeethRadio from './Radio/hadeeth/HadeethRadio';
 import MawaidhaRadio from './Radio/mawaidha/MawaidhaRadio';
+import Footer from './components/Footer';
 
 function App() {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
@@ -60,7 +61,8 @@ function App() {
   return (
     <section style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
       <Header />
-      <div className="h-screen w-full font-Poppins pt-50">
+      
+      <div className="h-screen w-full font-Poppins pt-50 pb-10">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
@@ -178,11 +180,10 @@ function App() {
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/ruduud/mashia" element={<Mashia4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/fadhlu-siyaam" element={<FadhluSwiyaam4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/fiqh/mulakhaswatul-fiqhs" element={<MulakhastulFiqh4 />} />
-
-          
         </Routes>
       </div>
     </section>
+
   );
 }
 

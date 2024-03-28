@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Teachers } from './Data';
-
+import Footer from '../../components/Footer';
 function Duruus() {
 
     const [activeCategory, setActiveCategory] = useState(null);
@@ -26,6 +26,7 @@ function Duruus() {
 
     return (
         <aside className="py-7 absolute mt-20">
+                                            <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
             <h2 className='text-center text-xl py-4'>Hapa tumeorodhesha sauti za
                 Duruus, Hotuba, Mawaidha na Kalima mbali mbali za Mashekhe zetu</h2>
 
@@ -69,6 +70,12 @@ function Duruus() {
                     </li>
                 ))}
             </ul>
+            <div className='mt-40'>
+            <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
+
+                <Footer/>
+
+            </div>
         </aside>
     );
 }

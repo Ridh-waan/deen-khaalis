@@ -11,9 +11,6 @@ import {
 } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import NavLinks from '../Radio/NavLinks';
-import Duruus from './Duruus/Duruus';
-import Academy from './Academy';
-import AboutUs from './AboutUs';
 import '../../src/App.css'
 import { FaMoon } from 'react-icons/fa6';
 import { MdOutlineLightMode } from "react-icons/md";
