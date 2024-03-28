@@ -9,7 +9,7 @@ const SlideShow = ({ children: slides }) => {
   const next = () => setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
 
   useEffect(() => {
-    const id = setInterval(next, 9000); // Change slide every 3 seconds
+    const id = setInterval(next, 3000); // Change slide every 3 seconds
     setIntervalId(id);
 
     return () => clearInterval(id); // Clear interval on component unmount
@@ -54,7 +54,7 @@ const SlideShow = ({ children: slides }) => {
           {slides.map((_, i) => (
             <div
               key={i}
-              className={`transition-all w-3 h-3 bg-white rounded-full ${
+              className={`transition-all w-3 h-3 bg-gray rounded-full ${
                 curr === i ? 'p-2' : 'bg-opacity-50'
               }`}
             />
