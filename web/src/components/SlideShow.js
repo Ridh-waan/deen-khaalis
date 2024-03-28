@@ -36,7 +36,7 @@ const SlideShow = ({ children: slides }) => {
       <div className="absolute inset-0 flex items-center justify-between p-5">
         <button
           onClick={prev}
-          className="p-2 rounded-full text-gray-800 
+          className="p-2 rounded-full text-gray-800
           hover:bg-white md:top-1/2 md:transform md:translate-y-1/2"
         >
           <BsChevronLeft color='black' size={30} />
