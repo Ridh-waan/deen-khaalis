@@ -11,7 +11,7 @@ import { FaXTwitter } from "react-icons/fa6"
 import { motion } from "framer-motion";
 import { ThemeContext } from "../context/theme";
 import { Link } from 'react-router-dom';
-
+import Visits from "./Visits";
 const Footer = () => {
     const [{ theme, isDark }, toggleTheme] = useContext(ThemeContext);
 
@@ -24,14 +24,13 @@ const Footer = () => {
              <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 
              grid-cols-1 place-items-start gap-8 " style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
                 <div>
-              
                     <div className="font-bold mb-6">Getting Started</div>
                     <p className="text-sm leading-9">
                     <a href="https://www.deenkhaalis.com" className="text-sm hover:underline">www.deenkhaalis.com  </a>                         ni tovuti
 
                         <br/> iliyoandaliwa kwa ajili ya kueneze
-                        <br/> manhaj ya wema waliotangulia
-                         
+                        <br/> manhaj ya wema waliotangulia.
+                        <Visits/>
                     </p>
                 </div>
                 <div>
@@ -53,22 +52,26 @@ const Footer = () => {
                     <div className="font-bold mb-6">Our Goals</div>
                     <div className="flex flex-col gap-4">
                         <div className="text-sm hover:underline">
-                            Kueneza Tawheed
+                            Kunushuru mafunzo sahihi ya Uisilamu
                         </div>
                         <div className="text-sm hover:underline">
-                        Kueneza Sunnah
+                        Kusahihisha sintofahamu juu ya Uisilamu
                         </div>
                         <div className="text-sm hover:underline">
-                            Kujiepusha na kufru na kufaar
+                            Kunyanyua ufahamu na elimu ya Dini kwa watu
                         </div>
                         <div className="text-sm hover:underline">
-                        Kujieka mbali na makundi na watu wake
+                        Kuchangia katika kudumisha amani kwa kurakibisha fikra kali kwa vijana
+                        zinazoenda kinyume na mafunzo halisi ya Uisilamu
+                        </div>
+                        <div className="text-sm hover:underline">
+                            Kuhamasisha jamii katika mikakati ya kimaendeleo
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="font-bold mb-6">Follow us</div>
-                    <div className="text-sm mb-4 hover:underline">Chenyemakosa humu ndani, 
+                    <div className="text-sm mb-4 hover:underline">Kufikisha rai yako, 
                     wasiliana nasi kupitia:</div>
                     <div className="text-sm mb-4 hover:underline">deenkhaalis.ke@gmail.com</div>
                     <div className="text-sm mb-4 hover:underline">+254 703 409248</div>

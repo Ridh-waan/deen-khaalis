@@ -37,14 +37,14 @@ const SlideShow = ({ children: slides }) => {
         <button
           onClick={prev}
           className="p-2 rounded-full text-gray-800
-          hover:bg-white md:top-1/2 md:transform md:translate-y-1/2"
+          hover:bg-gray md:top-1/2 md:transform md:translate-y-1/2"
         >
           <BsChevronLeft color='black' size={30} />
         </button>
         <button
           onClick={next}
           className="p-2 rounded-full  text-gray-800 
-          hover:bg-white md:top-1/2 md:transform md:translate-y-1/2"
+          hover:bg-gray md:top-1/2 md:transform md:translate-y-1/2"
         >
           <BsChevronRight color='black' size={30} />
         </button>

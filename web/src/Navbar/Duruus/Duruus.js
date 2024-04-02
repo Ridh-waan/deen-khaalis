@@ -26,10 +26,10 @@ function Duruus() {
 
     return (
         <aside className="py-7 absolute mt-20">
-                                            <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
+        <h2 className='text-center  text-2xl font-bold mb-5'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيم</h2>
             <h2 className='text-center text-xl py-4'>Hapa tumeorodhesha sauti za
                 Duruus, Hotuba, Mawaidha na Kalima mbali mbali za Mashekhe zetu</h2>
-
+                <div className='mt-4 px-4 w-full relative'>
             <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 space-y-4 py-8 w-full">
                 {Teachers.map((teacher, teacherIndex) => (
                     <li key={teacher.name} className="text-xl md:mt-1 md:ml-2 inlin">
@@ -70,6 +70,7 @@ function Duruus() {
                     </li>
                 ))}
             </ul>
+            </div>
             <div className='mt-40'>
             <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
 

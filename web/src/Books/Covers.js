@@ -7,14 +7,14 @@ export const covers = [
     {
         id: 1,
         image: Hajj,
-        title: "Hajj na Umra",
+        title: "Download",
         downloadLink: "https://archive.org/download/daura-iliyodaiwa/hajj_na_umra.pdf"
 
     },
     {
         id: 2,
         image: Muhharam,
-        title: "Mwezi wa Muharram na siku ya Ashura",
+        title: "Download",
         downloadLink: "https://archive.org/download/daura-iliyodaiwa/Mwezi-wa-Muharam-na-siku-ya-Ashura.pdf"
 
 
@@ -22,7 +22,7 @@ export const covers = [
     {
         id: 3,
         image: Aweso,
-        title: "Majibu kwa Mbaaraq Aweso",
+        title: "Download",
         downloadLink: "https://archive.org/download/daura-iliyodaiwa/Radd-kwa-Aweso-1.pdf"
 
 
@@ -30,7 +30,7 @@ export const covers = [
     {
         id: 4,
         image: Daura,
-        title: "Daura iliyodaiwa",
+        title: "Download",
         downloadLink: "https://archive.org/download/daura-iliyodaiwa/Daura-iliyodaiwa.pdf"
 
     },

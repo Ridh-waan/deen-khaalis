@@ -23,7 +23,7 @@ const Home = () => {
         </SlideShow>
       </div>
       {/* <div className='mt-40 text-center my-8 sm:text-[1.9rem] text-[1.4rem] '>
-        Maswali yanayoulizwa <span className='text-Teal'>kwa wingi</span>
+        Maswali ya <span className='text-Teal'>muhimu kuyajuwa</span>
       </div>
       <div className='mt-12 max-w-[700px] mx-auto'>
         {faqs.map(faq => {
