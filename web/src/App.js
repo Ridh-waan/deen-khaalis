@@ -7,6 +7,7 @@ import AboutUs from './Navbar/AboutUs';
 import Academy from './Navbar/Academy';
 import Contacts from './Navbar/Contacts';
 import Books from './Books/Books';
+import Donate from './Navbar/Donate';
 import { ThemeContext } from './context/theme';
 import {Mihadhara1, KhutbazaIjumaa1, Shamail1, Hakami2018, QawaidArbaa1, ManhajSalikiin1} from './Duruus/Jilo/index'
 
@@ -71,6 +72,8 @@ function App() {
           <Route path="/academy" element={<Academy />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/radio" element={<Radio />} />
+          <Route path="/donate" element={<Donate />} />
+
           {/* <Route path="/radio/quran" element={<QuraanRadio />} />
           <Route path="/radio/hadeeth" element={<Hadeeth />} />
           <Route path="/radio/mawaidha" element={<Mawaidha />} /> */}

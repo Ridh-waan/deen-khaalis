@@ -5,7 +5,7 @@ export const KenyaMapData = [
 
 {
 "name": "Mombasa",
-"students": 5,
+"students": 95,
 },
 
 {"name": "Tharaka-Nithi",
@@ -92,15 +92,15 @@ export const KenyaMapData = [
 "students": 78,
 }, 
 
-{"name": "Trans-Nzoia",
+{"name": "Trans Nzoia",
 "students": 51,
 }, 
 
-{"name": "Uasin Gishy",
+{"name": "Uasin Gishu",
 "students": 34,
 },  
 
-{"name": "Elgeiyo Marakwet",
+{"name": "Elgeyo-Marakwet",
 "students": 8,
 },  
 
@@ -178,5 +178,25 @@ export const KenyaMapData = [
 
 {"name": "Nairobi",
 "students": 94,
+},
+
+{"name": "Tanania",
+"students": 4,
+},
+
+{"name": "Uganda",
+"students": 9,
+},
+
+{"name": "Rwanda",
+"students": 5,
+},
+
+{"name": "Burundi",
+"students": 1,
+},
+
+{"name": "Democratic Republic of Congo",
+"students": 0,
 },
 ];

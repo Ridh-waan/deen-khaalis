@@ -3,7 +3,7 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { scaleLinear } from "d3-scale";
 import { KenyaMapData } from "./KeData";
 import keData from './ke.json';
-
+// import EAdata from './EA.json';
 const MapChart = () => {
     const [hoveredCounty, setHoveredCounty] = useState(null);
     const [clickedCounty, setClickedCounty] = useState(null);

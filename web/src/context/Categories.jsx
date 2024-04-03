@@ -14,9 +14,9 @@ className='py-4 flex items-center flex-col gap-6 p-8 rounded-md flex-wrap'>
 <div className='text-5xl text-Teal'> {icon} </div>
 <div>{category}</div>
 <div>{number}</div>
-<a href='' className='text-sm text-gray'>
+<p className='text-sm text-gray'>
 View more
-</a>
+</p>
     </motion.div>
   );
 };

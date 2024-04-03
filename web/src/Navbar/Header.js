@@ -117,9 +117,9 @@ const Header = () => {
                             <Link to="/academy" className="py-7 px-3 inline-block mt-1">
                                 Academy
                             </Link>
-                            {/* <Link to="/contacts" className="py-7 px-3 inline-block mt-1">
-                                Contact Us
-                            </Link> */}
+                            <Link to="/donate" className="py-7 px-3 inline-block mt-1">
+                             Donate
+                            </Link>
                         </li>
                         <li >
                             <NavLinks open={open} setIsPlaying={setIsPlaying} />
@@ -158,7 +158,11 @@ const Header = () => {
                                         Academy
                                     </Link>
                                 </li>
-                              
+                                <li>
+                                    <Link to="/donate" className="nav-link z-50 py-7 px-3 inline-block mt-1.5" onClick={() => handleLinkClick("/academy")}>
+                                        Donet
+                                    </Link>
+                                </li>
                                 <li>
                                     <NavLinks open={open} setIsPlaying={setIsPlaying} />
                                 </li>

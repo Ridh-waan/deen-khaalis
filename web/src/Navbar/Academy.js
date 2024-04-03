@@ -37,6 +37,7 @@ const Academy = () => {
 
                 <div>
                 <button className='text-center  hover:scale-105  border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
+                <h2 className='text-center '>ARABIC</h2><br />
                         <p className='font-bold'>Arabic Course</p>
                         <p className='font-bold'> For Beginners</p>
                     </button>

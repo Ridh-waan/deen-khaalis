@@ -22,9 +22,9 @@ const Footer = () => {
              transition={{ duration: 1 }}
              className="p-10 bottom-0 w-full">
              <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 
-             grid-cols-2 place-items-start gap-8 " style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
+             grid-cols-1 place-items-start gap-8 " style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
                 <div>
-                    <div className="font-bold mb-6">Getting Started</div>
+                    <div className="font-bold mb-6">Kuanzia</div>
                     <p className="text-sm leading-9">
                     <a href="https://www.deenkhaalis.com" className="text-sm hover:underline">www.deenkhaalis.com  </a>                         ni tovuti
 
@@ -34,7 +34,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div>
-                    <div className="font-bold mb-6">Services</div>
+                    <div className="font-bold mb-6">Yaliyomo</div>
                     <div className="flex flex-col gap-4">
                         <a href="" className="text-sm hover:underline">
                         <Link to="/duruus"> Duruus </Link> </a>
@@ -49,7 +49,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="font-bold mb-6">Our Goals</div>
+                    <div className="font-bold mb-6">Malengo yetu</div>
                     <div className="flex flex-col gap-4">
                         <div className="text-sm hover:underline">
                             Kunushuru mafunzo sahihi ya Uisilamu
@@ -70,7 +70,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="font-bold mb-6">Follow us</div>
+                    <div className="font-bold mb-6">Mitandao ya jamii</div>
                     <div className="text-sm mb-4 hover:underline">Kufikisha rai yako, 
                     wasiliana nasi kupitia:</div>
                     <div className="text-sm mb-4 hover:underline">deenkhaalis.ke@gmail.com</div>

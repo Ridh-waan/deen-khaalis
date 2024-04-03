@@ -1,8 +1,8 @@
-import {FiPenTool} from 'react-icons/fi'
 import {FaLaptopCode} from 'react-icons/fa'
 import {BsBarChartLine} from "react-icons/bs"
 import { BsFillMortarboardFill  } from 'react-icons/bs';
 import { BsBook } from  'react-icons/bs'
+import {FaPersonDotsFromLine } from 'react-icons/fa6'
 export const categories = [
     {
       id: 1,
@@ -24,8 +24,8 @@ export const categories = [
     },
      {
       id: 3,
-      icon: <FiPenTool/>,
+      icon: <FaPersonDotsFromLine/>,
       category: "Walimu",
-      number: "4",
+      number: "5",
     },  
   ];
