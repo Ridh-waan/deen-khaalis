@@ -2,7 +2,7 @@ import React from 'react'
 import { categories } from './Data';
 import Categories from './Categories';
 import { motion } from 'framer-motion';
-
+import MapChart from './map/Map';
 const Programs = () => {
   const container = {
     hidden: {
@@ -35,11 +35,19 @@ const Programs = () => {
       variants={container}
       initial='hidden'
       whileInView='visible'
-      className='grid md:grid-cols-5 sm:grid-cols-2 mt-12 gap-8'>
+      className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 sm:grid-cols-4 mt-12 gap-8'>
+{/* <div className='grid 2 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-6 w-full'> */}
+
         {categories.map(category => {
           return <Categories key={category.id} {...category}/>;
         })}
       </motion.div>
+      {/* <div className='text-center mt-32'>
+      <div style={{ width: '100%', height: '100%' }}>
+ <MapChart />
+</div>
+</div> */}
+
       {/* <div className='text-xl font-bold mt-32'>
       Description of just a few of activities conducted at school
       </div>

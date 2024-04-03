@@ -316,5 +316,8 @@ export const AlQabaair3data = [
 { "title": "Darsa ya thamanini na mbili",
     "url": "https://archive.org/download/12_20240309/kabair_83.mp3",
 },
-  
+{ "title": "Darsa ya thamanini na tatu",
+    "url": "https://archive.org/download/12_20240309/kabair_84.mp3",
+},
+ 
 ]

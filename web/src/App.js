@@ -94,7 +94,7 @@ function App() {
          <Route path="/duruus/abu-ibraheem-alamin-saeed/fiqh/shuruutu-swalah" element={<Shurutuswala2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/khutwab/khutba-za-idd" element={<Idd2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/hadeeth/bulughul-maraam" element={<Bulughu2 />} />
-         <Route path="/duruus/abu-ibraheem-alamin-saeed/hadeeth/abu-daud" element={<AbuDawd2 />} />
+         <Route path="/duruus/abu-ibraheem-alamin-saeed/hadeeth/sunan-abu-daud" element={<AbuDawd2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/tazkiyatu-nafs/al-wasaail-al-mufidah" element={<Alwasaail2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/dawrah/6-al-haafidh-hakamy" element={<Bahjat2 />} />
          <Route path="/duruus/abu-ibraheem-alamin-saeed/dawrah/3-al-haafidh-hakamy" element={<Bukhary2 />} />

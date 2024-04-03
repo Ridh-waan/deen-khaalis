@@ -7,8 +7,14 @@ export const categories = [
     {
       id: 1,
       icon: <BsFillMortarboardFill/>,
-      category: "Mahafali",
+      category: "Waliohitimu",
       number: "50",
+    },
+    {
+      id: 4,
+      icon: <BsBarChartLine/>,
+      category: "Programu",
+      number: "4",
     },
      {
       id: 2,
@@ -21,18 +27,5 @@ export const categories = [
       icon: <FiPenTool/>,
       category: "Walimu",
       number: "4",
-    },
-     {
-      id: 4,
-      icon: <BsBook/>,
-      category: "Vitabu",
-      number: "10",
-    },
-  {
-      id: 5,
-      icon: <BsBarChartLine/>,
-      category: "Marahil",
-      number: "4",
-    },
-   
+    },  
   ];

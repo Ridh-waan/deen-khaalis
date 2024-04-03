@@ -22,7 +22,7 @@ const Footer = () => {
              transition={{ duration: 1 }}
              className="p-10 bottom-0 w-full">
              <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 
-             grid-cols-1 place-items-start gap-8 " style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
+             grid-cols-2 place-items-start gap-8 " style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
                 <div>
                     <div className="font-bold mb-6">Getting Started</div>
                     <p className="text-sm leading-9">
