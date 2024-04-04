@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Programs from '../context/Programs';
 import MapChart from '../context/map/Map';
+import Donate from './Donate'
 const Academy = () => {
     const Arabic = () => {
         alert("Kwa sasa hatupokei Maombi ya kitengo hiki, ufunguzi ukifanywa ujumbe utatumwa katika social handle zetu");
@@ -75,10 +76,14 @@ const Academy = () => {
                 Barnajim ya Thanawi na Mutawassit Zitafunguliwa mwisho wa mwezi wa June Biidhnillah
             </div>
             <Programs />
-           
+            <div className='mt-1'>
+            <Donate/>
+            </div>
+
       {/* <div className='mb-0' style={{ width: '100%', height: '100%' }}>
  <MapChart />
 </div> */}
+
             <div className='mt-20'>
             <div style={{ borderTop: '1px solid #000', marginBottom: '5px' }}></div>
                 <Footer/>
