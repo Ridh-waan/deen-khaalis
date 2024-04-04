@@ -70,15 +70,15 @@ const Academy = () => {
     </button>
 </div>
 </div>
-
             </div>
             <div className='text-center text-1xl py-10 font-bold '>
                 Barnajim ya Thanawi na Mutawassit Zitafunguliwa mwisho wa mwezi wa June Biidhnillah
             </div>
-            <Programs />
             <div className='mt-1'>
             <Donate/>
             </div>
+            <Programs />
+            
 
       {/* <div className='mb-0' style={{ width: '100%', height: '100%' }}>
  <MapChart />

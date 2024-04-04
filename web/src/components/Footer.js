@@ -24,30 +24,16 @@ const Footer = () => {
              <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 
              grid-cols-1 place-items-start gap-8 " style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
                 <div>
-                    <div className="font-bold mb-6">Kuanzia</div>
+                    <div className="font-bold mb-6">Kuanza</div>
                     <p className="text-sm leading-9">
                     <a href="https://www.deenkhaalis.com" className="text-sm hover:underline">www.deenkhaalis.com  </a>                         ni tovuti
 
                         <br/> iliyoandaliwa kwa ajili ya kueneze
-                        <br/> manhaj ya wema waliotangulia.
+                        <br/> manhaj ya wema waliotangulia
                         <Visits/>
                     </p>
                 </div>
-                <div>
-                    <div className="font-bold mb-6">Yaliyomo</div>
-                    <div className="flex flex-col gap-4">
-                        <a href="" className="text-sm hover:underline">
-                        <Link to="/duruus"> Duruus </Link> </a>
-                        <a href="" className="text-sm hover:underline">
-                        <Link to="/academy"> Academy </Link></a>
-                        <a href="" className="text-sm hover:underline">
-                            <Link to="/books"> Vitabu </Link></a>
-                            <a href="" className="text-sm hover:underline">
-                            <Link to="/"> Makala </Link></a>
-                            <a href="" className="text-sm hover:underline">
-                            <Link to="/radio"> Radio </Link></a>
-                    </div>
-                </div>
+            
                 <div>
                     <div className="font-bold mb-6">Malengo yetu</div>
                     <div className="flex flex-col gap-4">
@@ -70,7 +56,22 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="font-bold mb-6">Mitandao ya jamii</div>
+                    <div className="font-bold mb-6">Yaliyomo</div>
+                    <div className="flex flex-col gap-4">
+                        <a href="" className="text-sm hover:underline">
+                        <Link to="/duruus"> Duruus </Link> </a>
+                        <a href="" className="text-sm hover:underline">
+                        <Link to="/academy"> Academy </Link></a>
+                        <a href="" className="text-sm hover:underline">
+                            <Link to="/books"> Vitabu </Link></a>
+                            <a href="" className="text-sm hover:underline">
+                            <Link to="/"> Makala </Link></a>
+                            <a href="" className="text-sm hover:underline">
+                            <Link to="/radio"> Radio </Link></a>
+                    </div>
+                </div>
+                <div>
+                    <div className="font-bold mb-6">Mitandao ya kijamii</div>
                     <div className="text-sm mb-4 hover:underline">Kufikisha rai yako, 
                     wasiliana nasi kupitia:</div>
                     <div className="text-sm mb-4 hover:underline">deenkhaalis.ke@gmail.com</div>

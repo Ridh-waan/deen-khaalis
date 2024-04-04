@@ -6,6 +6,8 @@ import SlideShow from '../../components/SlideShow';
 import FAQs from '../../components/faq/FAQs';
 import Footer from '../../components/Footer';
 import { faqs } from '../../components/faq/Data';
+import Khutba from './Khutba'
+import Events from './Events'
 const Home = () => {
   const slides = [
     { id: 1, src: Slide_DeenKhaalis_Binisa },
@@ -22,6 +24,10 @@ const Home = () => {
           {slides}
         </SlideShow>
       </div>
+      <Events/>
+
+      {/* <Khutba/> */}
+
       {/* <div className='mt-40 text-center my-8 sm:text-[1.9rem] text-[1.4rem] '>
         Maswali ya <span className='text-Teal'>muhimu kuyajuwa</span>
       </div>

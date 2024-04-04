@@ -4,7 +4,7 @@ export const mihadharadata = [
         "url": "https://archive.org/download/daura-elmiyya/madhara%20ya%20ujinga%20%5BUthman%20Jilo%5D.mp3",
     },
     {
-        "title": "Thadhari na hatua za sheitwan",
+        "title": "Tahadhari na hatua za sheitwan",
         "url": "https://ia601307.us.archive.org/32/items/msimamo-wa-twalib-ilm-panapo-ikhtilafu-kati-ya-mashekhe/Tahadhari%20na%20Hatua%20za%20Sheitwan.mp3",
     },
     {

@@ -1,5 +1,9 @@
 export const malindidata = [
     {
+        "title": "Kujitahidi kwenye kumi la mwisho la Ramadhan",
+        "url": "https://archive.org/download/mafunzo-kwenye-tukio-la-new-zealand/kujitahidi_kwenye_kumi_la_mwisho_la_ramadhan.mp3",
+    },
+    {
         "title": "Mafunzo kwenye tukio la New Zealand",
         "url": "https://archive.org/download/mafunzo-kwenye-tukio-la-new-zealand/Mafunzo%20kwenye%20Tukio%20la%20New%20Zealand.m4a",
     },

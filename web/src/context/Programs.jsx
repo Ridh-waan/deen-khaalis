@@ -36,8 +36,6 @@ const Programs = () => {
       initial='hidden'
       whileInView='visible'
       className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 sm:grid-cols-4 mt-12 gap-8'>
-{/* <div className='grid 2 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-6 w-full'> */}
-
         {categories.map(category => {
           return <Categories key={category.id} {...category}/>;
         })}
