@@ -36,7 +36,7 @@ const Events = () => {
       variants={container}
       initial='hidden'
       whileInView='visible'
-      className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:grid-cols-2 mt-12 gap-8'>
+      className='items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:grid-cols-2 mt-12 gap-8'>
         {categories.map(category => {
           return <Categories key={category.id} {...category}/>;
         })}

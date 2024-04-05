@@ -1,5 +1,10 @@
 export const malindidata = [
     {
+        "title": "Fadhila za Lailatul qadr",
+        "url": "https://archive.org/download/20-iv_202403/fadhila_za_laylatul_qadr.mp3",
+    },
+    
+    {
         "title": "Kujitahidi kwenye kumi la mwisho la Ramadhan",
         "url": "https://archive.org/download/mafunzo-kwenye-tukio-la-new-zealand/kujitahidi_kwenye_kumi_la_mwisho_la_ramadhan.mp3",
     },

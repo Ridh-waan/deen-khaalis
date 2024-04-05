@@ -37,14 +37,14 @@ const Academy = () => {
             <div className='text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-6 w-full'>
 
                 <div>
-                <button className='text-center  hover:scale-105  border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
+                <button className='text-center transition duration-1000 ease-in-out hover:bg-amber-700 border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
                 <h2 className='text-center '>ARABIC</h2><br />
                         <p className='font-bold'>Arabic Course</p>
                         <p className='font-bold'> For Beginners</p>
                     </button>
                 </div>
                 <div>
-                <button className='text-center  hover:scale-105  border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
+                <button className='text-center transition duration-1000 ease-in-out hover:bg-amber-700 border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
                         <h2 className='text-center '>MUTAWASSIT</h2><br />
                         <p className='text-center font-bold'>Intermediate Course </p>
                         {/* <button className='bg-green-500 rounded px-6 py-2 mt-2'> 
@@ -53,7 +53,7 @@ const Academy = () => {
                     </button>
                 </div>
                 <div>
-                <button className='text-center  hover:scale-105  border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
+                <button className='text-center transition duration-1000 ease-in-out hover:bg-amber-700 border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
                         <h2 className='text-center '>THANAWI</h2><br />
                         <p className='text-center font-bold'>Secondary Course</p>
                         {/* <button className='bg-green-500 rounded px-6 py-2 mt-10'> 
@@ -63,7 +63,7 @@ const Academy = () => {
                     
                 </div>
                 <div>
-    <button className='text-center  hover:scale-105  border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
+                <button className='text-center transition duration-1000 ease-in-out hover:bg-amber-700 border-8 border-purple-900 bg-transparent rounded px-20 py-6 w-full h-[17rem] leading-loose' onClick={wageni}>
         <h2 className='text-center '>REVERTS</h2><br />
         <p className='text-center  font-bold'>New Muslims Course</p>
         <p className='text-center  font-bold'>(Coming soon)</p>

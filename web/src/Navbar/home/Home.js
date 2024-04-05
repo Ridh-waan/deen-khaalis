@@ -24,7 +24,7 @@ const Home = () => {
           {slides}
         </SlideShow>
       </div>
-      <Events/>
+      {/* <Events/> */}
 
       {/* <Khutba/> */}
 
