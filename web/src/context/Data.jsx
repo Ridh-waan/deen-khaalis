@@ -1,7 +1,6 @@
 import {FaLaptopCode} from 'react-icons/fa'
 import {BsBarChartLine} from "react-icons/bs"
 import { BsFillMortarboardFill  } from 'react-icons/bs';
-import { BsBook } from  'react-icons/bs'
 import {FaPersonDotsFromLine } from 'react-icons/fa6'
 export const categories = [
     {
