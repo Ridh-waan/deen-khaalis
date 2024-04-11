@@ -175,7 +175,7 @@ function App() {
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/nawaqidh-islaam" element={<NawaqdhIslaam4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/usulu-sittah" element={<Usulusitta4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/sharh-asmau-al-husna" element={<Asmau4 />} />
-          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/seera/urjuzatul-miiyyah" element={<Urjuza4 />} />
+          <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/seera/al-urjuzatul-miiyyah" element={<Urjuza4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/quratul-uyuunil-muwahideen" element={<Qurat4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/tawheed/i'anatul-mustafiid" element={<SharheKitabuTawheed4 />} />
           <Route path="/duruus/abu-uthmaan-nurein-uthmaan-/ruduud/mashia" element={<Mashia4 />} />

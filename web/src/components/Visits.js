@@ -1,35 +1,31 @@
 import { useState, useEffect } from 'react';
-const Counts = () => {
+
+const Visits = () => {
  const [pageviews, setPageviews] = useState(0);
  const [visits, setVisits] = useState(0);
 
  useEffect(() => {
-    const type = sessionStorage.getItem('visit') === null ? 'visit-pageview' : 'pageview';
-    updateCounter(type);
- }, []);
-
- function updateCounter(type) {
-    fetch(`https://server-ney9.onrender.com/api?${type}`) // Adjusted port to match backend
-        // fetch(`// Adjusted port to match backend`) 
+    // Assuming the endpoint is '/visits/get-Visits'
+    fetch('https://server-ney9.onrender.com/visits')
       .then(res => res.json())
       .then(data => {
         setVisits(data.visits);
         setPageviews(data.pageviews);
-        sessionStorage.setItem('visit', 'x');
-      });
-      console.log('Page views are:', pageviews)
-      console.log('Visits are:', visits)
+        console.log('Page views are:', data.pageviews);
+        console.log('Visits are:', data.visits);
+      })
+      .catch(error => console.error('Error fetching data:', error));
+ }, []); // Empty dependency array ensures this runs once on mount
 
- }
-
-//  Divide pageviews by 2 and round down to the nearest whole number
- const newPageviews = Math.floor(pageviews / 2);
+ // Divide pageviews by 2 and round down to the nearest whole number
+ const newPageviews = Math.ceil(pageviews / 2);
+ console.log('division of visits are:',newPageviews);
 
  return (
     <div>
-      <p> Kwa sasa tumepata {newPageviews} visits, Alhamdulillah</p>
+      <p>Tumepata visits {newPageviews} Alhamdulillah</p>
     </div>
  );
 };
 
-export default Counts;
+export default Visits;
