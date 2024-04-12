@@ -1,5 +1,9 @@
 export const malindidata = [
     {
+        "title": "Wasia muhimu baada ya kumalizika Ramadhan",
+        "url": "https://archive.org/download/ubora-wa-maneno-mazuri/wasia_muhimu_baada_ya_ramdhan.mp3",
+    },
+    {
         "title": "Fadhila za Lailatul qadr",
         "url": "https://archive.org/download/20-iv_202403/fadhila_za_laylatul_qadr.mp3",
     },

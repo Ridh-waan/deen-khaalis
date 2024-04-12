@@ -4,7 +4,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     fontFamily: {
-      Poppins: "Poppins"
+      Gidugu: "Gidugu"
     },
     extend: {
       colors: {

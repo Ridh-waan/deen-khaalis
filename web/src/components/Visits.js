@@ -11,19 +11,19 @@ const Visits = () => {
       .then(data => {
         setVisits(data.visits);
         setPageviews(data.pageviews);
-        console.log('Page views are:', data.pageviews);
-        console.log('Visits are:', data.visits);
+        // console.log('Page views are:', data.pageviews);
+        // console.log('Visits are:', data.visits);
       })
       .catch(error => console.error('Error fetching data:', error));
  }, []); // Empty dependency array ensures this runs once on mount
 
  // Divide pageviews by 2 and round down to the nearest whole number
  const newPageviews = Math.ceil(pageviews / 2);
- console.log('division of visits are:',newPageviews);
+ console.log('visits are:',newPageviews);
 
  return (
     <div>
-      <p>Tumepata visits {newPageviews} Alhamdulillah</p>
+      <p>Tumepata visits {pageviews} Alhamdulillah</p>
     </div>
  );
 };
